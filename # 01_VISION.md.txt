@@ -1,0 +1,15765 @@
+# 01_VISION.md
+
+# AcuaNexus
+
+### Sistema Operativo para Producción Acuícola Inteligente
+
+Versión: 1.0
+Estado: Diseño Estratégico Inicial
+
+---
+
+# 1. Propósito
+
+AcuaNexus nace para resolver uno de los mayores problemas de la acuicultura:
+
+> La mayoría de granjas toman decisiones tarde.
+
+Cuando el productor detecta un problema:
+
+* ya perdió crecimiento,
+* ya perdió alimento,
+* ya perdió dinero,
+* o ya perdió peces.
+
+La meta de AcuaNexus es convertir una producción acuícola tradicional en una producción asistida por inteligencia operativa.
+
+No es solamente un software.
+
+Es un sistema completo de monitoreo, simulación, predicción y automatización.
+
+---
+
+# 2. Visión a Largo Plazo
+
+Crear una plataforma capaz de administrar de forma autónoma:
+
+* estanques
+* tanques
+* sistemas RAS
+* biofloc
+* laboratorios
+* hatcheries
+* centros de reproducción
+* granjas completas
+
+desde una sola interfaz.
+
+---
+
+# 3. Primera Etapa (Realista)
+
+Situación actual:
+
+* 1 PC
+* Sin servidor
+* Sin sensores reales
+* Sin PLC
+* Sin presupuesto elevado
+
+Por lo tanto la misión inmediata es:
+
+> Construir el cerebro digital completo antes del cuerpo físico.
+
+Primero existe la simulación.
+
+Luego llegan sensores reales.
+
+Luego llegan actuadores reales.
+
+Luego llega la automatización física.
+
+---
+
+# 4. Filosofía de Desarrollo
+
+Muchos proyectos empiezan comprando hardware.
+
+AcuaNexus hará lo contrario.
+
+Primero:
+
+* software
+* simulación
+* modelos
+* motores biológicos
+
+Después:
+
+* sensores
+* relés
+* bombas
+* aireadores
+
+Esto reduce costos y errores.
+
+---
+
+# 5. Objetivo de la Primera Granja
+
+El objetivo NO es controlar 100 piscinas.
+
+El objetivo es controlar:
+
+### 1 piscina
+
+de forma impecable.
+
+Variables:
+
+* temperatura
+* oxígeno
+* pH
+* amonio
+* nitrito
+* nitrato
+
+Producción:
+
+* tilapia
+
+Una vez validado:
+
+* segunda piscina
+* tercera piscina
+* sistema completo
+
+---
+
+# 6. Qué es AcuaNexus
+
+AcuaNexus es una combinación de:
+
+### SCADA
+
+Monitoreo y control.
+
+### Simulador
+
+Predicción de evolución del cultivo.
+
+### ERP Acuícola
+
+Costos, alimento y rentabilidad.
+
+### Sistema Experto
+
+Recomendaciones automáticas.
+
+### Plataforma de Automatización
+
+Control futuro de equipos físicos.
+
+---
+
+# 7. Objetivo Económico
+
+La prioridad no es la tecnología.
+
+La prioridad es:
+
+> generar ingresos.
+
+El sistema debe ayudar a:
+
+* vender producción
+* reducir mortalidad
+* reducir desperdicio de alimento
+* aumentar crecimiento
+
+La tecnología existe para mejorar rentabilidad.
+
+---
+
+# 8. Principios Fundamentales
+
+## Principio 1
+
+Nada se desarrolla sin utilidad práctica.
+
+---
+
+## Principio 2
+
+Todo módulo debe poder funcionar solo.
+
+---
+
+## Principio 3
+
+El sistema nunca debe depender de internet.
+
+---
+
+## Principio 4
+
+La PC principal debe poder operar toda la granja.
+
+---
+
+## Principio 5
+
+Cada versión debe ser utilizable.
+
+Nunca crear características que no funcionen.
+
+---
+
+# 9. Meta Técnica Inicial
+
+Lograr que una sola computadora Ryzen 5 sea capaz de ejecutar:
+
+* SCADA
+* Simulación
+* Históricos
+* Alarmas
+* Recomendaciones
+* Economía
+* Dashboard
+
+al mismo tiempo.
+
+Sin nube.
+
+Sin servicios externos.
+
+Sin suscripciones.
+
+---
+
+# 10. Meta a 10 Años
+
+Construir una plataforma capaz de administrar:
+
+* miles de peces
+* múltiples granjas
+* múltiples especies
+
+utilizando:
+
+* sensores IoT
+* visión artificial
+* modelos predictivos
+* inteligencia artificial
+
+todo integrado dentro del ecosistema AcuaNexus.
+
+---
+
+# Declaración Final
+
+AcuaNexus no se construye para competir con software existente.
+
+Se construye para convertirse en el sistema operativo de una granja acuícola moderna, comenzando desde una sola computadora y una sola piscina, creciendo paso a paso hasta una plataforma completa de producción inteligente.
+
+---
+
+Siguiente documento:
+
+**02_ARCHITECTURE.md**
+(Estructura completa del sistema, motores, módulos, flujo de datos y organización del proyecto).
+# 01_VISION.md
+
+# AcuaNexus
+
+### Sistema Operativo para Producción Acuícola Inteligente
+
+Versión: 1.0
+Estado: Diseño Estratégico Inicial
+
+---
+
+# 1. Propósito
+
+AcuaNexus nace para resolver uno de los mayores problemas de la acuicultura:
+
+> La mayoría de granjas toman decisiones tarde.
+
+Cuando el productor detecta un problema:
+
+* ya perdió crecimiento,
+* ya perdió alimento,
+* ya perdió dinero,
+* o ya perdió peces.
+
+La meta de AcuaNexus es convertir una producción acuícola tradicional en una producción asistida por inteligencia operativa.
+
+No es solamente un software.
+
+Es un sistema completo de monitoreo, simulación, predicción y automatización.
+
+---
+
+# 2. Visión a Largo Plazo
+
+Crear una plataforma capaz de administrar de forma autónoma:
+
+* estanques
+* tanques
+* sistemas RAS
+* biofloc
+* laboratorios
+* hatcheries
+* centros de reproducción
+* granjas completas
+
+desde una sola interfaz.
+
+---
+
+# 3. Primera Etapa (Realista)
+
+Situación actual:
+
+* 1 PC
+* Sin servidor
+* Sin sensores reales
+* Sin PLC
+* Sin presupuesto elevado
+
+Por lo tanto la misión inmediata es:
+
+> Construir el cerebro digital completo antes del cuerpo físico.
+
+Primero existe la simulación.
+
+Luego llegan sensores reales.
+
+Luego llegan actuadores reales.
+
+Luego llega la automatización física.
+
+---
+
+# 4. Filosofía de Desarrollo
+
+Muchos proyectos empiezan comprando hardware.
+
+AcuaNexus hará lo contrario.
+
+Primero:
+
+* software
+* simulación
+* modelos
+* motores biológicos
+
+Después:
+
+* sensores
+* relés
+* bombas
+* aireadores
+
+Esto reduce costos y errores.
+
+---
+
+# 5. Objetivo de la Primera Granja
+
+El objetivo NO es controlar 100 piscinas.
+
+El objetivo es controlar:
+
+### 1 piscina
+
+de forma impecable.
+
+Variables:
+
+* temperatura
+* oxígeno
+* pH
+* amonio
+* nitrito
+* nitrato
+
+Producción:
+
+* tilapia
+
+Una vez validado:
+
+* segunda piscina
+* tercera piscina
+* sistema completo
+
+---
+
+# 6. Qué es AcuaNexus
+
+AcuaNexus es una combinación de:
+
+### SCADA
+
+Monitoreo y control.
+
+### Simulador
+
+Predicción de evolución del cultivo.
+
+### ERP Acuícola
+
+Costos, alimento y rentabilidad.
+
+### Sistema Experto
+
+Recomendaciones automáticas.
+
+### Plataforma de Automatización
+
+Control futuro de equipos físicos.
+
+---
+
+# 7. Objetivo Económico
+
+La prioridad no es la tecnología.
+
+La prioridad es:
+
+> generar ingresos.
+
+El sistema debe ayudar a:
+
+* vender producción
+* reducir mortalidad
+* reducir desperdicio de alimento
+* aumentar crecimiento
+
+La tecnología existe para mejorar rentabilidad.
+
+---
+
+# 8. Principios Fundamentales
+
+## Principio 1
+
+Nada se desarrolla sin utilidad práctica.
+
+---
+
+## Principio 2
+
+Todo módulo debe poder funcionar solo.
+
+---
+
+## Principio 3
+
+El sistema nunca debe depender de internet.
+
+---
+
+## Principio 4
+
+La PC principal debe poder operar toda la granja.
+
+---
+
+## Principio 5
+
+Cada versión debe ser utilizable.
+
+Nunca crear características que no funcionen.
+
+---
+
+# 9. Meta Técnica Inicial
+
+Lograr que una sola computadora Ryzen 5 sea capaz de ejecutar:
+
+* SCADA
+* Simulación
+* Históricos
+* Alarmas
+* Recomendaciones
+* Economía
+* Dashboard
+
+al mismo tiempo.
+
+Sin nube.
+
+Sin servicios externos.
+
+Sin suscripciones.
+
+---
+
+# 10. Meta a 10 Años
+
+Construir una plataforma capaz de administrar:
+
+* miles de peces
+* múltiples granjas
+* múltiples especies
+
+utilizando:
+
+* sensores IoT
+* visión artificial
+* modelos predictivos
+* inteligencia artificial
+
+todo integrado dentro del ecosistema AcuaNexus.
+
+---
+
+# Declaración Final
+
+AcuaNexus no se construye para competir con software existente.
+
+Se construye para convertirse en el sistema operativo de una granja acuícola moderna, comenzando desde una sola computadora y una sola piscina, creciendo paso a paso hasta una plataforma completa de producción inteligente.
+
+---
+
+Siguiente documento:
+
+**02_ARCHITECTURE.md**
+(Estructura completa del sistema, motores, módulos, flujo de datos y organización del proyecto).
+# 02_ARCHITECTURE.md
+
+# Arquitectura General de AcuaNexus
+
+Versión: 1.0
+
+---
+
+# 1. Filosofía de Arquitectura
+
+AcuaNexus está diseñado como un sistema modular.
+
+Cada módulo tiene una única responsabilidad.
+
+Esto permite:
+
+* mantener el código
+* agregar funciones sin romper otras
+* conectar hardware futuro
+* migrar componentes gradualmente
+
+---
+
+# 2. Arquitectura General
+
+```text
+                 ┌───────────────────┐
+                 │     Dashboard     │
+                 │      SCADA        │
+                 └─────────┬─────────┘
+                           │
+                    Socket.IO
+                           │
+                           ▼
+
+┌──────────────────────────────────────────┐
+│                 SERVER                    │
+└───────────────┬──────────────────────────┘
+                │
+                ▼
+
+┌──────────────────────────────────────────┐
+│              StateManager                │
+└───────────────┬──────────────────────────┘
+                │
+                │ comparte estado
+                │
+ ┌──────────────┼───────────────┬──────────────┐
+ ▼              ▼               ▼              ▼
+
+Water       Fish         Economics       Advisor
+Engine      Engine        Engine         Engine
+
+ ▼              ▼               ▼              ▼
+
+ Calidad    Biomasa       Costos       Decisiones
+ Agua        Peces      Rentabilidad   Recomendadas
+
+                │
+                ▼
+
+         DataLogger
+
+                │
+                ▼
+
+      Historial JSON
+```
+
+---
+
+# 3. Componentes Principales
+
+## Dashboard
+
+Responsable de:
+
+* visualización
+* alarmas
+* tendencias
+* control manual
+
+Tecnologías:
+
+* HTML
+* CSS
+* JavaScript
+* Chart.js
+* Socket.IO
+
+---
+
+## Server
+
+Responsable de:
+
+* iniciar sistema
+* coordinar motores
+* enviar datos al dashboard
+
+Archivo:
+
+```text
+server.js
+```
+
+Es el corazón operativo.
+
+---
+
+## StateManager
+
+Responsable de:
+
+* almacenar estado global
+* sincronizar motores
+
+Ejemplo:
+
+```js
+state.water
+state.fish
+state.economics
+state.alerts
+```
+
+Todos los módulos leen y escriben aquí.
+
+---
+
+## EventBus
+
+Responsable de:
+
+* eventos internos
+
+Ejemplos:
+
+```text
+alarm
+feeding
+harvest
+water-change
+sensor-failure
+```
+
+Permite desacoplar módulos.
+
+---
+
+## TimeManager
+
+Responsable de:
+
+* velocidad de simulación
+* tiempo virtual
+
+Ejemplo:
+
+```text
+1 segundo real = 1 hora simulada
+```
+
+o
+
+```text
+1 segundo real = 1 día simulado
+```
+
+---
+
+# 4. Water Engine
+
+Motor químico del sistema.
+
+---
+
+Responsabilidades:
+
+* temperatura
+* oxígeno
+* pH
+* amonio
+* nitrito
+* nitrato
+
+---
+
+Entradas:
+
+```text
+biomasa
+alimentación
+aireación
+temperatura ambiente
+```
+
+---
+
+Salidas:
+
+```text
+water.temperature
+water.oxygen
+water.ph
+water.ammonia
+water.nitrite
+water.nitrate
+```
+
+---
+
+Alarmas:
+
+```text
+oxígeno bajo
+amonio alto
+nitrito alto
+pH fuera de rango
+```
+
+---
+
+# 5. Fish Engine
+
+Motor biológico.
+
+---
+
+Responsabilidades:
+
+```text
+crecimiento
+mortalidad
+estrés
+conversión alimenticia
+biomasa
+```
+
+---
+
+Entradas:
+
+```text
+temperatura
+oxígeno
+pH
+alimentación
+densidad
+```
+
+---
+
+Salidas:
+
+```text
+population
+averageWeight
+totalBiomass
+fcr
+dailyFeed
+mortality
+stressLevel
+```
+
+---
+
+# 6. Economics Engine
+
+Motor económico.
+
+---
+
+Responsabilidades:
+
+```text
+costos
+ingresos
+rentabilidad
+ROI
+```
+
+---
+
+Entradas:
+
+```text
+alimento
+energía
+peces
+ventas
+```
+
+---
+
+Salidas:
+
+```text
+feedCost
+energyCost
+operationalCost
+income
+profit
+roi
+```
+
+---
+
+Objetivo:
+
+Responder:
+
+> ¿La granja está ganando o perdiendo dinero?
+
+---
+
+# 7. Advisor Engine
+
+Sistema experto.
+
+---
+
+Analiza:
+
+```text
+agua
+peces
+economía
+alarmas
+```
+
+---
+
+Genera:
+
+```text
+recomendaciones
+acciones sugeridas
+prioridades
+```
+
+---
+
+Ejemplo:
+
+```text
+PRIORIDAD ALTA
+
+Aumentar aireación.
+
+Razón:
+Oxígeno disuelto por debajo de 4 mg/L.
+```
+
+---
+
+# 8. DataLogger
+
+Responsable de:
+
+guardar históricos.
+
+---
+
+Datos almacenados:
+
+```text
+water
+fish
+economics
+alerts
+```
+
+---
+
+Formato:
+
+```text
+JSON
+```
+
+Ejemplo:
+
+```text
+src/data/history/
+```
+
+---
+
+Archivos:
+
+```text
+water_2026-06-05.json
+fish_2026-06-05.json
+economics_2026-06-05.json
+alerts_2026-06-05.json
+```
+
+---
+
+# 9. Futuro Hardware Layer
+
+Todavía NO se implementa.
+
+Será una capa independiente.
+
+```text
+Hardware Layer
+```
+
+---
+
+Responsabilidades:
+
+```text
+ESP32
+Arduino
+PLC
+Relés
+Sensores
+```
+
+---
+
+Ejemplo:
+
+```text
+DO Sensor
+pH Sensor
+Temperature Sensor
+```
+
+---
+
+Actuadores:
+
+```text
+bombas
+aireadores
+válvulas
+calentadores
+```
+
+---
+
+# 10. Future AI Layer
+
+Etapa avanzada.
+
+---
+
+Objetivos:
+
+```text
+predicción de crecimiento
+predicción de mortalidad
+predicción económica
+detección de anomalías
+```
+
+---
+
+Modelos posibles:
+
+```text
+TensorFlow
+PyTorch
+ONNX
+Local LLM
+```
+
+---
+
+Siempre funcionando localmente.
+
+---
+
+# 11. Flujo de Simulación
+
+```text
+TimeManager
+
+      ▼
+
+FishEngine
+
+      ▼
+
+WaterEngine
+
+      ▼
+
+EconomicsEngine
+
+      ▼
+
+AdvisorEngine
+
+      ▼
+
+DataLogger
+
+      ▼
+
+Dashboard
+```
+
+---
+
+# 12. Ciclo Operativo
+
+Cada ciclo:
+
+```text
+1. Avanza tiempo
+
+2. Peces crecen
+
+3. Agua cambia
+
+4. Economía se actualiza
+
+5. IA analiza
+
+6. Historial se guarda
+
+7. Dashboard se actualiza
+```
+
+---
+
+# 13. Regla Principal
+
+El dashboard nunca debe contener lógica crítica.
+
+Toda la lógica debe vivir en:
+
+```text
+src/
+```
+
+El dashboard únicamente:
+
+```text
+muestra
+controla
+visualiza
+```
+
+---
+
+# 14. Arquitectura Objetivo Final
+
+```text
+Dashboard
+     │
+     ▼
+
+SCADA Server
+     │
+     ▼
+
+Core Layer
+     │
+     ▼
+
+Simulation Layer
+     │
+     ▼
+
+Decision Layer
+     │
+     ▼
+
+Automation Layer
+     │
+     ▼
+
+Hardware Layer
+```
+
+---
+
+# Resultado Esperado
+
+Cuando la migración termine:
+
+* un solo StateManager
+* un solo WaterEngine
+* un solo FishEngine
+* un solo sistema de economía
+* un solo sistema de IA
+* históricos funcionando
+* dashboard conectado
+* listo para sensores reales
+
+---
+
+Siguiente documento:
+
+**03_ROADMAP.md**
+
+(hoja de ruta completa desde la PC actual hasta una granja inteligente completamente automatizada).
+# 03_ROADMAP.md
+
+# Hoja de Ruta de AcuaNexus
+
+Versión: 1.0
+
+---
+
+# Propósito
+
+Este documento define el crecimiento de AcuaNexus desde su estado actual:
+
+```text
+1 PC
+0 sensores
+0 PLC
+0 servidores
+0 nube
+```
+
+hasta convertirse en una plataforma acuícola inteligente completa.
+
+---
+
+# Regla Principal
+
+Cada etapa debe:
+
+* funcionar sola
+* generar valor
+* ser estable
+* poder financiar la siguiente
+
+Nunca avanzar a una etapa superior sin consolidar la anterior.
+
+---
+
+# FASE 0
+
+## Consolidación Digital
+
+Estado actual.
+
+---
+
+Objetivo:
+
+Convertir AcuaNexus en una plataforma digital funcional.
+
+---
+
+Infraestructura:
+
+```text
+1 PC Ryzen
+Node.js
+Socket.IO
+Dashboard
+Simulación
+```
+
+---
+
+Módulos mínimos:
+
+```text
+SCADA
+WaterEngine
+FishEngine
+EconomicsEngine
+AdvisorEngine
+DataLogger
+```
+
+---
+
+Resultado esperado:
+
+```text
+Simulación completa funcionando
+24/7
+sin hardware externo
+```
+
+---
+
+Meta económica:
+
+```text
+Demostraciones
+Portafolio
+Validación técnica
+```
+
+---
+
+# FASE 1
+
+## Granja Piloto
+
+---
+
+Objetivo:
+
+Controlar una sola piscina real.
+
+---
+
+Infraestructura:
+
+```text
+1 piscina
+Tilapia
+1 PC
+```
+
+---
+
+Primeros sensores:
+
+```text
+Temperatura
+Oxígeno
+pH
+```
+
+---
+
+Primeros actuadores:
+
+```text
+Aireador
+Bomba
+```
+
+---
+
+Resultado esperado:
+
+```text
+SCADA leyendo datos reales
+```
+
+---
+
+Meta económica:
+
+Reducir pérdidas.
+
+---
+
+# FASE 2
+
+## Automatización Básica
+
+---
+
+Objetivo:
+
+Permitir que AcuaNexus tome decisiones simples.
+
+---
+
+Ejemplos:
+
+### Oxígeno bajo
+
+```text
+SI O2 < 4 mg/L
+
+ENCENDER AIREADOR
+```
+
+---
+
+### Temperatura alta
+
+```text
+SI temperatura > límite
+
+ACTIVAR RECIRCULACIÓN
+```
+
+---
+
+### Nivel bajo
+
+```text
+SI nivel < mínimo
+
+ACTIVAR BOMBA
+```
+
+---
+
+Resultado:
+
+```text
+automatización parcial
+```
+
+---
+
+Meta económica:
+
+Reducir trabajo manual.
+
+---
+
+# FASE 3
+
+## Inteligencia Operativa
+
+---
+
+Objetivo:
+
+Pasar de reaccionar a predecir.
+
+---
+
+Nuevos módulos:
+
+```text
+PredictionEngine
+AnomalyEngine
+```
+
+---
+
+Capacidades:
+
+```text
+Predicción de crecimiento
+Predicción de oxígeno
+Predicción de mortalidad
+```
+
+---
+
+Ejemplo:
+
+```text
+Oxígeno estimado crítico
+en 6 horas
+```
+
+Antes de que ocurra.
+
+---
+
+Resultado:
+
+```text
+producción predictiva
+```
+
+---
+
+# FASE 4
+
+## Visión Artificial
+
+---
+
+Objetivo:
+
+Que el sistema pueda observar.
+
+---
+
+Hardware:
+
+```text
+Cámaras IP
+```
+
+---
+
+Capacidades:
+
+### Conteo
+
+```text
+Número estimado de peces
+```
+
+---
+
+### Alimentación
+
+```text
+Detectar apetito
+```
+
+---
+
+### Salud
+
+```text
+Comportamientos anómalos
+```
+
+---
+
+Resultado:
+
+```text
+sensores visuales
+```
+
+---
+
+# FASE 5
+
+## Multiestanques
+
+---
+
+Objetivo:
+
+Controlar varias unidades simultáneamente.
+
+---
+
+Ejemplo:
+
+```text
+Piscina 1
+Piscina 2
+Piscina 3
+Piscina 4
+```
+
+---
+
+Cada una tendrá:
+
+```text
+agua
+peces
+costos
+alarmas
+```
+
+independientes.
+
+---
+
+Resultado:
+
+```text
+SCADA multiunidad
+```
+
+---
+
+# FASE 6
+
+## Centro Productivo
+
+---
+
+Objetivo:
+
+Administrar toda una granja.
+
+---
+
+Nuevos módulos:
+
+```text
+Inventario
+Compras
+Ventas
+Producción
+Mantenimiento
+```
+
+---
+
+AcuaNexus se convierte en:
+
+```text
+ERP Acuícola
+```
+
+---
+
+Resultado:
+
+Toda la operación centralizada.
+
+---
+
+# FASE 7
+
+## IoT Distribuido
+
+---
+
+Objetivo:
+
+Eliminar dependencia de una sola PC.
+
+---
+
+Arquitectura:
+
+```text
+ESP32
+▼
+
+Nodo Local
+
+▼
+
+Servidor Principal
+
+▼
+
+Dashboard
+```
+
+---
+
+Beneficios:
+
+```text
+más sensores
+más cobertura
+más redundancia
+```
+
+---
+
+# FASE 8
+
+## Gemelo Digital
+
+---
+
+Objetivo:
+
+Crear una copia virtual de la granja.
+
+---
+
+El modelo debe representar:
+
+```text
+agua
+peces
+equipos
+economía
+```
+
+---
+
+Capacidades:
+
+```text
+simular escenarios
+probar decisiones
+evaluar riesgos
+```
+
+---
+
+Resultado:
+
+Tomar decisiones antes de aplicarlas.
+
+---
+
+# FASE 9
+
+## IA Especializada
+
+---
+
+Objetivo:
+
+Entrenar modelos propios.
+
+---
+
+Capacidades:
+
+### Alimentación
+
+```text
+Cantidad óptima
+```
+
+---
+
+### Crecimiento
+
+```text
+Peso esperado
+```
+
+---
+
+### Economía
+
+```text
+Rentabilidad proyectada
+```
+
+---
+
+### Riesgo
+
+```text
+Mortalidad esperada
+```
+
+---
+
+Resultado:
+
+Asistencia avanzada.
+
+---
+
+# FASE 10
+
+## AcuaNexus Autonomous Farm
+
+---
+
+Objetivo:
+
+Operación casi autónoma.
+
+---
+
+El sistema podrá:
+
+```text
+leer sensores
+tomar decisiones
+activar equipos
+registrar eventos
+generar reportes
+```
+
+con mínima intervención humana.
+
+---
+
+# FASE ESPECIAL
+
+## AcuaNexus Research
+
+No está enfocada en producción.
+
+Está enfocada en investigación.
+
+---
+
+Capacidades:
+
+```text
+experimentos
+tratamientos
+genética
+nutrición
+biofloc
+RAS
+```
+
+---
+
+Resultado:
+
+Laboratorio digital acuícola.
+
+---
+
+# FASE ESPECIAL
+
+## AcuaNexus Network
+
+Objetivo:
+
+Conectar múltiples granjas.
+
+---
+
+Capacidades:
+
+```text
+comparar producción
+compartir indicadores
+analizar tendencias
+```
+
+---
+
+Escala:
+
+```text
+Ciudad
+Provincia
+País
+```
+
+---
+
+# FASE FINAL
+
+```text
+1 PC
+↓
+1 Piscina
+↓
+1 Granja
+↓
+Múltiples Granjas
+↓
+Red Inteligente
+↓
+Plataforma Autónoma
+```
+
+---
+
+# Prioridad Actual
+
+La prioridad real NO es llegar a la Fase 10.
+
+La prioridad es terminar correctamente:
+
+```text
+FASE 0
+```
+
+porque de ella depende todo lo demás.
+
+---
+
+# Objetivo Inmediato (Junio 2026)
+
+Completar:
+
+```text
+DataLogger
+EconomicsEngine
+AdvisorEngine
+Migración a src/
+```
+
+sin romper el dashboard actual.
+
+---
+
+Siguiente documento:
+
+**04_MODULES.md**
+
+(Especificación técnica detallada de todos los módulos internos de AcuaNexus, sus entradas, salidas y responsabilidades).
+# 04_MODULES.md
+
+# Especificación de Módulos de AcuaNexus
+
+Versión: 1.0
+
+---
+
+# Propósito
+
+Este documento define:
+
+* módulos del sistema
+* responsabilidades
+* entradas
+* salidas
+* dependencias
+
+Su objetivo es evitar duplicación de lógica y mantener una arquitectura limpia.
+
+---
+
+# Mapa General
+
+```text
+Core
+│
+├── StateManager
+├── EventBus
+├── TimeManager
+└── DataLogger
+
+Simulation
+│
+├── WaterEngine
+├── FishEngine
+└── EconomicsEngine
+
+Decision
+│
+└── AdvisorEngine
+
+Automation
+│
+└── AutomationEngine
+
+Hardware
+│
+├── SensorManager
+└── ActuatorManager
+
+Future AI
+│
+├── PredictionEngine
+├── AnomalyEngine
+└── OptimizationEngine
+```
+
+---
+
+# CORE MODULES
+
+---
+
+# StateManager
+
+## Función
+
+Mantener el estado global del sistema.
+
+---
+
+## Entradas
+
+Todos los motores.
+
+---
+
+## Salidas
+
+Estado unificado.
+
+---
+
+## Estructura
+
+```js
+state = {
+  water: {},
+  fish: {},
+  economics: {},
+  automation: {},
+  alerts: [],
+  recommendations: []
+}
+```
+
+---
+
+## Responsabilidades
+
+```text
+almacenar estado
+actualizar estado
+consultar estado
+sincronizar módulos
+```
+
+---
+
+## Nunca debe
+
+```text
+hacer cálculos
+controlar equipos
+tomar decisiones
+```
+
+---
+
+# EventBus
+
+## Función
+
+Comunicación interna.
+
+---
+
+## Eventos típicos
+
+```text
+alarm
+feeding
+harvest
+water-change
+pump-on
+pump-off
+sensor-error
+```
+
+---
+
+## Ejemplo
+
+```text
+WaterEngine
+↓
+emite alarma
+
+↓
+AdvisorEngine
+
+↓
+genera recomendación
+```
+
+---
+
+# TimeManager
+
+## Función
+
+Controlar el tiempo virtual.
+
+---
+
+## Modos
+
+### Tiempo real
+
+```text
+1 segundo = 1 segundo
+```
+
+---
+
+### Simulación rápida
+
+```text
+1 segundo = 1 hora
+```
+
+---
+
+### Simulación extrema
+
+```text
+1 segundo = 1 día
+```
+
+---
+
+## Variables
+
+```js
+currentDay
+currentHour
+simulationSpeed
+elapsedTime
+```
+
+---
+
+# DataLogger
+
+## Función
+
+Guardar históricos.
+
+---
+
+## Entradas
+
+```text
+water
+fish
+economics
+alerts
+```
+
+---
+
+## Salidas
+
+Archivos JSON.
+
+---
+
+## Estructura
+
+```text
+src/data/history/
+```
+
+---
+
+## Frecuencia
+
+Configurable.
+
+Ejemplo:
+
+```text
+cada minuto
+cada hora
+cada día
+```
+
+---
+
+# SIMULATION MODULES
+
+---
+
+# WaterEngine
+
+## Función
+
+Simular dinámica del agua.
+
+---
+
+## Variables gestionadas
+
+```text
+temperature
+oxygen
+ph
+ammonia
+nitrite
+nitrate
+```
+
+---
+
+## Entradas
+
+```text
+biomasa
+alimentación
+aireación
+temperatura ambiente
+recambio de agua
+```
+
+---
+
+## Salidas
+
+```js
+state.water
+```
+
+---
+
+## Alarmas
+
+### Críticas
+
+```text
+oxígeno crítico
+amonio crítico
+nitrito crítico
+```
+
+---
+
+### Advertencias
+
+```text
+temperatura fuera de rango
+pH fuera de rango
+```
+
+---
+
+## Futuras Variables
+
+```text
+salinidad
+alcalinidad
+CO₂
+conductividad
+ORP
+```
+
+---
+
+# FishEngine
+
+## Función
+
+Simular crecimiento biológico.
+
+---
+
+## Variables
+
+```text
+población
+peso promedio
+biomasa
+mortalidad
+FCR
+estrés
+```
+
+---
+
+## Entradas
+
+```text
+temperatura
+oxígeno
+pH
+alimentación
+densidad
+```
+
+---
+
+## Salidas
+
+```js
+state.fish
+```
+
+---
+
+## Cálculos
+
+```text
+ganancia diaria
+supervivencia
+consumo de alimento
+crecimiento acumulado
+```
+
+---
+
+## Futuras Variables
+
+```text
+sexo
+genética
+edad
+lote
+linaje
+```
+
+---
+
+# EconomicsEngine
+
+## Función
+
+Evaluar rentabilidad.
+
+---
+
+## Entradas
+
+```text
+alimento
+energía
+mortalidad
+ventas
+```
+
+---
+
+## Salidas
+
+```js
+state.economics
+```
+
+---
+
+## Indicadores
+
+```text
+costos
+ingresos
+utilidad
+ROI
+```
+
+---
+
+## Ejemplo
+
+```text
+Costo alimento:
+$100
+
+Costo energía:
+$25
+
+Ingresos:
+$200
+
+Utilidad:
+$75
+```
+
+---
+
+## Futuras Variables
+
+```text
+depreciación
+mano de obra
+impuestos
+mantenimiento
+```
+
+---
+
+# DECISION MODULES
+
+---
+
+# AdvisorEngine
+
+## Función
+
+Generar recomendaciones.
+
+---
+
+## Analiza
+
+```text
+agua
+peces
+economía
+alarmas
+```
+
+---
+
+## Produce
+
+```js
+recommendations[]
+```
+
+---
+
+## Estructura
+
+```js
+{
+  priority: "HIGH",
+  action: "Activar aireador",
+  reason: "Oxígeno bajo"
+}
+```
+
+---
+
+## Prioridades
+
+```text
+LOW
+MEDIUM
+HIGH
+CRITICAL
+```
+
+---
+
+## Ejemplos
+
+### Oxígeno bajo
+
+```text
+Activar aireación
+```
+
+---
+
+### FCR alto
+
+```text
+Revisar alimentación
+```
+
+---
+
+### Mortalidad elevada
+
+```text
+Inspeccionar calidad de agua
+```
+
+---
+
+# AUTOMATION MODULES
+
+---
+
+# AutomationEngine
+
+Estado:
+
+```text
+Diseño
+```
+
+---
+
+## Función
+
+Ejecutar acciones automáticas.
+
+---
+
+## Entradas
+
+```text
+alarmas
+recomendaciones
+reglas
+```
+
+---
+
+## Salidas
+
+```text
+encender equipos
+apagar equipos
+modificar parámetros
+```
+
+---
+
+## Ejemplo
+
+```text
+SI
+
+oxígeno < 4
+
+ENTONCES
+
+encender aireador
+```
+
+---
+
+## Modos
+
+### Manual
+
+Usuario decide.
+
+---
+
+### Asistido
+
+Sistema recomienda.
+
+---
+
+### Automático
+
+Sistema ejecuta.
+
+---
+
+# HARDWARE MODULES
+
+---
+
+# SensorManager
+
+Estado:
+
+```text
+Futuro
+```
+
+---
+
+## Función
+
+Leer sensores físicos.
+
+---
+
+## Sensores previstos
+
+```text
+temperatura
+oxígeno
+pH
+amonio
+nivel
+caudal
+```
+
+---
+
+## Responsabilidad
+
+Convertir señales físicas en datos digitales.
+
+---
+
+# ActuatorManager
+
+Estado:
+
+```text
+Futuro
+```
+
+---
+
+## Función
+
+Controlar equipos.
+
+---
+
+## Equipos previstos
+
+```text
+bombas
+aireadores
+válvulas
+calentadores
+alimentadores
+```
+
+---
+
+# AI MODULES
+
+---
+
+# PredictionEngine
+
+Estado:
+
+```text
+Futuro
+```
+
+---
+
+## Función
+
+Predecir comportamiento.
+
+---
+
+## Predicciones
+
+```text
+crecimiento
+oxígeno
+mortalidad
+costos
+```
+
+---
+
+# AnomalyEngine
+
+Estado:
+
+```text
+Futuro
+```
+
+---
+
+## Función
+
+Detectar anomalías.
+
+---
+
+## Ejemplos
+
+```text
+sensor defectuoso
+consumo anormal
+caída de crecimiento
+```
+
+---
+
+# OptimizationEngine
+
+Estado:
+
+```text
+Futuro
+```
+
+---
+
+## Función
+
+Optimizar producción.
+
+---
+
+## Objetivos
+
+```text
+menos alimento
+más crecimiento
+menos energía
+más rentabilidad
+```
+
+---
+
+# Dependencias Oficiales
+
+```text
+StateManager
+│
+├── WaterEngine
+├── FishEngine
+├── EconomicsEngine
+├── AdvisorEngine
+├── AutomationEngine
+└── Dashboard
+```
+
+---
+
+# Regla de Oro
+
+Cada módulo debe cumplir:
+
+```text
+Una responsabilidad.
+Una entrada clara.
+Una salida clara.
+Cero dependencias innecesarias.
+```
+
+Si un módulo hace demasiadas cosas, debe dividirse.
+
+---
+
+# Estado Actual de Desarrollo
+
+## Implementados
+
+```text
+StateManager
+EventBus
+TimeManager
+WaterEngine
+FishEngine
+Dashboard
+```
+
+---
+
+## Parcialmente implementados
+
+```text
+DataLogger
+EconomicsEngine
+AdvisorEngine
+```
+
+---
+
+## Pendientes
+
+```text
+AutomationEngine
+SensorManager
+ActuatorManager
+PredictionEngine
+AnomalyEngine
+OptimizationEngine
+```
+
+---
+
+Siguiente documento:
+
+# 05_STATEMANAGER.md
+
+(Definición completa de la estructura central del estado, modelo de datos, sincronización, eventos y persistencia de AcuaNexus).
+# 05_STATEMANAGER.md
+
+# StateManager
+
+### Núcleo Central de Estado de AcuaNexus
+
+Versión: 1.0
+
+---
+
+# Propósito
+
+StateManager es el corazón lógico de AcuaNexus.
+
+Todos los módulos:
+
+* leen desde StateManager
+* escriben en StateManager
+
+Ningún módulo debe comunicarse directamente con otro módulo.
+
+---
+
+# Filosofía
+
+Incorrecto:
+
+```text
+FishEngine
+ ↓
+WaterEngine
+```
+
+```text
+WaterEngine
+ ↓
+EconomicsEngine
+```
+
+```text
+EconomicsEngine
+ ↓
+AdvisorEngine
+```
+
+---
+
+Correcto:
+
+```text
+FishEngine
+     ↓
+
+ StateManager
+
+     ↑
+WaterEngine
+```
+
+Todos usan el mismo estado global.
+
+---
+
+# Arquitectura
+
+```text
+WaterEngine
+      │
+
+FishEngine
+      │
+
+EconomicsEngine
+      │
+
+AdvisorEngine
+      │
+
+AutomationEngine
+      │
+
+      ▼
+
+  StateManager
+
+      ▼
+
+ Dashboard
+```
+
+---
+
+# Estado Global Oficial
+
+```js
+state = {
+
+  system: {},
+
+  water: {},
+
+  fish: {},
+
+  economics: {},
+
+  automation: {},
+
+  alerts: [],
+
+  recommendations: [],
+
+  metadata: {}
+
+}
+```
+
+---
+
+# system
+
+Información general.
+
+---
+
+Estructura:
+
+```js
+system: {
+
+  running: true,
+
+  mode: "simulation",
+
+  version: "1.0.0",
+
+  currentSpecies: "tilapia",
+
+  simulationSpeed: 1,
+
+  uptime: 0
+
+}
+```
+
+---
+
+Campos
+
+| Campo           | Descripción       |
+| --------------- | ----------------- |
+| running         | sistema activo    |
+| mode            | simulación o real |
+| version         | versión           |
+| currentSpecies  | especie           |
+| simulationSpeed | velocidad         |
+| uptime          | tiempo activo     |
+
+---
+
+# water
+
+Estado del agua.
+
+---
+
+Estructura:
+
+```js
+water: {
+
+  temperature: 26.0,
+
+  oxygen: 6.5,
+
+  ph: 7.2,
+
+  ammonia: 0.01,
+
+  nitrite: 0.00,
+
+  nitrate: 5.0
+
+}
+```
+
+---
+
+Variables futuras
+
+```js
+salinity
+alkalinity
+conductivity
+orp
+co2
+```
+
+---
+
+# fish
+
+Estado biológico.
+
+---
+
+Estructura:
+
+```js
+fish: {
+
+  population: 1000,
+
+  averageWeight: 50,
+
+  totalBiomass: 50,
+
+  dailyFeed: 1.2,
+
+  mortality: 0,
+
+  stressLevel: 0.1,
+
+  fcr: 1.4,
+
+  daysInCulture: 30
+
+}
+```
+
+---
+
+Descripción
+
+| Campo         | Unidad |
+| ------------- | ------ |
+| population    | peces  |
+| averageWeight | gramos |
+| totalBiomass  | kg     |
+| dailyFeed     | kg     |
+| mortality     | %      |
+| stressLevel   | 0-1    |
+| fcr           | índice |
+| daysInCulture | días   |
+
+---
+
+# economics
+
+Estado económico.
+
+---
+
+Estructura:
+
+```js
+economics: {
+
+  feedCost: 0,
+
+  energyCost: 0,
+
+  operationalCost: 0,
+
+  income: 0,
+
+  profit: 0,
+
+  roi: 0
+
+}
+```
+
+---
+
+Objetivo
+
+Permitir saber:
+
+```text
+¿Cuánto estamos ganando?
+```
+
+en cualquier instante.
+
+---
+
+# automation
+
+Estado de equipos.
+
+---
+
+Estructura:
+
+```js
+automation: {
+
+  pump: false,
+
+  aerator: false,
+
+  heater: false,
+
+  feeder: false
+
+}
+```
+
+---
+
+Futuro:
+
+```js
+uvSystem
+ozone
+blower
+valves
+```
+
+---
+
+# alerts
+
+Alarmas del sistema.
+
+---
+
+Estructura:
+
+```js
+alerts: [
+
+  {
+
+    id: 1,
+
+    level: "CRITICAL",
+
+    source: "WaterEngine",
+
+    message: "Oxígeno bajo",
+
+    timestamp: 123456
+
+  }
+
+]
+```
+
+---
+
+Niveles
+
+```text
+INFO
+WARNING
+HIGH
+CRITICAL
+```
+
+---
+
+# recommendations
+
+Recomendaciones de AdvisorEngine.
+
+---
+
+Estructura:
+
+```js
+recommendations: [
+
+  {
+
+    priority: "HIGH",
+
+    action: "Activar aireador",
+
+    reason: "Oxígeno bajo"
+
+  }
+
+]
+```
+
+---
+
+Prioridades
+
+```text
+LOW
+MEDIUM
+HIGH
+CRITICAL
+```
+
+---
+
+# metadata
+
+Información auxiliar.
+
+---
+
+Estructura:
+
+```js
+metadata: {
+
+  lastUpdate: 0,
+
+  createdAt: 0,
+
+  updatedAt: 0
+
+}
+```
+
+---
+
+# Métodos Oficiales
+
+---
+
+## getState()
+
+Retorna estado completo.
+
+```js
+stateManager.getState()
+```
+
+---
+
+## get()
+
+Retorna sección específica.
+
+```js
+stateManager.get("water")
+```
+
+---
+
+Resultado:
+
+```js
+{
+  temperature: 26,
+  oxygen: 6.5
+}
+```
+
+---
+
+## set()
+
+Actualiza sección.
+
+```js
+stateManager.set("water", data)
+```
+
+---
+
+## update()
+
+Actualización parcial.
+
+```js
+stateManager.update(
+  "water",
+  {
+    oxygen: 5.8
+  }
+)
+```
+
+---
+
+Ventaja:
+
+No sobrescribe el resto.
+
+---
+
+# Flujo de Actualización
+
+Ejemplo:
+
+```text
+WaterEngine
+
+actualiza oxígeno
+
+↓
+
+StateManager
+
+↓
+
+Dashboard recibe cambios
+```
+
+---
+
+# Regla de Escritura
+
+Permitido:
+
+```text
+WaterEngine
+→ water
+
+FishEngine
+→ fish
+
+EconomicsEngine
+→ economics
+```
+
+---
+
+Prohibido:
+
+```text
+FishEngine
+modificar economics
+
+EconomicsEngine
+modificar fish
+```
+
+---
+
+Cada módulo controla únicamente su dominio.
+
+---
+
+# Persistencia
+
+DataLogger obtiene información desde:
+
+```js
+stateManager.getState()
+```
+
+y genera históricos.
+
+---
+
+Ejemplo:
+
+```json
+{
+  "timestamp":"2026-06-05T12:00:00",
+
+  "water": {},
+
+  "fish": {},
+
+  "economics": {}
+}
+```
+
+---
+
+# Integración Socket.IO
+
+Cada ciclo:
+
+```js
+io.emit(
+  "state:update",
+  stateManager.getState()
+)
+```
+
+---
+
+Dashboard siempre consume:
+
+```text
+state:update
+```
+
+---
+
+# Integración Futura con Sensores
+
+Modo simulación:
+
+```text
+WaterEngine
+genera datos
+```
+
+Modo real:
+
+```text
+SensorManager
+genera datos
+```
+
+Ambos terminan escribiendo en:
+
+```text
+StateManager
+```
+
+---
+
+# Principio Fundamental
+
+StateManager debe ser:
+
+```text
+Simple
+Predecible
+Rápido
+Centralizado
+```
+
+Nunca debe contener:
+
+```text
+lógica biológica
+lógica económica
+automatización
+IA
+```
+
+Solo estado.
+
+---
+
+# Objetivo Final
+
+Convertirse en la única fuente oficial de verdad dentro de AcuaNexus.
+
+```text
+Single Source Of Truth
+```
+
+---
+
+# Estado Actual
+
+Implementado parcialmente.
+
+Durante la migración:
+
+```text
+backend/stateManager.js
+      ↓
+src/core/stateManager.js
+```
+
+se convertirá en el núcleo definitivo del sistema.
+
+---
+
+Siguiente documento:
+
+# 06_WATERENGINE.md
+
+(Especificación científica completa del motor de agua: oxígeno, amonio, nitrito, nitrato, pH, temperatura, biofiltro y simulación de calidad de agua).
+# MÓDULO 5 — ECONOMICS ENGINE
+
+**Archivo:** `docs/05_ECONOMICS_ENGINE.md`
+
+---
+
+# Propósito
+
+El Economics Engine convierte la producción biológica en información económica.
+
+Mientras:
+
+* WaterEngine responde:
+
+  * ¿Cómo está el agua?
+
+* FishEngine responde:
+
+  * ¿Cómo están los peces?
+
+EconomicsEngine responde:
+
+> ¿Estamos ganando dinero o perdiéndolo?
+
+---
+
+# Filosofía
+
+AcuaNexus no debe ser solamente un simulador.
+
+Debe comportarse como una empresa acuícola real.
+
+Cada decisión tiene:
+
+* costo
+* beneficio
+* riesgo
+
+El sistema debe aprender a priorizar:
+
+* supervivencia
+* crecimiento
+* rentabilidad
+
+en ese orden.
+
+---
+
+# Responsabilidades
+
+El motor económico calcula:
+
+## Alimentación
+
+Costo diario de alimento.
+
+```text
+Costo alimento =
+Kg consumidos × Precio kg alimento
+```
+
+---
+
+## Energía
+
+Consumo de:
+
+* aireadores
+* bombas
+* calentadores
+* iluminación
+
+```text
+Costo energía =
+kWh × tarifa eléctrica
+```
+
+---
+
+## Mortalidad
+
+Cada pez muerto representa pérdida económica.
+
+```text
+Pérdida =
+peso muerto × valor mercado
+```
+
+---
+
+## Biomasa
+
+Valor actual del cultivo.
+
+```text
+Biomasa =
+Población × Peso promedio
+```
+
+---
+
+## Producción
+
+Estimación de cosecha futura.
+
+```text
+Producción estimada =
+Biomasa futura proyectada
+```
+
+---
+
+## Ganancia
+
+```text
+Ganancia =
+Ingresos - Costos
+```
+
+---
+
+# Estado Económico
+
+```javascript
+economics = {
+    costs: {},
+    revenue: {},
+    profit: 0,
+    roi: 0
+};
+```
+
+---
+
+# Costos
+
+## Alimentación
+
+```javascript
+economics.costs.feed
+```
+
+Ejemplo:
+
+```text
+$12.40/día
+```
+
+---
+
+## Energía
+
+```javascript
+economics.costs.energy
+```
+
+Ejemplo:
+
+```text
+$2.30/día
+```
+
+---
+
+## Tratamientos
+
+```javascript
+economics.costs.treatment
+```
+
+Ejemplo:
+
+```text
+$0.50/día
+```
+
+---
+
+## Operación
+
+```javascript
+economics.costs.operation
+```
+
+Incluye:
+
+* mantenimiento
+* limpieza
+* consumibles
+
+---
+
+# Ingresos
+
+```javascript
+economics.revenue
+```
+
+---
+
+## Biomasa actual
+
+```javascript
+economics.revenue.currentBiomassValue
+```
+
+Ejemplo:
+
+```text
+1000 kg × $2.8/kg
+```
+
+```text
+$2800
+```
+
+---
+
+## Biomasa proyectada
+
+```javascript
+economics.revenue.projectedHarvest
+```
+
+---
+
+## Producción anual
+
+```javascript
+economics.revenue.annualProjection
+```
+
+---
+
+# Profit Engine
+
+Cada ciclo:
+
+```javascript
+profit =
+revenue.currentBiomassValue -
+totalCosts
+```
+
+---
+
+# ROI
+
+Retorno sobre inversión.
+
+```text
+ROI =
+(beneficio / inversión) × 100
+```
+
+Ejemplo:
+
+```text
+ROI = 35%
+```
+
+---
+
+# Feed Cost Model
+
+Variables:
+
+```javascript
+feedPrice
+dailyFeed
+fcr
+```
+
+---
+
+Ejemplo
+
+```text
+Feed:
+15 kg/día
+
+Precio:
+$1.2/kg
+```
+
+```text
+Costo:
+$18/día
+```
+
+---
+
+# Energy Cost Model
+
+Cada actuador consume energía.
+
+```javascript
+pump
+aerator
+heater
+lighting
+```
+
+---
+
+Ejemplo
+
+```text
+Aireador:
+0.8 kW
+
+12 horas
+```
+
+```text
+9.6 kWh
+```
+
+---
+
+Tarifa:
+
+```text
+$0.10/kWh
+```
+
+---
+
+Costo:
+
+```text
+$0.96
+```
+
+---
+
+# Valor De Mercado
+
+Cada especie posee:
+
+```javascript
+marketPrice
+```
+
+Ejemplo:
+
+```javascript
+tilapia: 2.8
+shrimp: 6.5
+trout: 4.2
+```
+
+USD/kg
+
+---
+
+# Forecast Engine
+
+Proyección de cosecha.
+
+Usa:
+
+```javascript
+growthRate
+population
+mortality
+```
+
+---
+
+Predice:
+
+### 30 días
+
+```javascript
+forecast.month
+```
+
+---
+
+### 60 días
+
+```javascript
+forecast.twoMonths
+```
+
+---
+
+### cosecha
+
+```javascript
+forecast.harvest
+```
+
+---
+
+# Alertas Económicas
+
+---
+
+## Costos altos
+
+```text
+Costo energético excesivo
+```
+
+---
+
+## FCR malo
+
+```text
+FCR superior a 2.0
+```
+
+---
+
+## Mortalidad elevada
+
+```text
+Mortalidad superior a 5%
+```
+
+---
+
+## Ganancia negativa
+
+```text
+Sistema operando con pérdidas
+```
+
+---
+
+# Integración Con Advisor Engine
+
+EconomicsEngine envía:
+
+```javascript
+profit
+roi
+feedCost
+energyCost
+```
+
+---
+
+Advisor puede responder:
+
+```text
+Reducir alimentación 5%
+```
+
+```text
+Incrementar oxigenación
+```
+
+```text
+Adelantar cosecha
+```
+
+```text
+Mantener estrategia actual
+```
+
+---
+
+# Fase Inicial (PC Local)
+
+Se calcula usando:
+
+```javascript
+datos simulados
+```
+
+No requiere:
+
+* sensores
+* internet
+* nube
+* IA
+
+---
+
+# Fase Intermedia
+
+Conectar:
+
+```text
+consumo real de energía
+```
+
+```text
+precio real de alimento
+```
+
+```text
+precio local de mercado
+```
+
+---
+
+# Fase Avanzada
+
+Optimización automática.
+
+El sistema aprende:
+
+```text
+qué estrategia produce más ganancia
+```
+
+con:
+
+* menor alimento
+* menor energía
+* menor mortalidad
+
+---
+
+# Resultado Final
+
+El Economics Engine transforma AcuaNexus de:
+
+```text
+simulador acuícola
+```
+
+a:
+
+```text
+plataforma de gestión productiva
+```
+
+porque ya no solo pregunta:
+
+> ¿Los peces están bien?
+
+sino:
+
+> ¿La granja está siendo rentable?
+
+---
+
+**Próximo módulo:** `06_AUTOMATION_ENGINE.md`
+
+Ese módulo es donde AcuaNexus empieza a tomar decisiones automáticas sobre bombas, aireadores, alimentación y seguridad del sistema.
+# MÓDULO 6 — AUTOMATION ENGINE
+
+**Archivo:** `docs/06_AUTOMATION_ENGINE.md`
+
+---
+
+# Propósito
+
+El Automation Engine es el primer paso para transformar AcuaNexus desde un sistema que observa hacia un sistema que actúa.
+
+Hasta ahora:
+
+```text
+WaterEngine → analiza agua
+FishEngine → analiza peces
+EconomicsEngine → analiza dinero
+AdvisorEngine → recomienda acciones
+```
+
+Pero alguien todavía debe presionar botones.
+
+AutomationEngine elimina esa dependencia.
+
+---
+
+# Objetivo
+
+Responder automáticamente cuando una variable se sale de control.
+
+Ejemplo:
+
+```text
+Oxígeno ↓
+```
+
+Sin Automation:
+
+```text
+Generar alerta
+Esperar operador
+```
+
+Con Automation:
+
+```text
+Generar alerta
+Encender aireador
+Monitorear recuperación
+Apagar cuando se estabilice
+```
+
+---
+
+# Filosofía
+
+Nunca debe ser una automatización agresiva.
+
+Regla principal:
+
+```text
+Primero proteger
+Luego optimizar
+Finalmente automatizar
+```
+
+---
+
+# Estado Global
+
+```javascript
+automation = {
+    enabled: false,
+    mode: "manual",
+    activeRules: [],
+    lastAction: null
+};
+```
+
+---
+
+# Modos Operativos
+
+## Manual
+
+```text
+Automation OFF
+```
+
+El operador controla todo.
+
+---
+
+## Asistido
+
+```text
+Automation ON
+```
+
+El sistema recomienda acciones.
+
+No ejecuta.
+
+---
+
+## Semi-Automático
+
+```text
+Automation ON
+```
+
+Puede ejecutar acciones simples.
+
+Ejemplo:
+
+```text
+Encender aireador
+```
+
+pero solicita confirmación para acciones importantes.
+
+---
+
+## Automático
+
+```text
+Automation FULL
+```
+
+Ejecuta acciones sin intervención.
+
+---
+
+# Actuadores Iniciales
+
+Para la primera granja de tilapia.
+
+---
+
+## Aireador
+
+```javascript
+actuators.aerator
+```
+
+---
+
+## Bomba
+
+```javascript
+actuators.pump
+```
+
+---
+
+## Alimentador
+
+```javascript
+actuators.feeder
+```
+
+---
+
+## Calentador
+
+```javascript
+actuators.heater
+```
+
+---
+
+## Luz
+
+```javascript
+actuators.lighting
+```
+
+---
+
+# Arquitectura
+
+```text
+WaterEngine
+     ↓
+AdvisorEngine
+     ↓
+AutomationEngine
+     ↓
+Actuadores
+```
+
+---
+
+# Reglas Básicas
+
+## Oxígeno Bajo
+
+Condición:
+
+```text
+DO < 4 mg/L
+```
+
+Acción:
+
+```text
+Encender aireador
+```
+
+---
+
+## Oxígeno Recuperado
+
+Condición:
+
+```text
+DO > 6 mg/L
+```
+
+Acción:
+
+```text
+Apagar aireador
+```
+
+---
+
+## Temperatura Baja
+
+Condición:
+
+```text
+Temperatura < mínimo especie
+```
+
+Acción:
+
+```text
+Encender calentador
+```
+
+---
+
+## Temperatura Normal
+
+Condición:
+
+```text
+Temperatura óptima
+```
+
+Acción:
+
+```text
+Apagar calentador
+```
+
+---
+
+## Amoniaco Alto
+
+Condición:
+
+```text
+NH3 > límite seguro
+```
+
+Acción:
+
+```text
+Encender recirculación
+```
+
+---
+
+## Emergencia
+
+Condición:
+
+```text
+DO crítico
+```
+
+Acción:
+
+```text
+Todos los aireadores ON
+```
+
+---
+
+# Estructura De Regla
+
+```javascript
+{
+    id: "LOW_DO",
+    enabled: true,
+
+    condition: () => {},
+
+    action: () => {},
+
+    priority: 1
+}
+```
+
+---
+
+# Prioridades
+
+## Nivel 1
+
+Emergencia
+
+```text
+Oxígeno crítico
+```
+
+---
+
+## Nivel 2
+
+Protección
+
+```text
+Amoniaco
+Temperatura
+```
+
+---
+
+## Nivel 3
+
+Optimización
+
+```text
+Ahorro energético
+```
+
+---
+
+## Nivel 4
+
+Confort
+
+```text
+Iluminación
+```
+
+---
+
+# Sistema Anti Oscilación
+
+Problema:
+
+```text
+DO = 3.99
+aireador ON
+
+DO = 4.01
+aireador OFF
+
+DO = 3.99
+aireador ON
+```
+
+Esto destruye equipos.
+
+---
+
+Solución:
+
+Histéresis.
+
+```text
+ON = 4
+OFF = 6
+```
+
+---
+
+# Cooldown
+
+Después de ejecutar:
+
+```text
+Encender aireador
+```
+
+esperar:
+
+```text
+60 segundos
+```
+
+antes de otra acción.
+
+---
+
+# Registro De Acciones
+
+Cada acción queda registrada.
+
+```javascript
+{
+    time: "...",
+    action: "AERATOR_ON",
+    reason: "LOW_DO"
+}
+```
+
+---
+
+# Historial
+
+Guardado por DataLogger.
+
+```text
+automation_YYYY-MM-DD.json
+```
+
+---
+
+# Integración Con Dashboard
+
+Panel:
+
+```text
+AUTOMATION
+```
+
+---
+
+Mostrar:
+
+```text
+Modo actual
+```
+
+```text
+Última acción
+```
+
+```text
+Estado actuadores
+```
+
+```text
+Reglas activas
+```
+
+---
+
+# Integración Con Economía
+
+AutomationEngine consulta:
+
+```javascript
+economics.energyCost
+```
+
+---
+
+Ejemplo:
+
+Si el oxígeno es estable:
+
+```text
+Apagar aireador secundario
+```
+
+para ahorrar energía.
+
+---
+
+# Integración Con IA
+
+AdvisorEngine puede sugerir:
+
+```text
+Aumentar oxigenación nocturna
+```
+
+AutomationEngine decide:
+
+```text
+Cómo hacerlo
+```
+
+---
+
+# Simulación Inicial
+
+Durante la fase PC local:
+
+```text
+No existe hardware
+```
+
+---
+
+Actuadores virtuales:
+
+```javascript
+true
+false
+```
+
+---
+
+Ejemplo:
+
+```javascript
+aerator = true;
+```
+
+simula:
+
+```text
+aireador encendido
+```
+
+---
+
+# Fase Física
+
+Cuando exista hardware.
+
+---
+
+ESP32
+
+```text
+WiFi
+```
+
+---
+
+Relés
+
+```text
+Bombas
+Aireadores
+```
+
+---
+
+Sensores
+
+```text
+pH
+DO
+Temperatura
+```
+
+---
+
+AutomationEngine seguirá siendo exactamente el mismo.
+
+Solo cambia la capa física.
+
+---
+
+# Seguridad
+
+Regla fundamental:
+
+```text
+Ninguna automatización puede dañar peces.
+```
+
+---
+
+Si existe duda:
+
+```text
+No actuar
+Generar alerta
+Solicitar operador
+```
+
+---
+
+# Objetivo A Largo Plazo
+
+Evolucionar hacia:
+
+```text
+Control autónomo completo
+```
+
+---
+
+Capacidad final:
+
+```text
+Monitorear
+Analizar
+Decidir
+Actuar
+Aprender
+```
+
+sin intervención constante.
+
+---
+
+# Resultado Final
+
+AutomationEngine es el puente entre:
+
+```text
+Información
+```
+
+y
+
+```text
+Acción
+```
+
+Es el primer módulo que convierte AcuaNexus en un sistema vivo capaz de responder por sí mismo a los cambios del cultivo.
+
+---
+
+**Próximo módulo:** `07_ADVISOR_ENGINE.md`
+
+Aquí definiremos la "inteligencia operativa" que interpreta agua, peces, economía y automatización para recomendar o planificar acciones.
+# MÓDULO 7 — ADVISOR ENGINE
+
+**Archivo:** `docs/07_ADVISOR_ENGINE.md`
+
+---
+
+# Propósito
+
+El Advisor Engine es el cerebro estratégico de AcuaNexus.
+
+No controla directamente bombas.
+
+No calcula química.
+
+No calcula crecimiento.
+
+No calcula economía.
+
+Su función es interpretar todo lo que ocurre en el sistema y convertirlo en decisiones comprensibles.
+
+---
+
+# Filosofía
+
+Los motores generan datos.
+
+El Advisor genera conocimiento.
+
+---
+
+Ejemplo:
+
+WaterEngine:
+
+```text
+DO = 3.8 mg/L
+```
+
+FishEngine:
+
+```text
+Stress = 72%
+```
+
+EconomicsEngine:
+
+```text
+Profit = -$12
+```
+
+---
+
+El operador no debería analizar 200 variables.
+
+Debe recibir:
+
+```text
+ALTA PRIORIDAD
+
+Oxígeno insuficiente.
+
+Se recomienda aumentar aireación inmediatamente.
+```
+
+---
+
+# Objetivo
+
+Convertir:
+
+```text
+Datos
+```
+
+en:
+
+```text
+Acciones
+```
+
+---
+
+# Entradas
+
+AdvisorEngine recibe información de:
+
+---
+
+## WaterEngine
+
+```javascript
+water.temperature
+water.ph
+water.do
+water.ammonia
+water.nitrite
+water.nitrate
+```
+
+---
+
+## FishEngine
+
+```javascript
+fish.population
+fish.averageWeight
+fish.totalBiomass
+fish.mortality
+fish.stressLevel
+fish.dailyFeed
+fish.fcr
+```
+
+---
+
+## EconomicsEngine
+
+```javascript
+economics.profit
+economics.roi
+economics.feedCost
+economics.energyCost
+```
+
+---
+
+## AutomationEngine
+
+```javascript
+automation.mode
+automation.lastAction
+automation.activeRules
+```
+
+---
+
+# Salida
+
+Advisor genera:
+
+```javascript
+recommendations = []
+```
+
+---
+
+Formato:
+
+```javascript
+{
+    priority: "HIGH",
+    action: "Encender aireador",
+    reason: "Oxígeno bajo"
+}
+```
+
+---
+
+# Niveles De Prioridad
+
+---
+
+## CRITICAL
+
+Riesgo inmediato.
+
+```text
+Posible mortalidad
+```
+
+---
+
+## HIGH
+
+Problema serio.
+
+```text
+Debe corregirse hoy
+```
+
+---
+
+## MEDIUM
+
+Optimización.
+
+```text
+Mejorar rendimiento
+```
+
+---
+
+## LOW
+
+Información.
+
+```text
+Sin urgencia
+```
+
+---
+
+# Categorías
+
+---
+
+## Agua
+
+```text
+WATER
+```
+
+---
+
+## Peces
+
+```text
+BIOLOGY
+```
+
+---
+
+## Economía
+
+```text
+ECONOMICS
+```
+
+---
+
+## Automatización
+
+```text
+AUTOMATION
+```
+
+---
+
+## Mantenimiento
+
+```text
+MAINTENANCE
+```
+
+---
+
+# Reglas Iniciales
+
+---
+
+## Oxígeno Bajo
+
+Condición:
+
+```text
+DO < 4
+```
+
+Respuesta:
+
+```javascript
+{
+ priority:"CRITICAL",
+ category:"WATER",
+ action:"Incrementar aireación",
+ reason:"Oxígeno disuelto crítico"
+}
+```
+
+---
+
+## Amoniaco Alto
+
+Condición:
+
+```text
+NH3 > límite especie
+```
+
+Respuesta:
+
+```javascript
+{
+ priority:"CRITICAL",
+ category:"WATER",
+ action:"Realizar recambio parcial",
+ reason:"Amoniaco elevado"
+}
+```
+
+---
+
+## Temperatura Fuera De Rango
+
+Respuesta:
+
+```javascript
+{
+ priority:"HIGH",
+ category:"WATER",
+ action:"Corregir temperatura",
+ reason:"Estrés térmico potencial"
+}
+```
+
+---
+
+# Reglas Biológicas
+
+---
+
+## Estrés Elevado
+
+Condición:
+
+```text
+stress > 70%
+```
+
+Respuesta:
+
+```javascript
+{
+ priority:"HIGH",
+ category:"BIOLOGY",
+ action:"Reducir factores de estrés",
+ reason:"Estrés excesivo"
+}
+```
+
+---
+
+## Mortalidad Elevada
+
+Condición:
+
+```text
+mortality > 5%
+```
+
+Respuesta:
+
+```javascript
+{
+ priority:"CRITICAL",
+ category:"BIOLOGY",
+ action:"Investigar causa",
+ reason:"Mortalidad anormal"
+}
+```
+
+---
+
+## FCR Alto
+
+Condición:
+
+```text
+FCR > 2
+```
+
+Respuesta:
+
+```javascript
+{
+ priority:"MEDIUM",
+ category:"BIOLOGY",
+ action:"Optimizar alimentación",
+ reason:"Conversión alimenticia deficiente"
+}
+```
+
+---
+
+# Reglas Económicas
+
+---
+
+## Ganancia Negativa
+
+Condición:
+
+```text
+profit < 0
+```
+
+Respuesta:
+
+```javascript
+{
+ priority:"HIGH",
+ category:"ECONOMICS",
+ action:"Reducir costos",
+ reason:"Operación en pérdidas"
+}
+```
+
+---
+
+## ROI Bajo
+
+Condición:
+
+```text
+ROI < objetivo
+```
+
+Respuesta:
+
+```javascript
+{
+ priority:"MEDIUM",
+ category:"ECONOMICS",
+ action:"Revisar estrategia productiva",
+ reason:"Rentabilidad insuficiente"
+}
+```
+
+---
+
+# Reglas De Automatización
+
+---
+
+## Sistema Manual
+
+Condición:
+
+```text
+automation = MANUAL
+```
+
+Respuesta:
+
+```javascript
+{
+ priority:"LOW",
+ category:"AUTOMATION",
+ action:"Automatización disponible",
+ reason:"Existen procesos automatizables"
+}
+```
+
+---
+
+## Acciones Repetidas
+
+Condición:
+
+```text
+10 acciones iguales en poco tiempo
+```
+
+Respuesta:
+
+```javascript
+{
+ priority:"MEDIUM",
+ category:"AUTOMATION",
+ action:"Revisar configuración",
+ reason:"Oscilación detectada"
+}
+```
+
+---
+
+# Motor De Prioridades
+
+No todas las recomendaciones son iguales.
+
+---
+
+Ejemplo:
+
+```text
+Oxígeno bajo
+```
+
+y
+
+```text
+ROI bajo
+```
+
+aparecen simultáneamente.
+
+---
+
+El sistema ordena:
+
+```text
+1 Oxígeno bajo
+2 Mortalidad
+3 Amoniaco
+4 Temperatura
+5 Economía
+6 Optimización
+```
+
+---
+
+# Sistema De Puntuación
+
+Cada problema genera puntos.
+
+---
+
+Ejemplo:
+
+```text
+DO crítico = 100
+```
+
+```text
+Amoniaco alto = 90
+```
+
+```text
+ROI bajo = 20
+```
+
+---
+
+Resultado:
+
+```text
+Se atiende primero el DO.
+```
+
+---
+
+# Advisor Histórico
+
+Cada recomendación queda registrada.
+
+```javascript
+{
+ timestamp:"",
+ recommendations:[]
+}
+```
+
+---
+
+Guardado por:
+
+```text
+DataLogger
+```
+
+---
+
+# Advisor Predictivo
+
+Fase futura.
+
+---
+
+No reaccionar.
+
+Predecir.
+
+---
+
+Ejemplo:
+
+En vez de:
+
+```text
+Oxígeno bajo
+```
+
+decir:
+
+```text
+Oxígeno caerá por debajo del límite en 2 horas.
+```
+
+---
+
+# Advisor Productivo
+
+Fase futura.
+
+---
+
+Analiza:
+
+```text
+crecimiento
+alimentación
+biomasa
+mercado
+```
+
+---
+
+Sugiere:
+
+```text
+Momento óptimo de cosecha.
+```
+
+---
+
+# Advisor Económico
+
+Fase futura.
+
+---
+
+Detecta:
+
+```text
+alimentación excesiva
+```
+
+```text
+energía excesiva
+```
+
+```text
+margen reducido
+```
+
+---
+
+Y propone:
+
+```text
+acciones de ahorro
+```
+
+---
+
+# Advisor IA
+
+Fase avanzada.
+
+---
+
+Motor híbrido:
+
+```text
+Reglas
++
+Machine Learning
++
+Modelos predictivos
+```
+
+---
+
+Capaz de aprender:
+
+```text
+Qué decisiones generan mejores resultados.
+```
+
+---
+
+# Dashboard
+
+Panel:
+
+```text
+INTELIGENCIA OPERATIVA
+```
+
+---
+
+Mostrar:
+
+```text
+Prioridad
+```
+
+```text
+Acción sugerida
+```
+
+```text
+Motivo
+```
+
+```text
+Impacto esperado
+```
+
+---
+
+Ejemplo:
+
+```text
+[CRITICAL]
+
+Incrementar aireación
+
+Oxígeno disuelto en nivel crítico
+
+Impacto:
+Reducir riesgo de mortalidad
+```
+
+---
+
+# Objetivo Final
+
+Que el operador ya no tenga que interpretar:
+
+```text
+50 variables
+```
+
+ni
+
+```text
+100 gráficos
+```
+
+para saber qué hacer.
+
+---
+
+El Advisor debe responder una sola pregunta:
+
+> ¿Cuál es la mejor decisión que puedo tomar ahora mismo?
+
+---
+
+# Resultado Final
+
+AdvisorEngine es la capa de inteligencia operativa de AcuaNexus.
+
+Transforma:
+
+```text
+Datos → Información
+Información → Decisiones
+Decisiones → Acción
+```
+
+y será el núcleo sobre el que más adelante construiremos la IA predictiva del sistema.
+
+---
+
+**Próximo módulo:** `08_SCADA_CORE.md`
+
+Aquí definiremos el corazón visual de AcuaNexus: el SCADA principal, los paneles, alarmas, tendencias, mapas del sistema, control manual y supervisión completa de la granja.
+# MÓDULO 8 — SCADA CORE
+
+**Archivo:** `docs/08_SCADA_CORE.md`
+
+---
+
+# Propósito
+
+SCADA significa:
+
+```text
+Supervisory
+Control
+And
+Data
+Acquisition
+```
+
+---
+
+En AcuaNexus el SCADA es la interfaz principal del operador.
+
+Es la ventana desde donde se observa, controla y supervisa toda la operación.
+
+---
+
+# Filosofía
+
+El operador nunca debería necesitar abrir:
+
+* archivos JSON
+* consola
+* código
+* bases de datos
+
+Todo debe poder verse desde el SCADA.
+
+---
+
+# Objetivo
+
+Permitir que una sola persona pueda gestionar una granja completa desde una única computadora.
+
+Inicialmente:
+
+```text
+1 PC Ryzen 5
+1 estanque
+1 operador
+```
+
+En el futuro:
+
+```text
+Múltiples estanques
+Múltiples módulos
+Múltiples granjas
+```
+
+---
+
+# Principio De Diseño
+
+Prioridad absoluta:
+
+```text
+Claridad > Belleza
+```
+
+---
+
+El operador debe detectar un problema en menos de:
+
+```text
+5 segundos
+```
+
+---
+
+# Arquitectura
+
+```text
+WaterEngine
+FishEngine
+EconomicsEngine
+AutomationEngine
+AdvisorEngine
+        ↓
+      SCADA
+        ↓
+     Operador
+```
+
+---
+
+# Módulos Visuales
+
+---
+
+## Dashboard Principal
+
+Pantalla inicial.
+
+Resumen completo.
+
+---
+
+Mostrar:
+
+```text
+Temperatura
+pH
+Oxígeno
+Amoniaco
+Biomasa
+Ganancia
+Alertas
+```
+
+---
+
+Vista:
+
+```text
+┌──────────────────────┐
+│     ACUANEXUS        │
+├──────────────────────┤
+│ Temp      27°C       │
+│ pH        7.4        │
+│ DO        6.8        │
+│ NH3       0.01       │
+├──────────────────────┤
+│ Biomasa   850 kg     │
+│ Profit    $124       │
+└──────────────────────┘
+```
+
+---
+
+# Panel De Agua
+
+Responsable de:
+
+```text
+Calidad del agua
+```
+
+---
+
+Variables:
+
+```javascript
+temperature
+ph
+do
+ammonia
+nitrite
+nitrate
+```
+
+---
+
+Indicadores:
+
+```text
+Verde
+Amarillo
+Rojo
+```
+
+---
+
+# Panel Biológico
+
+Responsable de:
+
+```text
+Estado del cultivo
+```
+
+---
+
+Variables:
+
+```javascript
+population
+averageWeight
+biomass
+growthRate
+mortality
+stressLevel
+```
+
+---
+
+Visualización:
+
+```text
+Peces vivos
+Peso promedio
+Biomasa total
+```
+
+---
+
+# Panel Económico
+
+Responsable de:
+
+```text
+Rentabilidad
+```
+
+---
+
+Variables:
+
+```javascript
+profit
+roi
+feedCost
+energyCost
+```
+
+---
+
+Vista:
+
+```text
+Ganancia diaria
+Ganancia mensual
+ROI
+```
+
+---
+
+# Panel De Automatización
+
+Responsable de:
+
+```text
+Control operativo
+```
+
+---
+
+Mostrar:
+
+```javascript
+automation.mode
+automation.enabled
+automation.lastAction
+```
+
+---
+
+Estado de:
+
+```javascript
+pump
+aerator
+heater
+feeder
+lighting
+```
+
+---
+
+Ejemplo:
+
+```text
+Aireador: ON
+Bomba: OFF
+Calentador: OFF
+```
+
+---
+
+# Panel Advisor
+
+Responsable de:
+
+```text
+Inteligencia Operativa
+```
+
+---
+
+Mostrar:
+
+```text
+Prioridad
+Acción
+Motivo
+```
+
+---
+
+Ejemplo:
+
+```text
+CRITICAL
+
+Incrementar aireación
+
+Oxígeno disuelto crítico
+```
+
+---
+
+# Sistema De Alarmas
+
+Uno de los módulos más importantes.
+
+---
+
+## Categorías
+
+---
+
+### Emergencia
+
+```text
+Rojo
+```
+
+---
+
+### Advertencia
+
+```text
+Amarillo
+```
+
+---
+
+### Información
+
+```text
+Azul
+```
+
+---
+
+# Alarmas Iniciales
+
+---
+
+## Oxígeno bajo
+
+```text
+DO < 4
+```
+
+---
+
+## Amoniaco alto
+
+```text
+NH3 > límite
+```
+
+---
+
+## Mortalidad alta
+
+```text
+Mortalidad > 5%
+```
+
+---
+
+## Temperatura fuera de rango
+
+```text
+Fuera del rango especie
+```
+
+---
+
+## Ganancia negativa
+
+```text
+Profit < 0
+```
+
+---
+
+# Centro De Eventos
+
+Registro cronológico.
+
+---
+
+Formato:
+
+```text
+[12:30]
+
+Aireador encendido
+```
+
+---
+
+```text
+[12:32]
+
+Oxígeno recuperado
+```
+
+---
+
+```text
+[12:40]
+
+Alarma de amoniaco
+```
+
+---
+
+# Tendencias
+
+Visualización histórica.
+
+---
+
+Gráficas:
+
+```text
+24 horas
+7 días
+30 días
+90 días
+```
+
+---
+
+Variables:
+
+```text
+Temperatura
+pH
+Oxígeno
+Biomasa
+Ganancia
+```
+
+---
+
+# Historiador
+
+Datos provenientes de:
+
+```text
+DataLogger
+```
+
+---
+
+Permite:
+
+```text
+Consultar pasado
+```
+
+---
+
+Ejemplo:
+
+```text
+¿Qué pasó ayer?
+```
+
+---
+
+```text
+¿Qué ocurrió hace una semana?
+```
+
+---
+
+# Control Manual
+
+Aunque exista automatización.
+
+El operador siempre tendrá prioridad.
+
+---
+
+Botones:
+
+```text
+ENCENDER BOMBA
+```
+
+```text
+APAGAR BOMBA
+```
+
+```text
+ENCENDER AIREADOR
+```
+
+```text
+APAGAR AIREADOR
+```
+
+---
+
+# Reglas De Seguridad
+
+Si Automation está activo:
+
+```text
+Manual > Automático
+```
+
+---
+
+La decisión humana siempre gana.
+
+---
+
+# Estado Del Sistema
+
+Indicador general.
+
+---
+
+Verde:
+
+```text
+Operación normal
+```
+
+---
+
+Amarillo:
+
+```text
+Advertencias activas
+```
+
+---
+
+Rojo:
+
+```text
+Emergencia activa
+```
+
+---
+
+# Multiestanque (Futuro)
+
+Fase inicial:
+
+```text
+1 estanque
+```
+
+---
+
+Fase siguiente:
+
+```text
+Estanque A
+Estanque B
+Estanque C
+```
+
+---
+
+Vista:
+
+```text
+┌──────────┐
+│ Tanque A │
+└──────────┘
+
+┌──────────┐
+│ Tanque B │
+└──────────┘
+
+┌──────────┐
+│ Tanque C │
+└──────────┘
+```
+
+---
+
+# Multiinstalación (Futuro)
+
+Más adelante:
+
+```text
+Granja 1
+Granja 2
+Granja 3
+```
+
+---
+
+Pero no se implementará en la primera versión.
+
+---
+
+# Integración Técnica
+
+Comunicación:
+
+```text
+Socket.IO
+```
+
+---
+
+Eventos principales:
+
+```javascript
+state:update
+```
+
+```javascript
+alarm:new
+```
+
+```javascript
+automation:update
+```
+
+```javascript
+recommendation:new
+```
+
+---
+
+# Rendimiento Objetivo
+
+Hardware inicial:
+
+```text
+Ryzen 5
+16 GB RAM
+SSD
+```
+
+---
+
+Capacidad:
+
+```text
+1 operador
+1 granja
+24/7
+```
+
+---
+
+Sin:
+
+```text
+Servidor dedicado
+Nube
+Internet
+```
+
+---
+
+# Filosofía De Crecimiento
+
+Versión 1:
+
+```text
+SCADA local
+```
+
+---
+
+Versión 2:
+
+```text
+SCADA + sensores reales
+```
+
+---
+
+Versión 3:
+
+```text
+SCADA + automatización física
+```
+
+---
+
+Versión 4:
+
+```text
+SCADA + IA predictiva
+```
+
+---
+
+# Objetivo Final
+
+Que una persona pueda abrir AcuaNexus y responder instantáneamente:
+
+```text
+¿Cómo está el agua?
+```
+
+```text
+¿Cómo están los peces?
+```
+
+```text
+¿Estamos ganando dinero?
+```
+
+```text
+¿Qué debo hacer ahora?
+```
+
+sin revisar decenas de pantallas ni hojas de cálculo.
+
+---
+
+# Resultado Final
+
+SCADA Core es el centro nervioso visible de AcuaNexus.
+
+Todos los motores trabajan para él.
+
+Y el operador trabaja a través de él.
+
+Es la pieza que convierte el sistema completo en una herramienta real de operación acuícola.
+
+---
+
+**Próximo módulo:** `09_DATA_LOGGER.md`
+
+Ese módulo definirá el historiador industrial de AcuaNexus: almacenamiento de datos, eventos, alarmas, auditoría y trazabilidad completa del cultivo.
+# 09_AUTOMATION_ENGINE.md
+
+## AcuaNexus — Motor de Automatización
+
+**Versión:** 1.0
+**Estado:** Diseño funcional previo a hardware real
+
+---
+
+# Propósito
+
+El Automation Engine es el módulo encargado de ejecutar acciones sobre el sistema.
+
+Mientras:
+
+* WaterEngine calcula
+* FishEngine analiza
+* EconomicsEngine evalúa
+* AdvisorEngine recomienda
+
+AutomationEngine actúa.
+
+Es el puente entre:
+
+```text
+Decisión → Acción Física
+```
+
+---
+
+# Objetivos
+
+Permitir que AcuaNexus pueda:
+
+* Encender bombas
+* Apagar bombas
+* Activar aireadores
+* Activar calentadores
+* Abrir válvulas
+* Cerrar válvulas
+* Dosificar alimento
+* Dosificar probióticos
+* Cambiar agua
+* Ejecutar rutinas automáticas
+
+sin intervención humana.
+
+---
+
+# Fase 1 (Actual)
+
+No existe hardware.
+
+Por tanto el Automation Engine funcionará como:
+
+```text
+Simulador de Automatización
+```
+
+---
+
+Ejemplo:
+
+Si el oxígeno baja:
+
+```text
+Automation Engine
+
+↓
+
+Aireador = ON
+```
+
+aunque físicamente no exista.
+
+---
+
+Esto permite:
+
+* probar lógica
+* probar decisiones
+* probar SCADA
+
+sin comprar equipos.
+
+---
+
+# Filosofía
+
+Nunca ejecutar acciones sin verificar seguridad.
+
+Antes de cada acción:
+
+```text
+Verificar estado
+↓
+Verificar reglas
+↓
+Ejecutar
+↓
+Registrar
+```
+
+---
+
+# Actuadores Soportados
+
+## Bomba Principal
+
+```text
+pump_main
+```
+
+Funciones:
+
+```text
+ON
+OFF
+```
+
+Uso:
+
+```text
+circulación de agua
+```
+
+---
+
+## Aireador
+
+```text
+aerator
+```
+
+Funciones:
+
+```text
+ON
+OFF
+```
+
+Uso:
+
+```text
+oxígeno disuelto
+```
+
+---
+
+## Calentador
+
+```text
+heater
+```
+
+Funciones:
+
+```text
+ON
+OFF
+```
+
+Uso:
+
+```text
+temperatura
+```
+
+---
+
+## Válvula de Renovación
+
+```text
+water_change_valve
+```
+
+Funciones:
+
+```text
+OPEN
+CLOSE
+```
+
+Uso:
+
+```text
+renovación de agua
+```
+
+---
+
+## Alimentador
+
+```text
+feeder
+```
+
+Funciones:
+
+```text
+FEED
+```
+
+Uso:
+
+```text
+alimentación automática
+```
+
+---
+
+# Estado Interno
+
+```js
+automation = {
+    pumpMain: false,
+    aerator: false,
+    heater: false,
+    waterValve: false,
+
+    lastFeed: null,
+    lastWaterChange: null,
+
+    mode: "manual"
+}
+```
+
+---
+
+# Modos de Operación
+
+## Manual
+
+El usuario controla todo.
+
+```text
+SCADA
+↓
+Botón
+↓
+Acción
+```
+
+---
+
+Ejemplo:
+
+```text
+Encender Aireador
+```
+
+Usuario:
+
+```text
+click
+```
+
+Resultado:
+
+```text
+aireador ON
+```
+
+---
+
+## Semi-Automático
+
+AcuaNexus recomienda.
+
+Humano confirma.
+
+---
+
+Ejemplo:
+
+```text
+Oxígeno = 3.8
+```
+
+Sistema:
+
+```text
+Recomendación:
+Encender aireador
+```
+
+Usuario:
+
+```text
+Aceptar
+```
+
+Sistema:
+
+```text
+Aireador ON
+```
+
+---
+
+## Automático
+
+AcuaNexus ejecuta.
+
+---
+
+Ejemplo:
+
+```text
+Oxígeno = 3.8
+```
+
+Sistema:
+
+```text
+Aireador ON
+```
+
+sin esperar aprobación.
+
+---
+
+# Reglas Automáticas
+
+## Regla 1
+
+Oxígeno bajo
+
+```text
+DO < 4
+```
+
+Acción:
+
+```text
+Aireador ON
+```
+
+---
+
+## Regla 2
+
+Oxígeno recuperado
+
+```text
+DO > 6
+```
+
+Acción:
+
+```text
+Aireador OFF
+```
+
+---
+
+## Regla 3
+
+Temperatura baja
+
+```text
+Temp < objetivo
+```
+
+Acción:
+
+```text
+Calentador ON
+```
+
+---
+
+## Regla 4
+
+Temperatura correcta
+
+```text
+Temp >= objetivo
+```
+
+Acción:
+
+```text
+Calentador OFF
+```
+
+---
+
+## Regla 5
+
+Amoníaco alto
+
+```text
+NH3 > límite
+```
+
+Acción:
+
+```text
+Renovación parcial
+```
+
+---
+
+## Regla 6
+
+Hora de alimentación
+
+```text
+08:00
+14:00
+18:00
+```
+
+Acción:
+
+```text
+Activar alimentador
+```
+
+---
+
+# Seguridad
+
+Nunca permitir:
+
+```text
+Bomba ON y válvula cerrada
+```
+
+si puede dañarse.
+
+---
+
+Nunca permitir:
+
+```text
+Alimentar dos veces seguidas
+```
+
+en pocos minutos.
+
+---
+
+Nunca permitir:
+
+```text
+Cambios de agua continuos
+```
+
+sin límite.
+
+---
+
+# Registro de Acciones
+
+Cada acción se almacena.
+
+Ejemplo:
+
+```json
+{
+  "timestamp":"2026-06-05T08:00:00",
+  "device":"feeder",
+  "action":"FEED",
+  "source":"automatic"
+}
+```
+
+---
+
+# Integración con SCADA
+
+El SCADA mostrará:
+
+```text
+Actuadores
+```
+
+Estado:
+
+```text
+🟢 ON
+🔴 OFF
+```
+
+---
+
+Panel:
+
+```text
+Bomba
+Aireador
+Calentador
+Válvula
+Alimentador
+```
+
+---
+
+# Integración con AdvisorEngine
+
+Advisor:
+
+```text
+Oxígeno bajo
+```
+
+↓
+
+Automation:
+
+```text
+Aireador ON
+```
+
+↓
+
+Logger:
+
+```text
+Evento guardado
+```
+
+---
+
+# Integración con DataLogger
+
+Todo cambio se registra.
+
+```text
+Encendido
+Apagado
+Error
+Alarma
+```
+
+---
+
+# Integración con Economía
+
+Permite calcular consumo real.
+
+Ejemplo:
+
+```text
+Aireador ON
+6 horas
+```
+
+↓
+
+```text
+Consumo eléctrico
+```
+
+↓
+
+```text
+Costo
+```
+
+↓
+
+EconomicsEngine
+
+````
+
+---
+
+# Fase Física Futura
+
+Cuando exista hardware:
+
+```text
+ESP32
+Arduino
+PLC
+Relés
+Variadores
+Sensores
+````
+
+Automation Engine no cambiará.
+
+Solo cambiará el Driver.
+
+---
+
+Ejemplo:
+
+Hoy:
+
+```text
+Aireador ON
+```
+
+modifica:
+
+```js
+state.aerator = true
+```
+
+---
+
+Mañana:
+
+```text
+Aireador ON
+```
+
+envía:
+
+```text
+MQTT
+Modbus
+Serial
+WiFi
+Ethernet
+```
+
+al equipo físico.
+
+---
+
+# Resultado Esperado
+
+Automation Engine será el primer módulo que convierta AcuaNexus en un sistema autónomo.
+
+Actualmente:
+
+```text
+Observa
+```
+
+Futuro:
+
+```text
+Observa
+↓
+Decide
+↓
+Actúa
+↓
+Aprende
+```
+
+Con este módulo queda definida la capa de automatización completa de la plataforma. El siguiente módulo lógico es el **10_DECISION_ENGINE.md**, que será el cerebro superior encargado de coordinar WaterEngine, FishEngine, EconomicsEngine, AdvisorEngine y AutomationEngine.
+# MÓDULO 10 — SCADA ENGINE
+
+**Archivo:** `docs/10_SCADA_ENGINE.md`
+
+---
+
+# SCADA ENGINE
+
+## Objetivo
+
+El SCADA Engine es la capa de interacción entre el operador humano y el ecosistema AcuaNexus.
+
+No controla directamente la granja.
+
+No toma decisiones biológicas.
+
+No realiza cálculos químicos.
+
+Su función es:
+
+* visualizar
+* monitorear
+* controlar
+* registrar
+* alertar
+
+todo lo que ocurre dentro del sistema.
+
+---
+
+# Filosofía
+
+La mayoría de SCADA industriales fueron diseñados para:
+
+* petróleo
+* gas
+* energía
+* manufactura
+
+AcuaNexus necesita un SCADA especializado para acuicultura.
+
+Debe ser capaz de mostrar:
+
+* agua
+* peces
+* alimentación
+* economía
+* alertas
+* recomendaciones IA
+
+en una única interfaz.
+
+---
+
+# Objetivos del SCADA
+
+## Nivel 1
+
+Monitoreo.
+
+Ver qué ocurre.
+
+---
+
+## Nivel 2
+
+Control.
+
+Permitir acciones manuales.
+
+---
+
+## Nivel 3
+
+Automatización.
+
+Permitir que el sistema ejecute acciones.
+
+---
+
+## Nivel 4
+
+Supervisión IA.
+
+Mostrar por qué el sistema tomó decisiones.
+
+---
+
+# Arquitectura
+
+```text
+Sensores
+    ↓
+Water Engine
+    ↓
+State Manager
+    ↓
+SCADA Engine
+    ↓
+Dashboard
+```
+
+---
+
+# Datos recibidos
+
+## Agua
+
+```js
+{
+  temperature,
+  ph,
+  dissolvedOxygen,
+  ammonia,
+  nitrite,
+  nitrate
+}
+```
+
+---
+
+## Peces
+
+```js
+{
+  population,
+  averageWeight,
+  biomass,
+  mortality,
+  fcr,
+  stress
+}
+```
+
+---
+
+## Economía
+
+```js
+{
+  income,
+  costs,
+  profit
+}
+```
+
+---
+
+## Automatización
+
+```js
+{
+  pump,
+  aerator,
+  feeder,
+  heater
+}
+```
+
+---
+
+## IA
+
+```js
+{
+  recommendations
+}
+```
+
+---
+
+# Dashboard Principal
+
+Pantalla principal.
+
+---
+
+## Panel Agua
+
+```text
+Temperatura
+pH
+Oxígeno
+Amonio
+Nitrito
+Nitrato
+```
+
+Visualización:
+
+```text
+🟢 Óptimo
+🟡 Atención
+🔴 Crítico
+```
+
+---
+
+# Panel Peces
+
+```text
+Población
+Peso promedio
+Biomasa
+FCR
+Mortalidad
+```
+
+---
+
+# Panel Producción
+
+```text
+Días cultivo
+Alimento usado
+Ganancia estimada
+Fecha cosecha
+```
+
+---
+
+# Panel Economía
+
+```text
+Costos
+Ingresos
+Beneficio
+ROI
+```
+
+---
+
+# Panel Alertas
+
+Lista cronológica.
+
+Ejemplo:
+
+```text
+[08:15]
+Oxígeno bajo
+
+[08:21]
+Aireador activado
+
+[08:23]
+Oxígeno recuperado
+```
+
+---
+
+# Panel IA
+
+Explica decisiones.
+
+Ejemplo:
+
+```text
+Recomendación:
+
+Aumentar aireación.
+
+Motivo:
+
+Oxígeno 3.8 mg/L
+```
+
+---
+
+# Panel Automatización
+
+Estado de dispositivos.
+
+```text
+Bomba
+Aireador
+Alimentador
+Calentador
+```
+
+---
+
+# Control Manual
+
+El operador puede activar:
+
+```text
+Encender bomba
+
+Encender aireador
+
+Encender alimentador
+
+Apagar sistema
+```
+
+---
+
+# Control Semiautomático
+
+Modo híbrido.
+
+```text
+IA recomienda
+
+Operador confirma
+```
+
+---
+
+# Control Automático
+
+```text
+IA detecta
+
+IA actúa
+
+IA registra
+```
+
+---
+
+# Historial
+
+Todos los eventos son almacenados.
+
+Ejemplo:
+
+```text
+2026-06-01
+08:00
+pH = 7.2
+
+08:01
+DO = 6.8
+
+08:03
+Aireador ON
+```
+
+---
+
+# Gráficas
+
+## Temperatura
+
+```text
+Tiempo vs °C
+```
+
+---
+
+## Oxígeno
+
+```text
+Tiempo vs mg/L
+```
+
+---
+
+## Biomasa
+
+```text
+Tiempo vs kg
+```
+
+---
+
+## Ganancias
+
+```text
+Tiempo vs $
+```
+
+---
+
+# Exportación
+
+Formatos:
+
+```text
+CSV
+JSON
+XLSX
+PDF
+```
+
+---
+
+# Sistema de Usuarios
+
+Versión inicial:
+
+```text
+Administrador
+Operador
+```
+
+---
+
+Administrador:
+
+```text
+Acceso total
+```
+
+---
+
+Operador:
+
+```text
+Control limitado
+```
+
+---
+
+# Comunicación
+
+Inicialmente:
+
+```text
+Socket.IO
+```
+
+Posteriormente:
+
+```text
+MQTT
+```
+
+para dispositivos físicos.
+
+---
+
+# Alarmas
+
+Niveles:
+
+## Nivel 1
+
+Información
+
+```text
+Sistema iniciado
+```
+
+---
+
+## Nivel 2
+
+Advertencia
+
+```text
+pH fuera de rango
+```
+
+---
+
+## Nivel 3
+
+Crítico
+
+```text
+Oxígeno extremadamente bajo
+```
+
+---
+
+## Nivel 4
+
+Emergencia
+
+```text
+Riesgo masivo de mortalidad
+```
+
+---
+
+# Modo Simulación
+
+Fundamental para AcuaNexus.
+
+Permite operar sin hardware.
+
+```text
+SCADA
++
+Motores virtuales
++
+Datos simulados
+```
+
+Esto permite desarrollar el sistema completo desde una sola PC.
+
+---
+
+# Modo Producción
+
+Cuando existan sensores reales:
+
+```text
+SCADA
++
+Sensores
++
+Actuadores
++
+IA
+```
+
+sin cambiar la interfaz.
+
+---
+
+# Meta Final
+
+El SCADA Engine debe convertirse en el centro operativo de AcuaNexus.
+
+Un operador debe poder gestionar:
+
+* calidad de agua
+* peces
+* alimentación
+* economía
+* automatización
+* recomendaciones IA
+
+desde una única pantalla, inicialmente en una PC Ryzen sencilla y posteriormente en instalaciones más grandes.
+
+---
+
+## Estado de la documentación
+
+Completados:
+
+* Módulo 1 — Vision
+* Módulo 2 — Architecture
+* Módulo 3 — Roadmap
+* Módulo 4 — State Manager
+* Módulo 5 — Water Engine
+* Módulo 6 — Fish Engine
+* Módulo 7 — Economics Engine
+* Módulo 8 — Automation Engine
+* Módulo 9 — Decision Engine
+* Módulo 10 — SCADA Engine
+
+Con estos 10 módulos ya existe una especificación base coherente para comenzar a consolidar el proyecto actual de AcuaNexus y guiar a Codex, DeepSeek o cualquier otro asistente de programación sin depender de meses de historial de chat.
+# MÓDULO 11 — DATA LOGGER ENGINE
+
+**Archivo:** `docs/11_DATA_LOGGER_ENGINE.md`
+
+---
+
+# DATA LOGGER ENGINE
+
+## Objetivo
+
+El Data Logger Engine es la memoria histórica de AcuaNexus.
+
+Todo lo que ocurre en el sistema debe quedar registrado.
+
+Sin historial no existe:
+
+* análisis
+* trazabilidad
+* optimización
+* auditoría
+* aprendizaje IA
+
+---
+
+# Filosofía
+
+La simulación permite saber qué ocurre ahora.
+
+El historial permite entender por qué ocurrió.
+
+---
+
+# Funciones Principales
+
+## Registrar
+
+Guardar eventos del sistema.
+
+---
+
+## Consultar
+
+Recuperar eventos pasados.
+
+---
+
+## Analizar
+
+Encontrar patrones.
+
+---
+
+## Exportar
+
+Generar reportes.
+
+---
+
+# Información Registrada
+
+## Agua
+
+```js
+{
+  timestamp,
+  temperature,
+  ph,
+  dissolvedOxygen,
+  ammonia,
+  nitrite,
+  nitrate
+}
+```
+
+---
+
+## Peces
+
+```js
+{
+  timestamp,
+  population,
+  averageWeight,
+  biomass,
+  mortality,
+  stress
+}
+```
+
+---
+
+## Alimentación
+
+```js
+{
+  timestamp,
+  feedAmount,
+  feedType,
+  cost
+}
+```
+
+---
+
+## Automatización
+
+```js
+{
+  timestamp,
+  device,
+  action,
+  reason
+}
+```
+
+---
+
+## Economía
+
+```js
+{
+  timestamp,
+  costs,
+  revenue,
+  profit
+}
+```
+
+---
+
+## Alertas
+
+```js
+{
+  timestamp,
+  level,
+  title,
+  description
+}
+```
+
+---
+
+# Estructura Inicial
+
+```text
+src/
+└── data/
+    └── history/
+```
+
+---
+
+Archivos:
+
+```text
+water_2026-06-05.json
+fish_2026-06-05.json
+economics_2026-06-05.json
+alerts_2026-06-05.json
+automation_2026-06-05.json
+```
+
+---
+
+# Formato
+
+JSON.
+
+Motivo:
+
+* simple
+* portable
+* fácil de depurar
+* compatible con IA
+
+---
+
+Ejemplo:
+
+```json
+{
+  "timestamp": "2026-06-05T08:15:00Z",
+  "temperature": 27.3,
+  "ph": 7.1,
+  "dissolvedOxygen": 6.4
+}
+```
+
+---
+
+# Frecuencia
+
+## Simulación
+
+Cada ciclo.
+
+```text
+1 registro por actualización
+```
+
+---
+
+## Producción
+
+Configurable.
+
+```text
+1 segundo
+10 segundos
+30 segundos
+1 minuto
+```
+
+---
+
+# Rotación
+
+Evitar archivos gigantes.
+
+---
+
+Diario:
+
+```text
+water_YYYY-MM-DD.json
+```
+
+---
+
+Mensual:
+
+```text
+archive/
+```
+
+---
+
+# Consultas
+
+## Última lectura
+
+```text
+Último pH
+```
+
+---
+
+## Últimas 24 horas
+
+```text
+Oxígeno promedio
+```
+
+---
+
+## Últimos 30 días
+
+```text
+Mortalidad acumulada
+```
+
+---
+
+# Integración con SCADA
+
+El dashboard puede solicitar:
+
+```text
+Última hora
+Último día
+Última semana
+Último mes
+```
+
+---
+
+# Integración con IA
+
+La IA no debe analizar solo el estado actual.
+
+Debe analizar:
+
+```text
+Estado actual
++
+Historial
+```
+
+---
+
+Ejemplo:
+
+Malo:
+
+```text
+Oxígeno = 5.0
+```
+
+---
+
+Mejor:
+
+```text
+Oxígeno cayó de 8.0 a 5.0
+en 2 horas
+```
+
+---
+
+La segunda información permite decisiones mucho más inteligentes.
+
+---
+
+# Indicadores Históricos
+
+## Agua
+
+* pH promedio
+* temperatura promedio
+* DO promedio
+
+---
+
+## Producción
+
+* crecimiento diario
+* FCR histórico
+* biomasa acumulada
+
+---
+
+## Economía
+
+* beneficio diario
+* beneficio semanal
+* beneficio mensual
+
+---
+
+# Reportes
+
+## Diario
+
+```text
+Resumen de agua
+Resumen de peces
+Resumen económico
+```
+
+---
+
+## Semanal
+
+```text
+Producción
+Costos
+Ganancias
+Alertas
+```
+
+---
+
+## Mensual
+
+```text
+Eficiencia global
+```
+
+---
+
+# Exportación
+
+Formatos:
+
+```text
+CSV
+JSON
+XLSX
+PDF
+```
+
+---
+
+# Respaldo
+
+Copias automáticas.
+
+```text
+backup/
+```
+
+---
+
+Frecuencia:
+
+```text
+Cada día
+```
+
+---
+
+# Preparación para SQLite
+
+Primera fase:
+
+```text
+JSON
+```
+
+---
+
+Segunda fase:
+
+```text
+SQLite
+```
+
+---
+
+Tercera fase:
+
+```text
+PostgreSQL
+```
+
+---
+
+# Beneficios
+
+Permite:
+
+* auditorías
+* investigación
+* entrenamiento IA
+* optimización de cultivos
+* trazabilidad completa
+
+---
+
+# Meta Final
+
+Convertir cada dato generado por AcuaNexus en conocimiento utilizable.
+
+Nada debe perderse.
+
+Todo debe poder analizarse.
+
+Todo debe poder convertirse en decisiones mejores.
+
+---
+
+## Próximos módulos recomendados
+
+* Módulo 12 — Sensor Integration Engine
+* Módulo 13 — Actuator Integration Engine
+* Módulo 14 — Alert Engine
+* Módulo 15 — Digital Twin Engine
+* Módulo 16 — AI Learning Engine
+
+Estos módulos ya empiezan a conectar el mundo virtual actual con la futura granja física que quieres construir paso a paso.
+Pedir del módulo 12 al 60 de una sola vez sería crear prácticamente toda la especificación técnica de AcuaNexus. Lo mejor es mantenerlos organizados y coherentes.
+
+# MÓDULO 12 — SENSOR INTEGRATION ENGINE
+
+**Archivo:** `docs/12_SENSOR_INTEGRATION_ENGINE.md`
+
+## Objetivo
+
+Conectar sensores físicos al ecosistema AcuaNexus.
+
+Actualmente:
+
+```text
+Sensores Virtuales
+```
+
+Futuro:
+
+```text
+Sensores Reales
+```
+
+---
+
+## Sensores Iniciales
+
+### Temperatura
+
+```text
+DS18B20
+```
+
+---
+
+### pH
+
+```text
+Sensor pH industrial
+```
+
+---
+
+### Oxígeno
+
+```text
+DO Sensor
+```
+
+---
+
+### Nivel
+
+```text
+Ultrasonido
+Presión
+```
+
+---
+
+## Arquitectura
+
+```text
+Sensor
+ ↓
+Driver
+ ↓
+Sensor Engine
+ ↓
+State Manager
+ ↓
+SCADA
+```
+
+---
+
+## Estados
+
+```js
+{
+  online: true,
+  value: 27.4,
+  timestamp: Date.now()
+}
+```
+
+---
+
+## Fallos
+
+```text
+Sensor desconectado
+Lectura inválida
+Valor imposible
+```
+
+---
+
+## Meta
+
+Que cualquier sensor pueda añadirse sin modificar el SCADA.
+
+---
+
+# MÓDULO 13 — ACTUATOR INTEGRATION ENGINE
+
+**Archivo:** `docs/13_ACTUATOR_INTEGRATION_ENGINE.md`
+
+## Objetivo
+
+Permitir que AcuaNexus controle equipos reales.
+
+---
+
+## Actuadores Iniciales
+
+```text
+Bomba
+Aireador
+Alimentador
+Calentador
+```
+
+---
+
+## Flujo
+
+```text
+Decision Engine
+ ↓
+Automation Engine
+ ↓
+Actuator Engine
+ ↓
+Relé
+ ↓
+Equipo físico
+```
+
+---
+
+## Modos
+
+### Manual
+
+Operador controla.
+
+### Semiautomático
+
+IA recomienda.
+
+### Automático
+
+IA ejecuta.
+
+---
+
+## Seguridad
+
+Nunca permitir:
+
+```text
+Encender y apagar continuamente
+```
+
+Debe existir:
+
+```text
+Tiempo mínimo operativo
+```
+
+---
+
+# MÓDULO 14 — ALERT ENGINE
+
+**Archivo:** `docs/14_ALERT_ENGINE.md`
+
+## Objetivo
+
+Detectar problemas antes de que causen pérdidas.
+
+---
+
+## Tipos
+
+### Agua
+
+```text
+Oxígeno bajo
+pH alto
+pH bajo
+Amonio alto
+Nitrito alto
+```
+
+---
+
+### Producción
+
+```text
+Mortalidad elevada
+Estrés elevado
+```
+
+---
+
+### Equipos
+
+```text
+Bomba falló
+Aireador desconectado
+```
+
+---
+
+## Niveles
+
+```text
+INFO
+WARNING
+CRITICAL
+EMERGENCY
+```
+
+---
+
+## Escalado
+
+```text
+Alerta
+↓
+Acción automática
+↓
+Notificación operador
+↓
+Emergencia
+```
+
+---
+
+# MÓDULO 15 — DIGITAL TWIN ENGINE
+
+**Archivo:** `docs/15_DIGITAL_TWIN_ENGINE.md`
+
+## Objetivo
+
+Crear una copia digital completa de la granja.
+
+---
+
+## Concepto
+
+```text
+Piscina Real
+↓
+Gemelo Digital
+↓
+Predicción
+```
+
+---
+
+## Componentes
+
+### Agua
+
+Modelo químico.
+
+### Peces
+
+Modelo biológico.
+
+### Economía
+
+Modelo financiero.
+
+---
+
+## Beneficios
+
+Antes de hacer:
+
+```text
+Cambiar alimentación
+```
+
+se puede simular:
+
+```text
+Resultado esperado
+```
+
+---
+
+## Aplicación Inicial
+
+Incluso sin sensores reales.
+
+El gemelo digital funcionará:
+
+```text
+100% virtual
+```
+
+para desarrollar el sistema.
+
+---
+
+# MÓDULO 16 — AI LEARNING ENGINE
+
+**Archivo:** `docs/16_AI_LEARNING_ENGINE.md`
+
+## Objetivo
+
+Permitir que AcuaNexus aprenda con el tiempo.
+
+---
+
+## Entradas
+
+```text
+Historial agua
+Historial peces
+Historial economía
+Alertas
+```
+
+---
+
+## Aprendizajes
+
+### Producción
+
+```text
+Qué alimentación funciona mejor
+```
+
+---
+
+### Agua
+
+```text
+Qué acciones estabilizan más rápido
+```
+
+---
+
+### Economía
+
+```text
+Qué decisiones generan más beneficio
+```
+
+---
+
+## Fase 1
+
+Reglas.
+
+```text
+IF
+THEN
+```
+
+---
+
+## Fase 2
+
+Modelos predictivos.
+
+---
+
+## Fase 3
+
+Optimización automática.
+
+---
+
+# SALTO HASTA EL MÓDULO 60
+
+No tiene sentido escribir 44 módulos completos sin antes definir la estructura maestra.
+
+La siguiente organización sería:
+
+### Nivel Núcleo
+
+17. Communication Engine
+18. API Engine
+19. Authentication Engine
+20. User Management Engine
+
+### Nivel Producción
+
+21. Feed Engine
+22. Harvest Engine
+23. Breeding Engine
+24. Hatchery Engine
+25. Nursery Engine
+
+### Nivel Infraestructura
+
+26. Power Management Engine
+27. Water Distribution Engine
+28. Backup Engine
+29. Maintenance Engine
+30. Diagnostics Engine
+
+### Nivel IA
+
+31. Prediction Engine
+32. Optimization Engine
+33. Forecast Engine
+34. Recommendation Engine
+35. Knowledge Engine
+
+### Nivel Empresarial
+
+36. Inventory Engine
+37. Supplier Engine
+38. Sales Engine
+39. CRM Engine
+40. Financial Engine
+
+### Nivel Investigación
+
+41. Experiment Engine
+42. Genetics Engine
+43. Laboratory Engine
+44. Research Engine
+45. Biosecurity Engine
+
+### Nivel Industrial
+
+46. MultiFarm Engine
+47. Cluster Engine
+48. Edge Computing Engine
+49. Cloud Engine
+50. Fleet Engine
+
+### Nivel Futuro
+
+51. Vision AI Engine
+52. Robotics Engine
+53. Autonomous Feeding Engine
+54. Autonomous Water Engine
+55. Autonomous Farm Engine
+
+### Nivel AcuaNexus Ultimate
+
+56. Ecosystem Engine
+57. Sustainability Engine
+58. Circular Economy Engine
+59. Global Intelligence Engine
+60. AcuaNexus Core Intelligence
+
+---
+
+Con los módulos 1–16 ya tienes definido aproximadamente el 80% de lo que realmente necesitas para empezar en una sola PC Ryzen, sin sensores, sin servidores y sin hardware industrial. Lo siguiente ya es expansión sobre esa base.
+# MÓDULO 17 — COMMUNICATION ENGINE
+
+**Archivo:** `docs/17_COMMUNICATION_ENGINE.md`
+
+---
+
+# Objetivo
+
+Permitir que todos los módulos de AcuaNexus intercambien información de forma segura.
+
+Actualmente:
+
+```text
+Water Engine
+↓
+State Manager
+```
+
+Futuro:
+
+```text
+Todos los módulos
+↓
+Communication Engine
+↓
+Todos los módulos
+```
+
+---
+
+# Protocolos
+
+## Fase 1
+
+```text
+EventBus
+Socket.IO
+```
+
+---
+
+## Fase 2
+
+```text
+MQTT
+```
+
+---
+
+## Fase 3
+
+```text
+MQTT
++
+REST API
++
+WebSocket
+```
+
+---
+
+# Eventos
+
+Ejemplo:
+
+```js
+{
+  event: "oxygen.low",
+  value: 3.8,
+  timestamp: 123456789
+}
+```
+
+---
+
+# Meta
+
+Eliminar dependencias directas entre módulos.
+
+---
+
+# MÓDULO 18 — API ENGINE
+
+**Archivo:** `docs/18_API_ENGINE.md`
+
+---
+
+# Objetivo
+
+Exponer AcuaNexus al exterior.
+
+---
+
+## Funciones
+
+### Obtener Estado
+
+```http
+GET /api/state
+```
+
+---
+
+### Obtener Agua
+
+```http
+GET /api/water
+```
+
+---
+
+### Obtener Peces
+
+```http
+GET /api/fish
+```
+
+---
+
+### Obtener Economía
+
+```http
+GET /api/economics
+```
+
+---
+
+### Ejecutar Acción
+
+```http
+POST /api/actuator
+```
+
+---
+
+# Meta
+
+Que una aplicación móvil pueda controlar AcuaNexus.
+
+---
+
+# MÓDULO 19 — AUTHENTICATION ENGINE
+
+**Archivo:** `docs/19_AUTHENTICATION_ENGINE.md`
+
+---
+
+# Objetivo
+
+Proteger el sistema.
+
+---
+
+## Roles
+
+```text
+Administrador
+Operador
+Invitado
+```
+
+---
+
+## Administrador
+
+Puede:
+
+```text
+Modificar todo
+```
+
+---
+
+## Operador
+
+Puede:
+
+```text
+Monitorear
+Controlar
+```
+
+---
+
+## Invitado
+
+Puede:
+
+```text
+Solo visualizar
+```
+
+---
+
+# Meta
+
+Evitar cambios accidentales.
+
+---
+
+# MÓDULO 20 — USER MANAGEMENT ENGINE
+
+---
+
+# Objetivo
+
+Gestionar personas dentro del sistema.
+
+---
+
+## Usuario
+
+```js
+{
+  id,
+  name,
+  role,
+  createdAt
+}
+```
+
+---
+
+## Funciones
+
+```text
+Crear usuario
+Editar usuario
+Eliminar usuario
+Bloquear usuario
+```
+
+---
+
+# MÓDULO 21 — FEED ENGINE
+
+---
+
+# Objetivo
+
+Controlar alimentación.
+
+---
+
+## Datos
+
+```text
+Cantidad
+Frecuencia
+Tipo de alimento
+Costo
+```
+
+---
+
+## Cálculos
+
+```text
+Biomasa
+↓
+FCR
+↓
+Ración
+```
+
+---
+
+## Futuro
+
+Control de alimentadores automáticos.
+
+---
+
+# MÓDULO 22 — HARVEST ENGINE
+
+---
+
+# Objetivo
+
+Gestionar cosechas.
+
+---
+
+## Variables
+
+```text
+Peso promedio
+Biomasa
+Precio mercado
+```
+
+---
+
+## Resultado
+
+```text
+Fecha óptima de cosecha
+```
+
+---
+
+# MÓDULO 23 — BREEDING ENGINE
+
+---
+
+# Objetivo
+
+Gestionar reproducción.
+
+---
+
+## Variables
+
+```text
+Machos
+Hembras
+Fertilidad
+```
+
+---
+
+## Resultado
+
+```text
+Producción de alevines
+```
+
+---
+
+# MÓDULO 24 — HATCHERY ENGINE
+
+---
+
+# Objetivo
+
+Controlar incubación.
+
+---
+
+## Monitoreo
+
+```text
+Temperatura
+Oxígeno
+Mortalidad embrionaria
+```
+
+---
+
+# MÓDULO 25 — NURSERY ENGINE
+
+---
+
+# Objetivo
+
+Gestionar precría.
+
+---
+
+## Seguimiento
+
+```text
+Peso
+Crecimiento
+Supervivencia
+```
+
+---
+
+# MÓDULO 26 — POWER MANAGEMENT ENGINE
+
+---
+
+# Objetivo
+
+Gestionar energía.
+
+---
+
+## Monitorear
+
+```text
+Consumo
+Voltaje
+Corriente
+```
+
+---
+
+## Futuro
+
+```text
+Paneles solares
+Baterías
+Generadores
+```
+
+---
+
+# MÓDULO 27 — WATER DISTRIBUTION ENGINE
+
+---
+
+# Objetivo
+
+Controlar movimiento de agua.
+
+---
+
+## Componentes
+
+```text
+Bombas
+Válvulas
+Filtros
+```
+
+---
+
+## Funciones
+
+```text
+Llenado
+Recirculación
+Drenaje
+```
+
+---
+
+# MÓDULO 28 — BACKUP ENGINE
+
+---
+
+# Objetivo
+
+Evitar pérdida de datos.
+
+---
+
+## Respaldo
+
+```text
+JSON
+SQLite
+Configuración
+```
+
+---
+
+## Frecuencia
+
+```text
+Diaria
+Semanal
+Mensual
+```
+
+---
+
+# MÓDULO 29 — MAINTENANCE ENGINE
+
+---
+
+# Objetivo
+
+Programar mantenimiento.
+
+---
+
+## Equipos
+
+```text
+Bombas
+Aireadores
+Sensores
+```
+
+---
+
+## Alertas
+
+```text
+Cambio de filtro
+Limpieza
+Calibración
+```
+
+---
+
+# MÓDULO 30 — DIAGNOSTICS ENGINE
+
+---
+
+# Objetivo
+
+Detectar problemas internos.
+
+---
+
+## Revisar
+
+```text
+Motores
+Memoria
+CPU
+Sensores
+Conexiones
+```
+
+---
+
+## Estado
+
+```text
+OK
+WARNING
+CRITICAL
+```
+
+---
+
+# VISIÓN HASTA EL MÓDULO 60
+
+Aquí empieza a verse algo importante.
+
+Tu proyecto ya no parece un "simulador de peces".
+
+Empieza a verse como un:
+
+```text
+Sistema Operativo Acuícola
+```
+
+Porque ya existen:
+
+* Biología
+* Química
+* Automatización
+* Economía
+* IA
+* SCADA
+* Historial
+* Comunicación
+* Usuarios
+* Seguridad
+* Producción
+
+Si seguimos hasta el módulo 60, los siguientes bloques grandes serán:
+
+```text
+31-35   Inteligencia Artificial
+36-40   Gestión Empresarial
+41-45   Investigación
+46-50   Multi-granja
+51-55   Robótica y visión artificial
+56-60   AcuaNexus Ultimate
+```
+
+Y algo interesante: viendo la auditoría que hizo Codex, el proyecto actual `acuanex` ya tiene partes equivalentes a los módulos 4, 5, 6, 7, 9, 10 y 11 funcionando parcialmente. Eso significa que no estamos inventando desde cero; estamos documentando una arquitectura que luego puede usarse para ordenar y fusionar lo que ya existe en tu carpeta actual.
+# MÓDULO 31 — PREDICTION ENGINE
+
+**Archivo:** `docs/31_PREDICTION_ENGINE.md`
+
+---
+
+# Objetivo
+
+Predecir eventos futuros antes de que ocurran.
+
+La diferencia entre monitoreo y predicción es:
+
+```text
+Monitoreo:
+¿Qué está pasando?
+
+Predicción:
+¿Qué va a pasar?
+```
+
+---
+
+# Filosofía
+
+Un operador humano normalmente reacciona.
+
+AcuaNexus debe anticiparse.
+
+---
+
+# Entradas
+
+## Agua
+
+```js
+{
+  temperature,
+  ph,
+  dissolvedOxygen,
+  ammonia,
+  nitrite,
+  nitrate
+}
+```
+
+---
+
+## Peces
+
+```js
+{
+  population,
+  biomass,
+  mortality,
+  stress
+}
+```
+
+---
+
+## Economía
+
+```js
+{
+  costs,
+  revenue,
+  profit
+}
+```
+
+---
+
+## Historial
+
+```text
+Última hora
+Último día
+Última semana
+Último mes
+```
+
+---
+
+# Predicciones Iniciales
+
+## Oxígeno
+
+Detectar tendencia.
+
+Ejemplo:
+
+```text
+8.0
+7.5
+7.0
+6.4
+5.8
+```
+
+Predicción:
+
+```text
+En 2 horas:
+4.2 mg/L
+```
+
+---
+
+## Amonio
+
+```text
+0.01
+0.02
+0.03
+0.04
+```
+
+Predicción:
+
+```text
+Superará el límite en 4 horas
+```
+
+---
+
+## Biomasa
+
+Predicción de crecimiento.
+
+```text
+Hoy:
+520 kg
+
+Próxima semana:
+545 kg
+```
+
+---
+
+## Cosecha
+
+```text
+Peso actual:
+410 g
+
+Peso objetivo:
+700 g
+```
+
+Resultado:
+
+```text
+Fecha estimada:
+15 septiembre
+```
+
+---
+
+# Niveles de Predicción
+
+## Nivel 1
+
+Reglas matemáticas.
+
+```text
+Tendencias lineales
+```
+
+---
+
+## Nivel 2
+
+Modelos estadísticos.
+
+```text
+Regresión
+Series temporales
+```
+
+---
+
+## Nivel 3
+
+Machine Learning.
+
+```text
+Random Forest
+XGBoost
+LSTM
+```
+
+---
+
+# Integración
+
+```text
+Data Logger
+↓
+Prediction Engine
+↓
+Decision Engine
+↓
+Automation Engine
+```
+
+---
+
+# Ejemplo
+
+Situación actual:
+
+```text
+Oxígeno:
+5.4 mg/L
+```
+
+---
+
+Sistema tradicional:
+
+```text
+Espera
+```
+
+---
+
+AcuaNexus:
+
+```text
+Predice:
+4.0 mg/L en 30 minutos
+```
+
+---
+
+Acción:
+
+```text
+Encender aireador antes
+```
+
+---
+
+# Predicciones Económicas
+
+## Costos
+
+```text
+Consumo alimento
+↓
+Costo proyectado
+```
+
+---
+
+## Producción
+
+```text
+Biomasa futura
+↓
+Ingresos futuros
+```
+
+---
+
+## Beneficio
+
+```text
+Ganancia estimada
+```
+
+---
+
+# Riesgos
+
+## Mortalidad
+
+Predicción:
+
+```text
+Probabilidad de mortalidad
+```
+
+---
+
+## Enfermedad
+
+Predicción:
+
+```text
+Riesgo sanitario
+```
+
+---
+
+## Calidad Agua
+
+Predicción:
+
+```text
+Riesgo químico
+```
+
+---
+
+# Integración con IA
+
+La IA utilizará:
+
+```text
+Estado actual
++
+Historial
++
+Predicción
+```
+
+---
+
+# Ejemplo de Recomendación
+
+En vez de:
+
+```text
+Oxígeno bajo
+```
+
+dirá:
+
+```text
+Oxígeno caerá por debajo
+del límite en 40 minutos.
+
+Recomendación:
+Activar aireación.
+```
+
+---
+
+# Métricas
+
+## Precisión
+
+```text
+Predicción vs realidad
+```
+
+---
+
+## Error
+
+```text
+MAE
+RMSE
+```
+
+---
+
+## Confianza
+
+```text
+0–100%
+```
+
+---
+
+# Estado Inicial
+
+Durante la etapa actual:
+
+```text
+PC Ryzen
++
+Simulación
++
+Datos virtuales
+```
+
+el Prediction Engine aprenderá usando el Digital Twin.
+
+---
+
+# Beneficio
+
+Cuando lleguen los sensores reales:
+
+```text
+No comenzará desde cero.
+```
+
+Ya tendrá:
+
+* modelos
+* historial
+* validaciones
+* lógica de decisión
+
+---
+
+# Meta Final
+
+Que AcuaNexus deje de reaccionar.
+
+Y empiece a anticiparse.
+
+```text
+Ver el futuro probable
+antes de que ocurra.
+```
+
+---
+
+## Próximo
+
+**Módulo 32 — Optimization Engine**
+
+El cerebro encargado de encontrar automáticamente la mejor estrategia posible para agua, alimentación, crecimiento y ganancias.
+# MÓDULO 18 — GeneticEngine
+
+```text
+src/genetics/GeneticEngine.js
+```
+
+## Propósito
+
+Gestionar la evolución genética de los organismos cultivados.
+
+Inicialmente no trabajará con ADN real.
+
+Trabajará con:
+
+* líneas genéticas
+* familias
+* rendimiento
+* resistencia
+* crecimiento
+* conversión alimenticia
+
+permitiendo simular programas de mejoramiento genético.
+
+---
+
+## Problema que resuelve
+
+En una granja real:
+
+Dos tilapias pueden tener:
+
+* misma edad
+* mismo alimento
+* misma agua
+
+y aun así crecer diferente.
+
+La genética importa.
+
+AcuaNexus debe poder modelarlo.
+
+---
+
+## Variables genéticas
+
+```js
+genetics = {
+    line: "Tilapia GIFT",
+    generation: 1,
+
+    growthFactor: 1.15,
+
+    diseaseResistance: 1.10,
+
+    feedEfficiency: 1.08,
+
+    stressTolerance: 1.12,
+
+    reproductionRate: 1.05
+}
+```
+
+---
+
+## Growth Factor
+
+Multiplica crecimiento.
+
+Ejemplo:
+
+```text
+Normal:
+3 g/día
+
+GrowthFactor 1.20:
+3.6 g/día
+```
+
+---
+
+## Feed Efficiency
+
+Afecta FCR.
+
+Ejemplo:
+
+```text
+FCR Base:
+1.5
+
+Genética mejorada:
+1.3
+```
+
+Menos alimento.
+
+Más ganancia.
+
+---
+
+## Disease Resistance
+
+Reduce mortalidad.
+
+```text
+Patógeno presente
+
+Línea normal:
+4% mortalidad
+
+Línea resistente:
+1%
+```
+
+---
+
+## Stress Tolerance
+
+Reduce impacto de:
+
+```text
+Temperatura
+pH
+Oxígeno
+Manejo
+Ruido
+```
+
+---
+
+## Reproduction Rate
+
+Importante para:
+
+```text
+reproductores
+larvas
+alevines
+```
+
+---
+
+# Familias
+
+```js
+family = {
+   id:"FAM001",
+
+   father:"M12",
+   mother:"H07",
+
+   offspring:500
+}
+```
+
+---
+
+## Selección genética
+
+El motor puede elegir:
+
+```text
+Mejor crecimiento
+
+Menor mortalidad
+
+Menor FCR
+
+Mayor resistencia
+```
+
+---
+
+## Ranking genético
+
+```js
+[
+ {
+   family:"FAM001",
+   score:92
+ },
+ {
+   family:"FAM003",
+   score:88
+ }
+]
+```
+
+---
+
+## Simulación de generaciones
+
+```text
+G1
+↓
+G2
+↓
+G3
+↓
+G4
+```
+
+Cada generación:
+
+```text
++ crecimiento
++ resistencia
+- variabilidad
+```
+
+---
+
+## Riesgo de endogamia
+
+El motor calcula:
+
+```js
+inbreedingCoefficient
+```
+
+Si aumenta demasiado:
+
+```text
+↓ fertilidad
+
+↓ crecimiento
+
+↑ deformidades
+```
+
+---
+
+## Integración con FishEngine
+
+FishEngine consulta:
+
+```js
+geneticGrowthBonus
+```
+
+antes de calcular biomasa.
+
+```text
+Biomasa final
+=
+biomasa base
+× factor genético
+```
+
+---
+
+## Integración con EconomicsEngine
+
+La genética impacta:
+
+```text
+alimento
+
+mortalidad
+
+ventas
+
+producción
+```
+
+Por tanto:
+
+```text
+rentabilidad
+```
+
+---
+
+## Caso futuro
+
+Cuando exista infraestructura real:
+
+```text
+PCR
+Marcadores genéticos
+Secuenciación
+Laboratorio
+```
+
+AcuaNexus podrá importar:
+
+```csv
+ID,FCR,GROWTH,RESISTANCE
+```
+
+y utilizar datos reales.
+
+---
+
+# Objetivo final
+
+Crear una plataforma donde el productor pueda responder:
+
+```text
+¿Qué línea genética produce más?
+
+¿Cuál genera más ganancias?
+
+¿Cuál soporta mejor mi clima?
+
+¿Cuál tiene menor mortalidad?
+```
+
+sin realizar años de pruebas físicas.
+
+---
+
+# Estado
+
+```text
+Prioridad:
+MEDIA
+
+Versión:
+Fase 2
+
+Dependencias:
+FishEngine
+EconomicsEngine
+DataLogger
+```
+
+---
+
+# MÓDULO 19 — BiosecurityEngine
+
+```text
+src/biosecurity/BiosecurityEngine.js
+```
+
+## Propósito
+
+Simular y gestionar la bioseguridad de la granja.
+
+Este módulo será uno de los más importantes porque una enfermedad puede destruir meses de trabajo en pocos días.
+
+---
+
+## Variables monitoreadas
+
+```js
+biosecurity = {
+   riskLevel: 0,
+
+   visitorsToday: 0,
+
+   disinfectedVehicles: 0,
+
+   quarantineActive: false,
+
+   pathogenPressure: 0
+}
+```
+
+---
+
+## Fuentes de riesgo
+
+### Personal
+
+```text
+Trabajadores
+Técnicos
+Visitantes
+```
+
+### Equipos
+
+```text
+Redes
+Baldes
+Bombas
+Mangueras
+```
+
+### Agua
+
+```text
+Entrada de agua
+Canales
+Reservorios
+```
+
+### Organismos externos
+
+```text
+Aves
+Ranas
+Peces silvestres
+Roedores
+```
+
+---
+
+## Índice de Bioseguridad
+
+Escala:
+
+```text
+0-20 Excelente
+
+21-40 Buena
+
+41-60 Moderada
+
+61-80 Riesgosa
+
+81-100 Crítica
+```
+
+---
+
+## Eventos simulados
+
+```js
+PATHOGEN_INTRODUCED
+
+QUARANTINE_ACTIVATED
+
+DISINFECTION_COMPLETED
+
+VISITOR_ENTERED
+
+MORTALITY_SPIKE
+```
+
+---
+
+## Cuarentena
+
+Cuando el riesgo supera un umbral:
+
+```text
+se bloquean movimientos
+
+se restringen ingresos
+
+se activan protocolos
+```
+
+---
+
+## Integración con DiseaseEngine
+
+BiosecurityEngine modifica:
+
+```text
+probabilidad de brote
+```
+
+Ejemplo:
+
+```text
+Bioseguridad alta:
+5%
+
+Bioseguridad baja:
+60%
+```
+
+---
+
+## Integración con AlertEngine
+
+Alertas:
+
+```text
+Riesgo elevado
+
+Ingreso no autorizado
+
+Protocolo vencido
+
+Desinfección pendiente
+```
+
+---
+
+## Protocolos
+
+Cada protocolo tiene:
+
+```js
+protocol = {
+   name:"Desinfección de ingreso",
+
+   intervalHours:24,
+
+   completed:true
+}
+```
+
+---
+
+## Dashboard
+
+Panel futuro:
+
+```text
+BIOSEGURIDAD
+
+Riesgo General
+
+Protocolos
+
+Cuarentena
+
+Visitantes
+
+Historial
+```
+
+---
+
+## Objetivo final
+
+Convertir AcuaNexus en una herramienta capaz de prevenir pérdidas antes de que aparezcan los síntomas visibles.
+
+---
+
+# Estado
+
+```text
+Prioridad:
+ALTA
+
+Versión:
+Fase 2
+
+Dependencias:
+DiseaseEngine
+AlertEngine
+EventBus
+DataLogger
+```
+
+Con estos dos módulos ya empiezan a aparecer capacidades de nivel empresarial: mejora genética y prevención sanitaria. Los siguientes módulos naturales serían **20 DiseaseEngine**, **21 HatcheryEngine**, **22 BreedingEngine** y **23 FeedMillEngine**, que completan gran parte del ciclo biológico de producción.
+# MÓDULO 20 — DiseaseEngine
+
+```text
+src/health/DiseaseEngine.js
+```
+
+## Propósito
+
+Simular enfermedades, infecciones, propagación de patógenos y respuesta sanitaria.
+
+Este módulo será el responsable de responder:
+
+```text
+¿Por qué aumentó la mortalidad?
+
+¿Existe un brote?
+
+¿Cuál es el riesgo actual?
+
+¿Qué tratamiento debería aplicarse?
+```
+
+---
+
+# Concepto Principal
+
+Una enfermedad no aparece de la nada.
+
+Normalmente surge por una combinación de:
+
+```text
+Estrés
+Mala calidad de agua
+Alta densidad
+Bioseguridad deficiente
+Patógenos presentes
+```
+
+DiseaseEngine unirá toda esa información.
+
+---
+
+# Variables
+
+```js
+disease = {
+    outbreakActive: false,
+
+    pathogen: null,
+
+    infectedPopulation: 0,
+
+    mortalityRate: 0,
+
+    spreadRate: 0,
+
+    treatmentActive: false
+}
+```
+
+---
+
+# Patógenos Iniciales
+
+## Bacterias
+
+```text
+Aeromonas
+
+Streptococcus
+
+Flavobacterium
+```
+
+---
+
+## Parásitos
+
+```text
+Ich
+
+Trichodina
+
+Monogeneos
+```
+
+---
+
+## Hongos
+
+```text
+Saprolegnia
+```
+
+---
+
+## Virus
+
+```text
+Tilapia Lake Virus
+```
+
+---
+
+# Modelo de infección
+
+La probabilidad de infección depende de:
+
+```js
+infectionProbability =
+pathogenPressure
+*
+stressLevel
+*
+densityFactor
+*
+waterQualityFactor
+```
+
+---
+
+# Ejemplo
+
+```text
+Estrés:
+80%
+
+Patógeno:
+50%
+
+Densidad:
+70%
+
+Resultado:
+
+Alto riesgo de brote
+```
+
+---
+
+# Fases de enfermedad
+
+## Fase 1
+
+Exposición
+
+```text
+Sin síntomas
+```
+
+---
+
+## Fase 2
+
+Incubación
+
+```text
+Patógeno creciendo
+```
+
+---
+
+## Fase 3
+
+Brote
+
+```text
+Síntomas visibles
+```
+
+---
+
+## Fase 4
+
+Recuperación
+
+```text
+Disminuye mortalidad
+```
+
+---
+
+# Síntomas
+
+```js
+symptoms = [
+ "letargo",
+ "pérdida de apetito",
+ "nado errático",
+ "lesiones",
+ "mortalidad elevada"
+]
+```
+
+---
+
+# Mortalidad
+
+DiseaseEngine calcula:
+
+```js
+dailyMortality
+```
+
+y envía el valor a:
+
+```text
+FishEngine
+```
+
+---
+
+# Integración
+
+## FishEngine
+
+```text
+reduce biomasa
+reduce población
+```
+
+---
+
+## FeedingEngine
+
+```text
+reduce consumo
+```
+
+---
+
+## EconomicsEngine
+
+```text
+incrementa pérdidas
+```
+
+---
+
+## AlertEngine
+
+```text
+Brote detectado
+
+Riesgo alto
+
+Mortalidad elevada
+```
+
+---
+
+# Tratamientos
+
+```js
+treatment = {
+   name:"Oxitetraciclina",
+
+   effectiveness:0.75,
+
+   durationDays:10
+}
+```
+
+---
+
+# Simulación futura
+
+Permitirá:
+
+```text
+Evaluar tratamientos
+
+Comparar protocolos
+
+Entrenar personal
+```
+
+---
+
+# Objetivo final
+
+Crear un laboratorio epidemiológico digital.
+
+---
+
+# Estado
+
+```text
+Prioridad:
+MUY ALTA
+
+Versión:
+Fase 2
+```
+
+---
+
+# MÓDULO 21 — HatcheryEngine
+
+```text
+src/hatchery/HatcheryEngine.js
+```
+
+## Propósito
+
+Gestionar incubación, larvicultura y producción de alevines.
+
+---
+
+# Ciclo
+
+```text
+Huevos
+↓
+Larvas
+↓
+Alevines
+↓
+Juveniles
+```
+
+---
+
+# Variables
+
+```js
+hatchery = {
+   eggs:0,
+
+   fertilizedEggs:0,
+
+   larvae:0,
+
+   fry:0,
+
+   juveniles:0
+}
+```
+
+---
+
+# Fertilización
+
+```js
+fertilizationRate
+```
+
+Ejemplo:
+
+```text
+10.000 huevos
+
+90% fertilización
+
+9.000 viables
+```
+
+---
+
+# Eclosión
+
+```js
+hatchingRate
+```
+
+Ejemplo:
+
+```text
+9.000 huevos
+
+85% eclosión
+
+7.650 larvas
+```
+
+---
+
+# Supervivencia larval
+
+Muy sensible a:
+
+```text
+Temperatura
+
+Oxígeno
+
+Manejo
+
+Nutrición
+```
+
+---
+
+# Producción de alevines
+
+```js
+fryProducedPerCycle
+```
+
+---
+
+# Integración
+
+## BreedingEngine
+
+Entrega huevos.
+
+## FishEngine
+
+Recibe juveniles.
+
+---
+
+# Beneficio
+
+Permite producir semilla propia.
+
+---
+
+# Estado
+
+```text
+Prioridad:
+ALTA
+```
+
+---
+
+# MÓDULO 22 — BreedingEngine
+
+```text
+src/breeding/BreedingEngine.js
+```
+
+## Propósito
+
+Gestionar reproductores y ciclos reproductivos.
+
+---
+
+# Variables
+
+```js
+breeding = {
+   males:0,
+
+   females:0,
+
+   breeders:0,
+
+   spawningRate:0,
+
+   eggsProduced:0
+}
+```
+
+---
+
+# Selección de reproductores
+
+Factores:
+
+```text
+Peso
+
+Edad
+
+Genética
+
+Salud
+```
+
+---
+
+# Producción de huevos
+
+```js
+eggsPerFemale
+```
+
+---
+
+# Frecuencia
+
+```js
+spawnIntervalDays
+```
+
+---
+
+# Integración
+
+## GeneticEngine
+
+Selecciona líneas.
+
+## HatcheryEngine
+
+Recibe huevos.
+
+---
+
+# Dashboard
+
+```text
+REPRODUCTORES
+
+Machos
+
+Hembras
+
+Huevos
+
+Próximo desove
+```
+
+---
+
+# Objetivo
+
+Construir ciclos reproductivos completos.
+
+---
+
+# Estado
+
+```text
+Prioridad:
+ALTA
+```
+
+---
+
+# MÓDULO 23 — FeedMillEngine
+
+```text
+src/feedmill/FeedMillEngine.js
+```
+
+## Propósito
+
+Simular producción propia de alimento balanceado.
+
+---
+
+# Problema
+
+En muchas granjas:
+
+```text
+60-75%
+de los costos
+
+provienen del alimento
+```
+
+---
+
+# Variables
+
+```js
+feedMill = {
+   rawMaterials: {},
+
+   formulas: [],
+
+   productionKg:0,
+
+   costPerKg:0
+}
+```
+
+---
+
+# Materias primas
+
+```text
+Harina de pescado
+
+Soya
+
+Maíz
+
+Aceite
+
+Vitaminas
+
+Minerales
+```
+
+---
+
+# Fórmulas
+
+```js
+formula = {
+   protein:32,
+
+   fat:6,
+
+   fiber:4
+}
+```
+
+---
+
+# Producción
+
+```js
+feedProducedToday
+```
+
+---
+
+# Costo
+
+```js
+feedCostPerKg
+```
+
+---
+
+# Integración
+
+## FeedingEngine
+
+Consume alimento.
+
+## EconomicsEngine
+
+Calcula costos.
+
+---
+
+# Simulación
+
+Permite probar:
+
+```text
+¿Qué pasa si sustituyo harina de pescado?
+
+¿Qué fórmula genera mejor FCR?
+
+¿Qué alimento es más rentable?
+```
+
+---
+
+# Objetivo final
+
+Optimizar alimentación antes de fabricar un solo kilogramo real.
+
+---
+
+# Estado
+
+```text
+Prioridad:
+MEDIA-ALTA
+```
+
+---
+
+## Resumen de avance
+
+Ya tenemos definidos:
+
+```text
+01 Vision
+02 Architecture
+03 Roadmap
+04 StateManager
+05 WaterEngine
+06 FishEngine
+07 EconomicsEngine
+08 AdvisorEngine
+09 EventBus
+10 TimeManager
+11 DataLogger
+12 AutomationEngine
+13 AlertEngine
+14 SCADAEngine
+15 SensorEngine
+16 ActuatorEngine
+17 EnergyEngine
+18 GeneticEngine
+19 BiosecurityEngine
+20 DiseaseEngine
+21 HatcheryEngine
+22 BreedingEngine
+23 FeedMillEngine
+```
+
+A partir de aquí comienza la capa de expansión industrial: logística, inventario, mantenimiento, trazabilidad, mercado, clima e inteligencia predictiva.
+# MÓDULO 24 — InventoryEngine
+
+```text
+src/inventory/InventoryEngine.js
+```
+
+## Propósito
+
+Administrar todos los recursos físicos de la granja.
+
+Sin inventario no existe control operativo.
+
+Este módulo responde:
+
+```text
+¿Cuánto alimento queda?
+
+¿Cuántos químicos quedan?
+
+¿Cuántos repuestos existen?
+
+¿Cuándo debo comprar?
+```
+
+---
+
+# Categorías
+
+```js
+inventory = {
+   feed: {},
+   chemicals: {},
+   equipment: {},
+   spareParts: {},
+   consumables: {}
+}
+```
+
+---
+
+# Alimento
+
+```js
+feedStock = {
+   starter: 500,
+   grower: 1200,
+   finisher: 900
+}
+```
+
+Unidad:
+
+```text
+kg
+```
+
+---
+
+# Químicos
+
+```js
+chemicals = {
+   salt: 100,
+   lime: 80,
+   probiotics: 25
+}
+```
+
+---
+
+# Equipos
+
+```js
+equipment = {
+   aerators: 4,
+   pumps: 2,
+   generators: 1
+}
+```
+
+---
+
+# Consumo automático
+
+Cuando FeedingEngine distribuye alimento:
+
+```text
+Inventario ↓
+```
+
+---
+
+# Alertas
+
+```text
+Stock bajo
+
+Stock crítico
+
+Producto agotado
+```
+
+---
+
+# Integración
+
+```text
+FeedingEngine
+
+MaintenanceEngine
+
+EconomicsEngine
+
+AlertEngine
+```
+
+---
+
+# Objetivo
+
+Evitar quedarse sin recursos críticos.
+
+---
+
+# Estado
+
+```text
+Prioridad:
+MUY ALTA
+```
+
+---
+
+# MÓDULO 25 — MaintenanceEngine
+
+```text
+src/maintenance/MaintenanceEngine.js
+```
+
+## Propósito
+
+Gestionar mantenimiento preventivo y correctivo.
+
+---
+
+# Problema
+
+La mayoría de fallas graves ocurren porque:
+
+```text
+No hubo mantenimiento.
+```
+
+---
+
+# Equipos monitoreados
+
+```text
+Bombas
+
+Aireadores
+
+Generadores
+
+Sensores
+
+Filtros
+
+Motores
+```
+
+---
+
+# Variables
+
+```js
+maintenance = {
+   equipment: [],
+
+   pendingTasks: [],
+
+   completedTasks: []
+}
+```
+
+---
+
+# Horas de uso
+
+```js
+equipment.runtimeHours
+```
+
+---
+
+# Ejemplo
+
+```text
+Aireador
+
+500 horas
+↓
+
+requiere mantenimiento
+```
+
+---
+
+# Tipos
+
+## Preventivo
+
+```text
+Programado
+```
+
+## Correctivo
+
+```text
+Después de falla
+```
+
+---
+
+# Alertas
+
+```text
+Mantenimiento próximo
+
+Mantenimiento vencido
+
+Equipo crítico
+```
+
+---
+
+# Integración
+
+```text
+ActuatorEngine
+
+EnergyEngine
+
+InventoryEngine
+```
+
+---
+
+# Beneficio
+
+Reduce fallas inesperadas.
+
+---
+
+# Estado
+
+```text
+Prioridad:
+MUY ALTA
+```
+
+---
+
+# MÓDULO 26 — TraceabilityEngine
+
+```text
+src/traceability/TraceabilityEngine.js
+```
+
+## Propósito
+
+Registrar el historial completo de cada lote.
+
+---
+
+# Concepto
+
+Poder responder:
+
+```text
+¿De dónde vino este pez?
+
+¿Qué alimento consumió?
+
+¿Qué tratamientos recibió?
+
+¿Cuándo fue cosechado?
+```
+
+---
+
+# Estructura
+
+```js
+batch = {
+   id:"LOT2026-001",
+
+   origin:"Hatchery A",
+
+   species:"Tilapia",
+
+   startDate:"2026-06-05",
+
+   history:[]
+}
+```
+
+---
+
+# Eventos registrados
+
+```text
+Alimentación
+
+Tratamientos
+
+Mortalidad
+
+Transferencias
+
+Cosecha
+```
+
+---
+
+# Integración
+
+```text
+FishEngine
+
+DiseaseEngine
+
+HarvestEngine
+```
+
+---
+
+# Futuro
+
+```text
+QR
+
+RFID
+
+Blockchain
+```
+
+---
+
+# Estado
+
+```text
+Prioridad:
+ALTA
+```
+
+---
+
+# MÓDULO 27 — WeatherEngine
+
+```text
+src/weather/WeatherEngine.js
+```
+
+## Propósito
+
+Simular e integrar condiciones climáticas.
+
+---
+
+# Variables
+
+```js
+weather = {
+   temperature: 28,
+
+   humidity: 85,
+
+   rainfall: 15,
+
+   windSpeed: 12,
+
+   solarRadiation: 700
+}
+```
+
+---
+
+# Impacto
+
+El clima afecta:
+
+```text
+Temperatura del agua
+
+Oxígeno
+
+Evaporación
+
+Estrés
+```
+
+---
+
+# Ejemplo
+
+```text
+Lluvia intensa
+↓
+
+pH disminuye
+
+Temperatura baja
+
+Oxígeno cambia
+```
+
+---
+
+# Integración
+
+```text
+WaterEngine
+
+DiseaseEngine
+
+EnergyEngine
+```
+
+---
+
+# Futuro
+
+Conexión a estaciones meteorológicas.
+
+---
+
+# Estado
+
+```text
+Prioridad:
+ALTA
+```
+
+---
+
+# MÓDULO 28 — MarketEngine
+
+```text
+src/market/MarketEngine.js
+```
+
+## Propósito
+
+Simular mercado y precios.
+
+---
+
+# Variables
+
+```js
+market = {
+   fishPrice: 2.5,
+
+   feedPrice: 0.8,
+
+   energyPrice: 0.12
+}
+```
+
+---
+
+# Fluctuaciones
+
+```text
+Oferta
+
+Demanda
+
+Estación
+
+Eventos externos
+```
+
+---
+
+# Preguntas
+
+```text
+¿Cuándo vender?
+
+¿Conviene esperar?
+
+¿Conviene cosechar ahora?
+```
+
+---
+
+# Integración
+
+```text
+EconomicsEngine
+
+HarvestEngine
+
+ForecastEngine
+```
+
+---
+
+# Objetivo
+
+Maximizar ganancias.
+
+---
+
+# Estado
+
+```text
+Prioridad:
+MEDIA-ALTA
+```
+
+---
+
+# MÓDULO 29 — HarvestEngine
+
+```text
+src/harvest/HarvestEngine.js
+```
+
+## Propósito
+
+Gestionar cosechas.
+
+---
+
+# Variables
+
+```js
+harvest = {
+   readyBiomass:0,
+
+   harvestedKg:0,
+
+   estimatedRevenue:0
+}
+```
+
+---
+
+# Criterios
+
+```text
+Peso objetivo
+
+Precio mercado
+
+Biomasa disponible
+```
+
+---
+
+# Simulación
+
+```text
+Cosecha parcial
+
+Cosecha total
+
+Cosecha escalonada
+```
+
+---
+
+# Integración
+
+```text
+FishEngine
+
+EconomicsEngine
+
+MarketEngine
+```
+
+---
+
+# Resultado
+
+```text
+Ingresos
+
+Rentabilidad
+
+Producción
+```
+
+---
+
+# Estado
+
+```text
+Prioridad:
+ALTA
+```
+
+---
+
+# MÓDULO 30 — ForecastEngine
+
+```text
+src/forecast/ForecastEngine.js
+```
+
+## Propósito
+
+Predecir el futuro del sistema.
+
+Este será uno de los motores más importantes de AcuaNexus.
+
+---
+
+# Predicciones
+
+```text
+Biomasa futura
+
+Ganancias futuras
+
+Consumo de alimento
+
+Consumo energético
+
+Mortalidad
+
+Fecha de cosecha
+```
+
+---
+
+# Entradas
+
+```text
+WaterEngine
+
+FishEngine
+
+EconomicsEngine
+
+WeatherEngine
+
+MarketEngine
+```
+
+---
+
+# Ejemplo
+
+```text
+Hoy:
+Biomasa 2 toneladas
+
+Forecast:
+45 días → 3.8 toneladas
+```
+
+---
+
+# Horizontes
+
+```text
+7 días
+
+30 días
+
+90 días
+
+180 días
+```
+
+---
+
+# Dashboard
+
+```text
+PROYECCIONES
+
+Producción
+
+Ingresos
+
+Costos
+
+Fecha de cosecha
+```
+
+---
+
+# Futuro IA
+
+Más adelante podrá usar:
+
+```text
+Machine Learning
+
+Redes neuronales
+
+Modelos predictivos
+```
+
+---
+
+# Objetivo final
+
+Permitir que AcuaNexus responda:
+
+```text
+¿Qué ocurrirá si no hago nada?
+
+¿Qué ocurrirá si aumento alimentación?
+
+¿Qué ocurrirá si cambio estrategia?
+```
+
+antes de tomar decisiones reales.
+
+---
+
+# Estado
+
+```text
+Prioridad:
+MUY ALTA
+```
+
+---
+
+## Avance total
+
+```text
+01–30 módulos definidos
+```
+
+Los siguientes módulos ya entran en nivel de empresa acuícola completa:
+
+```text
+31 LogisticsEngine
+32 WarehouseEngine
+33 PurchaseEngine
+34 SalesEngine
+35 FinanceEngine
+36 RiskEngine
+37 ComplianceEngine
+38 SustainabilityEngine
+39 CarbonEngine
+40 ReportingEngine
+```
+
+A partir del módulo 40, AcuaNexus deja de ser solamente un SCADA acuícola y empieza a convertirse en un ERP acuícola completo.
+# MÓDULO 31 — LogisticsEngine
+
+```text
+src/logistics/LogisticsEngine.js
+```
+
+## Propósito
+
+Gestionar movimientos físicos dentro y fuera de la operación.
+
+---
+
+# Controla
+
+```text
+Alimento
+
+Peces
+
+Equipos
+
+Vehículos
+
+Materiales
+```
+
+---
+
+# Variables
+
+```js
+logistics = {
+   transfers: [],
+   deliveries: [],
+   routes: [],
+   vehicles: []
+}
+```
+
+---
+
+# Eventos
+
+```text
+Recepción de alimento
+
+Traslado entre estanques
+
+Despacho de cosecha
+
+Entrega de insumos
+```
+
+---
+
+# Integración
+
+```text
+InventoryEngine
+WarehouseEngine
+HarvestEngine
+```
+
+---
+
+# Objetivo
+
+Reducir pérdidas por mala logística.
+
+---
+
+# Estado
+
+```text
+Prioridad:
+Media
+```
+
+---
+
+# MÓDULO 32 — WarehouseEngine
+
+```text
+src/warehouse/WarehouseEngine.js
+```
+
+## Propósito
+
+Gestionar bodegas y almacenamiento.
+
+---
+
+# Controla
+
+```text
+Alimento
+
+Medicamentos
+
+Repuestos
+
+Herramientas
+```
+
+---
+
+# Variables
+
+```js
+warehouse = {
+   locations: [],
+   stock: {},
+   capacityUsed: 0
+}
+```
+
+---
+
+# Funciones
+
+```text
+Entradas
+
+Salidas
+
+Transferencias
+
+Inventarios
+```
+
+---
+
+# Integración
+
+```text
+InventoryEngine
+PurchaseEngine
+```
+
+---
+
+# Objetivo
+
+Saber exactamente dónde está cada recurso.
+
+---
+
+# Estado
+
+```text
+Prioridad:
+Alta
+```
+
+---
+
+# MÓDULO 33 — PurchaseEngine
+
+```text
+src/purchases/PurchaseEngine.js
+```
+
+## Propósito
+
+Gestionar compras.
+
+---
+
+# Preguntas
+
+```text
+¿Qué debo comprar?
+
+¿Cuándo debo comprar?
+
+¿Cuánto debo comprar?
+```
+
+---
+
+# Variables
+
+```js
+purchase = {
+   requests: [],
+   orders: [],
+   suppliers: []
+}
+```
+
+---
+
+# Automatización
+
+Cuando InventoryEngine detecte:
+
+```text
+Stock crítico
+```
+
+PurchaseEngine podrá generar:
+
+```text
+Solicitud automática
+```
+
+---
+
+# Integración
+
+```text
+InventoryEngine
+FinanceEngine
+```
+
+---
+
+# Estado
+
+```text
+Prioridad:
+Alta
+```
+
+---
+
+# MÓDULO 34 — SalesEngine
+
+```text
+src/sales/SalesEngine.js
+```
+
+## Propósito
+
+Gestionar ventas.
+
+---
+
+# Variables
+
+```js
+sales = {
+   customers: [],
+   contracts: [],
+   orders: []
+}
+```
+
+---
+
+# Funciones
+
+```text
+Ventas directas
+
+Ventas programadas
+
+Contratos
+
+Facturación futura
+```
+
+---
+
+# Integración
+
+```text
+HarvestEngine
+MarketEngine
+FinanceEngine
+```
+
+---
+
+# Objetivo
+
+Optimizar ingresos.
+
+---
+
+# Estado
+
+```text
+Prioridad:
+Alta
+```
+
+---
+
+# MÓDULO 35 — FinanceEngine
+
+```text
+src/finance/FinanceEngine.js
+```
+
+## Propósito
+
+Convertirse en el corazón financiero de AcuaNexus.
+
+---
+
+# Variables
+
+```js
+finance = {
+   income: 0,
+   expenses: 0,
+   profit: 0,
+   cashFlow: 0
+}
+```
+
+---
+
+# Costos
+
+```text
+Alimento
+
+Energía
+
+Personal
+
+Medicamentos
+
+Mantenimiento
+```
+
+---
+
+# Ingresos
+
+```text
+Ventas
+
+Servicios
+
+Subproductos
+```
+
+---
+
+# Métricas
+
+```text
+ROI
+
+Margen
+
+EBITDA
+
+Flujo de caja
+```
+
+---
+
+# Integración
+
+```text
+EconomicsEngine
+SalesEngine
+PurchaseEngine
+```
+
+---
+
+# Objetivo
+
+Mostrar salud financiera en tiempo real.
+
+---
+
+# Estado
+
+```text
+Prioridad:
+MUY ALTA
+```
+
+---
+
+# MÓDULO 36 — RiskEngine
+
+```text
+src/risk/RiskEngine.js
+```
+
+## Propósito
+
+Calcular riesgos operativos.
+
+---
+
+# Riesgos
+
+```text
+Biológicos
+
+Financieros
+
+Climáticos
+
+Eléctricos
+
+Operativos
+```
+
+---
+
+# Variables
+
+```js
+risk = {
+   globalRisk: 0,
+   biologicalRisk: 0,
+   financialRisk: 0
+}
+```
+
+---
+
+# Escala
+
+```text
+0-20 Bajo
+
+21-40 Moderado
+
+41-60 Alto
+
+61-100 Crítico
+```
+
+---
+
+# Integración
+
+```text
+DiseaseEngine
+FinanceEngine
+WeatherEngine
+```
+
+---
+
+# Objetivo
+
+Anticipar problemas.
+
+---
+
+# Estado
+
+```text
+Prioridad:
+Muy Alta
+```
+
+---
+
+# MÓDULO 37 — ComplianceEngine
+
+```text
+src/compliance/ComplianceEngine.js
+```
+
+## Propósito
+
+Controlar cumplimiento normativo.
+
+---
+
+# Áreas
+
+```text
+Ambiental
+
+Sanitaria
+
+Laboral
+
+Trazabilidad
+
+Producción
+```
+
+---
+
+# Funciones
+
+```text
+Auditorías
+
+Listas de verificación
+
+Documentación
+```
+
+---
+
+# Integración
+
+```text
+TraceabilityEngine
+ReportingEngine
+```
+
+---
+
+# Estado
+
+```text
+Prioridad:
+Media
+```
+
+---
+
+# MÓDULO 38 — SustainabilityEngine
+
+```text
+src/sustainability/SustainabilityEngine.js
+```
+
+## Propósito
+
+Medir sostenibilidad de la producción.
+
+---
+
+# Indicadores
+
+```text
+Consumo de agua
+
+Consumo energético
+
+Huella de carbono
+
+Residuos
+```
+
+---
+
+# Variables
+
+```js
+sustainability = {
+   score: 0,
+   waterEfficiency: 0,
+   energyEfficiency: 0
+}
+```
+
+---
+
+# Objetivo
+
+Optimizar recursos.
+
+---
+
+# Estado
+
+```text
+Prioridad:
+Alta
+```
+
+---
+
+# MÓDULO 39 — CarbonEngine
+
+```text
+src/carbon/CarbonEngine.js
+```
+
+## Propósito
+
+Calcular emisiones.
+
+---
+
+# Fuentes
+
+```text
+Electricidad
+
+Combustibles
+
+Transporte
+
+Producción
+```
+
+---
+
+# Variables
+
+```js
+carbon = {
+   totalCO2: 0,
+   monthlyCO2: 0,
+   yearlyCO2: 0
+}
+```
+
+---
+
+# Integración
+
+```text
+EnergyEngine
+LogisticsEngine
+```
+
+---
+
+# Objetivo
+
+Preparar certificaciones ambientales futuras.
+
+---
+
+# Estado
+
+```text
+Prioridad:
+Media
+```
+
+---
+
+# MÓDULO 40 — ReportingEngine
+
+```text
+src/reporting/ReportingEngine.js
+```
+
+## Propósito
+
+Generar todos los informes de AcuaNexus.
+
+---
+
+# Reportes
+
+```text
+Producción
+
+Finanzas
+
+Calidad de agua
+
+Biomasa
+
+Mortalidad
+
+Inventario
+
+Energía
+```
+
+---
+
+# Formatos
+
+```text
+PDF
+
+Excel
+
+CSV
+
+JSON
+```
+
+---
+
+# Automatización
+
+```text
+Reporte diario
+
+Reporte semanal
+
+Reporte mensual
+
+Reporte anual
+```
+
+---
+
+# Integración
+
+```text
+TODOS LOS MÓDULOS
+```
+
+---
+
+# Objetivo
+
+Convertir los datos en información útil.
+
+---
+
+# Estado
+
+```text
+Prioridad:
+MUY ALTA
+```
+
+---
+
+## Situación al módulo 40
+
+A esta altura AcuaNexus ya no es solamente un SCADA.
+
+Se convierte en:
+
+```text
+SCADA
++
+Simulador
++
+ERP Acuícola
++
+Sistema de Decisiones
++
+Plataforma de Gestión
+```
+
+Los módulos 41–50 son los que realmente lo acercan a la visión original que hemos hablado durante meses:
+
+```text
+41 DigitalTwinEngine
+42 OptimizationEngine
+43 MLTrainingEngine
+44 VisionEngine
+45 DroneEngine
+46 GISMappingEngine
+47 ResearchEngine
+48 ExperimentEngine
+49 KnowledgeEngine
+50 AGIOrchestrator
+```
+
+Ahí empieza la capa de inteligencia avanzada y gemelo digital completo de la granja.
+# MÓDULO 41 — DigitalTwinEngine
+
+```text
+src/digitalTwin/DigitalTwinEngine.js
+```
+
+## Propósito
+
+Convertirse en el núcleo central de AcuaNexus.
+
+Todos los demás motores alimentan al Gemelo Digital.
+
+---
+
+## Definición
+
+Un Digital Twin es una copia virtual de una instalación física.
+
+```text
+Estanque Real
+        ↓
+Sensores
+        ↓
+DigitalTwinEngine
+        ↓
+Modelo Virtual Vivo
+```
+
+---
+
+## Variables
+
+```js
+digitalTwin = {
+   ponds: [],
+
+   fish: {},
+
+   water: {},
+
+   equipment: {},
+
+   economics: {}
+}
+```
+
+---
+
+## Funciones
+
+```text
+Estado actual
+
+Estado futuro
+
+Simulación
+
+Predicción
+
+Análisis
+```
+
+---
+
+## Ejemplo
+
+El productor pregunta:
+
+```text
+¿Qué pasa si aumento 20% la alimentación?
+```
+
+El Gemelo Digital ejecuta:
+
+```text
+Simulación paralela
+
+Sin tocar el sistema real
+```
+
+---
+
+## Integración
+
+```text
+TODOS LOS MÓDULOS
+```
+
+---
+
+## Objetivo Final
+
+Tener una réplica digital completa de la granja.
+
+---
+
+# Estado
+
+```text
+Prioridad:
+CRÍTICA
+```
+
+---
+
+# MÓDULO 42 — OptimizationEngine
+
+```text
+src/optimization/OptimizationEngine.js
+```
+
+## Propósito
+
+Buscar automáticamente la mejor estrategia posible.
+
+---
+
+## Preguntas
+
+```text
+¿Cómo obtener más biomasa?
+
+¿Cómo gastar menos energía?
+
+¿Cómo reducir mortalidad?
+
+¿Cómo aumentar ganancias?
+```
+
+---
+
+## Variables
+
+```js
+optimization = {
+   target: "profit",
+
+   scenarios: [],
+
+   bestScenario: null
+}
+```
+
+---
+
+## Métodos
+
+```text
+Búsqueda heurística
+
+Optimización multiobjetivo
+
+Simulación masiva
+
+Monte Carlo
+```
+
+---
+
+## Ejemplo
+
+Prueba:
+
+```text
+1000 estrategias
+```
+
+y devuelve:
+
+```text
+Top 10 resultados
+```
+
+---
+
+## Integración
+
+```text
+DigitalTwinEngine
+
+ForecastEngine
+
+EconomicsEngine
+```
+
+---
+
+## Objetivo
+
+Tomar mejores decisiones que el ensayo y error.
+
+---
+
+# Estado
+
+```text
+Prioridad:
+MUY ALTA
+```
+
+---
+
+# MÓDULO 43 — MLTrainingEngine
+
+```text
+src/ml/MLTrainingEngine.js
+```
+
+## Propósito
+
+Entrenar modelos de Machine Learning usando los datos históricos.
+
+---
+
+## Datos usados
+
+```text
+Agua
+
+Biomasa
+
+Mortalidad
+
+Alimento
+
+Clima
+
+Mercado
+```
+
+---
+
+## Modelos
+
+```text
+Regresión
+
+Bosques aleatorios
+
+XGBoost
+
+Redes neuronales
+```
+
+---
+
+## Entradas
+
+```text
+DataLogger
+
+ForecastEngine
+```
+
+---
+
+## Salidas
+
+```text
+Predicciones
+
+Clasificaciones
+
+Anomalías
+```
+
+---
+
+## Objetivo
+
+Que AcuaNexus aprenda de sí mismo.
+
+---
+
+# Estado
+
+```text
+Prioridad:
+MEDIA
+```
+
+---
+
+# MÓDULO 44 — VisionEngine
+
+```text
+src/vision/VisionEngine.js
+```
+
+## Propósito
+
+Analizar imágenes y video.
+
+---
+
+## Aplicaciones
+
+```text
+Conteo de peces
+
+Estimación de biomasa
+
+Comportamiento
+
+Detección de enfermedades
+```
+
+---
+
+## Fuentes
+
+```text
+Cámaras
+
+Teléfonos
+
+Drones
+
+Videos
+```
+
+---
+
+## Funciones
+
+```text
+Computer Vision
+
+Detección de objetos
+
+Segmentación
+
+Clasificación
+```
+
+---
+
+## Integración
+
+```text
+FishEngine
+
+DiseaseEngine
+
+DigitalTwinEngine
+```
+
+---
+
+## Objetivo
+
+Ver más de lo que puede observar una persona.
+
+---
+
+# Estado
+
+```text
+Prioridad:
+MEDIA
+```
+
+---
+
+# MÓDULO 45 — DroneEngine
+
+```text
+src/drone/DroneEngine.js
+```
+
+## Propósito
+
+Gestionar drones de monitoreo.
+
+---
+
+## Funciones
+
+```text
+Fotografía aérea
+
+Mapeo
+
+Inspección
+
+Seguimiento
+```
+
+---
+
+## Datos
+
+```js
+flight = {
+   altitude: 50,
+
+   route: [],
+
+   images: []
+}
+```
+
+---
+
+## Integración
+
+```text
+VisionEngine
+
+GISMappingEngine
+```
+
+---
+
+## Futuro
+
+```text
+Drones acuáticos
+
+Drones aéreos
+
+Robots autónomos
+```
+
+---
+
+# Estado
+
+```text
+Prioridad:
+BAJA
+```
+
+---
+
+# MÓDULO 46 — GISMappingEngine
+
+```text
+src/gis/GISMappingEngine.js
+```
+
+## Propósito
+
+Crear mapas inteligentes.
+
+---
+
+## Capas
+
+```text
+Estanques
+
+Tuberías
+
+Sensores
+
+Equipos
+
+Producción
+```
+
+---
+
+## Funciones
+
+```text
+Mapas interactivos
+
+Ubicación de activos
+
+Análisis espacial
+```
+
+---
+
+## Integración
+
+```text
+DigitalTwinEngine
+
+DroneEngine
+```
+
+---
+
+## Objetivo
+
+Visualizar toda la granja geográficamente.
+
+---
+
+# Estado
+
+```text
+Prioridad:
+MEDIA
+```
+
+---
+
+# MÓDULO 47 — ResearchEngine
+
+```text
+src/research/ResearchEngine.js
+```
+
+## Propósito
+
+Convertir AcuaNexus en una plataforma científica.
+
+---
+
+## Funciones
+
+```text
+Diseño experimental
+
+Comparación de tratamientos
+
+Análisis estadístico
+
+Publicaciones
+```
+
+---
+
+## Casos
+
+```text
+Comparar alimentos
+
+Comparar genéticas
+
+Comparar densidades
+```
+
+---
+
+## Integración
+
+```text
+ExperimentEngine
+
+ReportingEngine
+```
+
+---
+
+## Objetivo
+
+Generar conocimiento nuevo.
+
+---
+
+# Estado
+
+```text
+Prioridad:
+MEDIA
+```
+
+---
+
+# MÓDULO 48 — ExperimentEngine
+
+```text
+src/experiments/ExperimentEngine.js
+```
+
+## Propósito
+
+Ejecutar experimentos controlados.
+
+---
+
+## Ejemplo
+
+```text
+Grupo A:
+32% proteína
+
+Grupo B:
+35% proteína
+```
+
+---
+
+## Métricas
+
+```text
+Crecimiento
+
+FCR
+
+Mortalidad
+
+Ganancia
+```
+
+---
+
+## Integración
+
+```text
+ResearchEngine
+
+FishEngine
+```
+
+---
+
+## Objetivo
+
+Validar hipótesis automáticamente.
+
+---
+
+# Estado
+
+```text
+Prioridad:
+MEDIA
+```
+
+---
+
+# MÓDULO 49 — KnowledgeEngine
+
+```text
+src/knowledge/KnowledgeEngine.js
+```
+
+## Propósito
+
+Construir la memoria permanente de AcuaNexus.
+
+---
+
+## Almacena
+
+```text
+Protocolos
+
+Lecciones aprendidas
+
+Resultados históricos
+
+Buenas prácticas
+```
+
+---
+
+## Estructura
+
+```js
+knowledge = {
+   articles: [],
+   procedures: [],
+   lessons: []
+}
+```
+
+---
+
+## Uso
+
+AdvisorEngine consulta:
+
+```text
+KnowledgeEngine
+```
+
+antes de recomendar acciones.
+
+---
+
+## Objetivo
+
+Que el sistema acumule experiencia.
+
+---
+
+# Estado
+
+```text
+Prioridad:
+ALTA
+```
+
+---
+
+# MÓDULO 50 — AGIOrchestrator
+
+```text
+src/agi/AGIOrchestrator.js
+```
+
+## Propósito
+
+Coordinar todos los motores de AcuaNexus.
+
+---
+
+## No es una IA única
+
+Es un director de orquesta.
+
+---
+
+## Consulta
+
+```text
+WaterEngine
+
+FishEngine
+
+EconomicsEngine
+
+DiseaseEngine
+
+ForecastEngine
+
+OptimizationEngine
+```
+
+---
+
+## Ejemplo
+
+Pregunta:
+
+```text
+¿Qué debo hacer hoy?
+```
+
+Proceso:
+
+```text
+Analiza agua
+
+Analiza peces
+
+Analiza economía
+
+Analiza riesgos
+
+Genera plan
+```
+
+---
+
+## Salida
+
+```js
+{
+  priority: "HIGH",
+
+  action: "Encender aireadores",
+
+  reason: "Oxígeno proyectado crítico en 4 horas"
+}
+```
+
+---
+
+## Objetivo Final
+
+Convertirse en el cerebro estratégico de AcuaNexus.
+
+---
+
+# Estado
+
+```text
+Prioridad:
+VISIÓN FINAL
+```
+
+---
+
+## Lo importante ahora
+
+De los 50 módulos definidos, para tu PC Ryzen y una sola piscina de tilapia, **solo unos 12–15 son realmente necesarios en la Fase 1**:
+
+```text
+04 StateManager
+05 WaterEngine
+06 FishEngine
+07 EconomicsEngine
+08 AdvisorEngine
+09 EventBus
+10 TimeManager
+11 DataLogger
+12 AutomationEngine
+13 AlertEngine
+14 SCADAEngine
+15 SensorEngine
+16 ActuatorEngine
+20 DiseaseEngine
+30 ForecastEngine
+```
+
+Todo lo demás puede existir como documentación y arquitectura futura.
+
+Si sigues el plan de migración que auditaste antes, el objetivo inmediato no es construir los 50 módulos, sino dejar funcionando esos 15 módulos base sobre la arquitectura `src/` sin romper el SCADA actual. Ahí es donde empieza realmente el AcuaNexus operativo.
+# MÓDULO 22 — DISEASE & BIOSAFETY ENGINE
+
+**Sistema de Bioseguridad, Enfermedades y Cuarentena**
+
+Este módulo es extremadamente importante porque cuando AcuaNexus pase del simulador al mundo real, la principal amenaza no será el software.
+
+Serán:
+
+* Enfermedades
+* Bacterias
+* Hongos
+* Parásitos
+* Contaminación cruzada
+* Mortalidades masivas
+
+Por eso este motor existe incluso antes de tener sensores reales.
+
+---
+
+# Objetivo
+
+Convertir AcuaNexus en un sistema capaz de:
+
+* Detectar riesgos sanitarios
+* Estimar probabilidad de enfermedad
+* Recomendar tratamientos
+* Activar cuarentenas
+* Limitar propagación entre tanques
+* Registrar historial sanitario
+
+---
+
+# Estructura
+
+```text
+src/
+└── biosafety/
+    ├── diseaseEngine.js
+    ├── quarantineManager.js
+    ├── treatmentEngine.js
+    ├── pathogenDatabase.js
+    └── riskCalculator.js
+```
+
+---
+
+# Variables observadas
+
+```js
+water.temperature
+water.ph
+water.oxygen
+water.ammonia
+water.nitrite
+
+fish.stress
+fish.mortality
+fish.population
+fish.feedIntake
+
+environment.rain
+environment.season
+```
+
+---
+
+# Indicadores de riesgo
+
+## Estrés elevado
+
+```js
+stress > 70
+```
+
+Riesgo:
+
+```text
+ALTO
+```
+
+---
+
+## Oxígeno bajo
+
+```js
+oxygen < 4
+```
+
+Aumenta:
+
+```text
+infecciones bacterianas
+```
+
+---
+
+## Amonio alto
+
+```js
+NH3 > 0.05
+```
+
+Produce:
+
+```text
+daño branquial
+```
+
+---
+
+## Mortalidad anormal
+
+```js
+mortalityToday >
+mortalityAverage * 2
+```
+
+Genera alerta inmediata.
+
+---
+
+# Índice Sanitario Global
+
+```js
+healthIndex
+```
+
+Escala:
+
+```text
+0 - 100
+```
+
+---
+
+Cálculo:
+
+```js
+healthIndex =
+100
+- stressFactor
+- waterFactor
+- diseaseFactor
+```
+
+---
+
+Interpretación
+
+```text
+90-100 Excelente
+70-89 Buena
+50-69 Riesgo
+30-49 Crítica
+0-29 Emergencia
+```
+
+---
+
+# Base de enfermedades
+
+```js
+pathogenDatabase
+```
+
+Ejemplo:
+
+```js
+[
+ {
+  name: "Streptococcus",
+  type: "bacteria",
+  riskTemp: [28,34],
+  symptoms: [
+    "erratic_swimming",
+    "high_mortality"
+  ]
+ }
+]
+```
+
+---
+
+# Enfermedades iniciales
+
+## Streptococcus
+
+Frecuente en tilapia.
+
+Síntomas:
+
+```text
+natación errática
+ojos saltones
+mortalidad rápida
+```
+
+---
+
+## Columnaris
+
+```text
+lesiones
+branquias dañadas
+```
+
+---
+
+## Aeromonas
+
+```text
+úlceras
+estrés elevado
+```
+
+---
+
+## Saprolegnia
+
+Hongo.
+
+```text
+algodón blanco
+piel afectada
+```
+
+---
+
+## Trichodina
+
+Parásito.
+
+```text
+irritación
+rascado
+```
+
+---
+
+# Motor de probabilidad
+
+AcuaNexus no dirá:
+
+```text
+"Tiene la enfermedad"
+```
+
+Dirá:
+
+```text
+"Probabilidad estimada"
+```
+
+Ejemplo:
+
+```js
+{
+ disease: "Streptococcus",
+ probability: 0.76
+}
+```
+
+---
+
+# Detección temprana
+
+Si:
+
+```js
+stress ↑
+oxygen ↓
+feedIntake ↓
+```
+
+durante varios días:
+
+```js
+generateDiseaseAlert()
+```
+
+---
+
+# Alertas sanitarias
+
+Nivel 1
+
+```text
+Observación
+```
+
+---
+
+Nivel 2
+
+```text
+Riesgo sanitario
+```
+
+---
+
+Nivel 3
+
+```text
+Posible brote
+```
+
+---
+
+Nivel 4
+
+```text
+Emergencia sanitaria
+```
+
+---
+
+# Quarantine Manager
+
+Si existen múltiples tanques:
+
+```text
+T1
+T2
+T3
+```
+
+y T2 presenta brote:
+
+```text
+T2 -> cuarentena
+```
+
+---
+
+Acciones
+
+```text
+prohibir transferencia
+bloquear movimientos
+activar monitoreo
+```
+
+---
+
+# Tratamientos
+
+El sistema nunca aplicará nada automáticamente.
+
+Solo recomendará.
+
+Ejemplo:
+
+```js
+{
+ treatment:
+ "Incrementar oxigenación",
+ priority: "HIGH"
+}
+```
+
+---
+
+Otros ejemplos
+
+```text
+Reducir densidad
+Cambio parcial de agua
+Aumentar monitoreo
+Separar individuos afectados
+```
+
+---
+
+# Historial sanitario
+
+```text
+2026-06-01
+Riesgo Streptococcus 45%
+
+2026-06-04
+Riesgo 68%
+
+2026-06-05
+Alerta sanitaria
+```
+
+Esto permite detectar tendencias.
+
+---
+
+# Dashboard
+
+Nueva tarjeta:
+
+```text
+🦠 Estado Sanitario
+```
+
+---
+
+Indicadores:
+
+```text
+Health Index
+Riesgo de Brote
+Nivel de Alerta
+```
+
+---
+
+# Integración con IA
+
+El Advisor Engine recibirá:
+
+```js
+biosafety.healthIndex
+biosafety.risks
+biosafety.alerts
+```
+
+---
+
+Y podrá emitir:
+
+```text
+PRIORIDAD ALTA
+
+Existe riesgo creciente de infección bacteriana.
+
+Recomendación:
+Aumentar oxígeno y revisar alimentación.
+```
+
+---
+
+# Impacto Económico
+
+El Economics Engine recibirá:
+
+```js
+expectedMortality
+```
+
+---
+
+Entonces podrá calcular:
+
+```text
+Pérdida potencial
+Costo estimado
+ROI preventivo
+```
+
+---
+
+# Versión futura con sensores reales
+
+Más adelante se integrará:
+
+```text
+Cámaras
+Visión artificial
+Microscopía digital
+Sensores biométricos
+```
+
+Para identificar:
+
+```text
+comportamiento anormal
+lesiones
+patrones de nado
+```
+
+---
+
+# Resultado final
+
+Con este módulo AcuaNexus deja de ser únicamente un SCADA acuícola y empieza a convertirse en un:
+
+```text
+Sistema Inteligente de Vigilancia Sanitaria Acuícola
+```
+
+capaz de anticipar problemas antes de que aparezcan mortalidades masivas.
+
+## Próximos módulos recomendados
+
+23. Genetic & Breeding Engine
+24. Hatchery Engine (Larvas y Alevines)
+25. Feeding Optimization Engine
+26. Computer Vision Engine
+27. Digital Twin Engine
+28. Autonomous Decision Engine
+29. Energy Management Engine
+30. Water Recirculation Engine (RAS)
+# MÓDULO 23 — GENETIC & BREEDING ENGINE
+
+**Sistema de Genética, Selección y Mejoramiento Reproductivo**
+
+Este módulo es uno de los más importantes para el sueño a largo plazo de AcuaNexus.
+
+La mayoría de granjas compra peces.
+
+Las granjas avanzadas producen peces.
+
+Las granjas líderes mejoran genéticamente sus peces.
+
+AcuaNexus debe poder llegar a ese nivel.
+
+---
+
+# Objetivo
+
+Permitir que el sistema:
+
+* Controle reproductores
+* Gestione cruces
+* Evite consanguinidad
+* Estime calidad genética
+* Seleccione mejores individuos
+* Optimice generaciones futuras
+
+---
+
+# Estructura
+
+```text
+src/
+└── genetics/
+    ├── breedingEngine.js
+    ├── geneticsEngine.js
+    ├── familyTree.js
+    ├── breederSelector.js
+    └── genomeSimulator.js
+```
+
+---
+
+# Concepto Principal
+
+Cada pez tendrá una identidad genética.
+
+```js
+{
+  id: "FISH_001",
+  generation: 1,
+  lineage: "A",
+  genetics: {
+      growth: 0.85,
+      diseaseResistance: 0.72,
+      feedEfficiency: 0.81,
+      stressTolerance: 0.67
+  }
+}
+```
+
+---
+
+# Rasgos Heredables
+
+## Crecimiento
+
+```text
+growth
+```
+
+Determina:
+
+* velocidad de crecimiento
+* biomasa final
+
+---
+
+## Conversión alimenticia
+
+```text
+feedEfficiency
+```
+
+Influye sobre:
+
+```text
+FCR
+```
+
+---
+
+## Resistencia a enfermedades
+
+```text
+diseaseResistance
+```
+
+Reduce:
+
+```text
+mortalidad
+```
+
+---
+
+## Tolerancia al estrés
+
+```text
+stressTolerance
+```
+
+Permite soportar:
+
+* altas densidades
+* cambios ambientales
+* transporte
+
+---
+
+# Selección de Reproductores
+
+El sistema calculará:
+
+```js
+breedingScore
+```
+
+---
+
+Ejemplo:
+
+```js
+score =
+growth * 0.4 +
+feedEfficiency * 0.3 +
+diseaseResistance * 0.2 +
+stressTolerance * 0.1
+```
+
+---
+
+Resultado:
+
+```text
+TOP 10%
+```
+
+Se convierten en candidatos.
+
+---
+
+# Family Tree
+
+AcuaNexus mantendrá:
+
+```text
+Padres
+Abuelos
+Bisabuelos
+```
+
+---
+
+Ejemplo
+
+```text
+G1-A
+ ├── G2-A
+ │    ├── G3-A
+ │    └── G3-B
+ └── G2-B
+```
+
+---
+
+# Control de Consanguinidad
+
+El sistema calculará:
+
+```js
+inbreedingCoefficient
+```
+
+---
+
+Si supera:
+
+```text
+10%
+```
+
+Generará alerta.
+
+---
+
+Si supera:
+
+```text
+20%
+```
+
+Bloqueará recomendación de cruce.
+
+---
+
+# Simulación de Cruces
+
+Ejemplo
+
+```text
+Padre:
+Growth = 0.9
+
+Madre:
+Growth = 0.8
+```
+
+---
+
+Descendencia estimada:
+
+```text
+Growth = 0.85 ± variación
+```
+
+---
+
+# Generaciones
+
+```text
+G1
+G2
+G3
+G4
+...
+```
+
+---
+
+AcuaNexus podrá proyectar:
+
+```text
+5 generaciones
+10 generaciones
+20 generaciones
+```
+
+---
+
+# Objetivo de Mejoramiento
+
+El usuario puede indicar:
+
+```text
+Máximo crecimiento
+```
+
+o
+
+```text
+Máxima resistencia
+```
+
+o
+
+```text
+Menor consumo de alimento
+```
+
+---
+
+El motor seleccionará reproductores según el objetivo.
+
+---
+
+# Índice Genético
+
+```js
+geneticIndex
+```
+
+Escala:
+
+```text
+0 - 100
+```
+
+---
+
+Interpretación
+
+```text
+90+ Excelente
+80+ Muy bueno
+70+ Bueno
+60+ Aceptable
+<60 Mejorable
+```
+
+---
+
+# Integración con Fish Engine
+
+El crecimiento ya no será fijo.
+
+Pasará a depender de:
+
+```js
+growthRate =
+baseGrowth *
+genetics.growth
+```
+
+---
+
+# Integración con Disease Engine
+
+```js
+mortalityRisk *=
+(1 - diseaseResistance)
+```
+
+---
+
+# Integración con Economics
+
+Permite calcular:
+
+```text
+Valor genético
+Valor reproductivo
+ROI genético
+```
+
+---
+
+# Dashboard
+
+Nueva sección:
+
+```text
+🧬 Genética
+```
+
+---
+
+Indicadores
+
+```text
+Índice Genético
+Generación Actual
+Consanguinidad
+Top Reproductores
+```
+
+---
+
+# Modo Inicial (PC actual)
+
+Aunque no tengas reproductores reales todavía:
+
+AcuaNexus puede simular poblaciones completas.
+
+Así podrás probar:
+
+```text
+Selección genética
+Cruces
+Generaciones
+Predicciones
+```
+
+antes de tener una sola incubadora física.
+
+---
+
+# Evolución futura
+
+Cuando exista infraestructura real:
+
+```text
+Etiquetas RFID
+QR individuales
+Microchips
+Análisis genómico
+Laboratorio molecular
+```
+
+---
+
+# Resultado Final
+
+Este módulo convierte a AcuaNexus en una plataforma capaz de evolucionar poblaciones acuícolas generación tras generación.
+
+Ya no solo controla peces.
+
+Empieza a diseñar peces mejores.
+
+---
+
+## Siguiente módulo recomendado
+
+**MÓDULO 24 — HATCHERY ENGINE**
+(Sistema de incubación, huevos, larvas, alevines y producción completa desde reproducción hasta engorde)
+# MÓDULO 24 — HATCHERY ENGINE
+
+**Sistema de Incubación, Larvicultura y Producción de Alevines**
+
+Este módulo permite que AcuaNexus controle todo el ciclo de vida inicial de los peces.
+
+Sin este módulo, el sistema comienza cuando ya existen peces.
+
+Con este módulo, AcuaNexus comienza desde el huevo.
+
+---
+
+# Objetivo
+
+Administrar:
+
+* Reproductores
+* Desoves
+* Huevos
+* Incubación
+* Larvas
+* Alevines
+* Juveniles
+
+---
+
+# Estructura
+
+```text
+src/
+└── hatchery/
+    ├── hatcheryEngine.js
+    ├── eggManager.js
+    ├── larvalEngine.js
+    ├── fryEngine.js
+    ├── incubationEngine.js
+    └── survivalCalculator.js
+```
+
+---
+
+# Ciclo Biológico
+
+```text
+Reproductores
+      ↓
+    Huevos
+      ↓
+ Incubación
+      ↓
+   Eclosión
+      ↓
+    Larvas
+      ↓
+   Alevines
+      ↓
+  Juveniles
+      ↓
+   Engorde
+```
+
+---
+
+# Registro de Desove
+
+Cada evento queda almacenado.
+
+```js
+{
+  spawnId: "SPAWN_001",
+  date: "2026-06-05",
+  femaleId: "FEMALE_01",
+  maleId: "MALE_03",
+  eggs: 12000
+}
+```
+
+---
+
+# Gestión de Huevos
+
+Variables:
+
+```js
+eggs.total
+eggs.fertilized
+eggs.dead
+eggs.hatchRate
+```
+
+---
+
+Ejemplo
+
+```text
+Huevos totales: 10.000
+Fertilizados: 8.500
+Muertos: 300
+Viables: 8.200
+```
+
+---
+
+# Incubación
+
+Monitorea:
+
+```text
+Temperatura
+Oxígeno
+Tiempo
+Mortalidad embrionaria
+```
+
+---
+
+# Tiempo de Incubación
+
+Depende de:
+
+```js
+temperature
+species
+```
+
+---
+
+Ejemplo Tilapia
+
+```text
+26°C → 4-5 días
+28°C → 3-4 días
+30°C → 2-3 días
+```
+
+---
+
+# Índice de Eclosión
+
+```js
+hatchRate
+```
+
+---
+
+Fórmula:
+
+```text
+Larvas nacidas
+÷
+Huevos fertilizados
+```
+
+---
+
+Ejemplo
+
+```text
+8000 / 8500
+=
+94%
+```
+
+---
+
+# Larval Engine
+
+Controla:
+
+```text
+Edad
+Desarrollo
+Supervivencia
+Alimentación
+```
+
+---
+
+Etapas
+
+```text
+Día 1
+Día 3
+Día 7
+Día 14
+Día 21
+```
+
+---
+
+# Consumo del Saco Vitelino
+
+Durante los primeros días:
+
+```text
+No necesitan alimentación externa
+```
+
+---
+
+Luego:
+
+```text
+Artemia
+Microdietas
+Alimento inicial
+```
+
+---
+
+# Survival Calculator
+
+Calcula:
+
+```js
+survivalProbability
+```
+
+---
+
+Variables:
+
+```js
+temperature
+oxygen
+density
+feeding
+stress
+```
+
+---
+
+Resultado:
+
+```text
+Supervivencia estimada:
+87%
+```
+
+---
+
+# Alevines
+
+Cuando las larvas crecen:
+
+```text
+Larva → Alevín
+```
+
+---
+
+Se registran:
+
+```js
+averageWeight
+averageLength
+population
+```
+
+---
+
+Ejemplo
+
+```text
+Edad: 30 días
+Peso: 0.8 g
+Cantidad: 7.400
+```
+
+---
+
+# Predicción de Producción
+
+Desde el momento del desove.
+
+Ejemplo:
+
+```text
+10.000 huevos
+↓
+8.500 fertilizados
+↓
+8.000 eclosionan
+↓
+7.400 sobreviven
+↓
+7.000 juveniles
+```
+
+---
+
+# Integración con Genetics Engine
+
+Cada lote mantiene:
+
+```js
+motherId
+fatherId
+generation
+lineage
+```
+
+---
+
+Esto permite rastrear:
+
+```text
+origen genético
+```
+
+de cada alevín.
+
+---
+
+# Integración con Economics Engine
+
+Calcula:
+
+```text
+Costo por huevo
+Costo por larva
+Costo por alevín
+```
+
+---
+
+También:
+
+```text
+Valor de venta
+Rentabilidad
+```
+
+---
+
+# Integración con Biosafety Engine
+
+Detecta:
+
+```text
+hongos en huevos
+mortalidad larval
+problemas sanitarios
+```
+
+---
+
+# Dashboard
+
+Nueva pantalla:
+
+```text
+🐣 Hatchery
+```
+
+---
+
+Indicadores
+
+```text
+Huevos activos
+Tasa de fertilización
+Tasa de eclosión
+Larvas vivas
+Alevines disponibles
+```
+
+---
+
+# Alertas
+
+```text
+Baja fertilización
+Alta mortalidad embrionaria
+Falla de incubación
+Supervivencia crítica
+```
+
+---
+
+# Simulación Inicial
+
+Aunque aún no tengas incubadoras:
+
+AcuaNexus puede simular:
+
+```text
+Producción anual
+Número de desoves
+Alevines generados
+Ganancias potenciales
+```
+
+---
+
+# Fase futura
+
+Cuando exista infraestructura real:
+
+```text
+Incubadoras automáticas
+Sensores de incubación
+Cámaras microscópicas
+Clasificación automática
+Conteo por visión artificial
+```
+
+---
+
+# Resultado Final
+
+Con este módulo AcuaNexus ya no comienza en la etapa de engorde.
+
+Ahora controla:
+
+```text
+Huevo
+↓
+Larva
+↓
+Alevín
+↓
+Juvenil
+↓
+Adulto
+```
+
+Es decir, el ciclo biológico completo.
+
+---
+
+## Próximo módulo recomendado
+
+### MÓDULO 25 — FEEDING OPTIMIZATION ENGINE
+
+Sistema de alimentación inteligente:
+
+* cálculo automático de raciones
+* FCR dinámico
+* reducción de desperdicio
+* optimización económica
+* predicción de crecimiento
+* control de horarios de alimentación
+
+Este será uno de los módulos con mayor impacto económico real en una granja.
+# MÓDULO 25 — FEEDING OPTIMIZATION ENGINE
+
+**Sistema Inteligente de Alimentación y Optimización de Conversión Alimenticia**
+
+Este módulo será probablemente el de mayor impacto económico durante los primeros años de AcuaNexus.
+
+¿Por qué?
+
+Porque en una granja acuícola típica:
+
+```text
+50% - 70%
+```
+
+de los costos operativos provienen del alimento.
+
+Si el sistema mejora apenas un poco la eficiencia alimenticia, el ahorro puede ser enorme.
+
+---
+
+# Objetivo
+
+Optimizar:
+
+* Cantidad de alimento
+* Frecuencia de alimentación
+* Horarios
+* Conversión alimenticia (FCR)
+* Crecimiento
+* Costos
+
+---
+
+# Estructura
+
+```text
+src/
+└── feeding/
+    ├── feedingEngine.js
+    ├── rationCalculator.js
+    ├── scheduleManager.js
+    ├── feedingAnalyzer.js
+    ├── fcrEngine.js
+    └── wasteDetector.js
+```
+
+---
+
+# Problema Actual de las Granjas
+
+Muchas granjas alimentan así:
+
+```text
+08:00
+12:00
+16:00
+```
+
+siempre igual.
+
+Sin importar:
+
+* temperatura
+* oxígeno
+* edad
+* biomasa
+* clima
+
+---
+
+Resultado:
+
+```text
+Desperdicio
+FCR alto
+Más amonio
+Más costos
+```
+
+---
+
+# Alimentación Inteligente
+
+AcuaNexus calcula:
+
+```js
+dailyFeed
+```
+
+basándose en:
+
+```js
+fish.biomass
+fish.averageWeight
+water.temperature
+water.oxygen
+fish.stress
+species
+```
+
+---
+
+# Biomasa
+
+Ejemplo
+
+```text
+5000 peces
+×
+350 g
+=
+1750 kg
+```
+
+---
+
+# Tasa de Alimentación
+
+Ejemplo:
+
+```text
+Peso promedio 20 g
+→ 8% biomasa
+
+Peso promedio 100 g
+→ 4%
+
+Peso promedio 500 g
+→ 1.5%
+```
+
+---
+
+# Cálculo de Ración
+
+```js
+ration =
+biomass *
+feedingRate
+```
+
+---
+
+Ejemplo
+
+```text
+1750 kg
+×
+1.5%
+=
+26.25 kg/día
+```
+
+---
+
+# Distribución Diaria
+
+No todo de una vez.
+
+```text
+26.25 kg
+↓
+6.5 kg
+6.5 kg
+6.5 kg
+6.5 kg
+```
+
+---
+
+# Horarios Inteligentes
+
+En lugar de fijos:
+
+```text
+08:00
+12:00
+16:00
+```
+
+el sistema puede sugerir:
+
+```text
+07:30
+10:45
+14:00
+17:15
+```
+
+según condiciones ambientales.
+
+---
+
+# Efecto del Oxígeno
+
+Si:
+
+```js
+oxygen < 4
+```
+
+entonces:
+
+```js
+feedReduction = 40%
+```
+
+---
+
+Porque alimentar con poco oxígeno:
+
+```text
+Aumenta mortalidad
+Aumenta estrés
+Reduce crecimiento
+```
+
+---
+
+# Efecto de la Temperatura
+
+Cada especie tiene una zona óptima.
+
+Ejemplo Tilapia:
+
+```text
+26°C - 30°C
+```
+
+---
+
+Si baja:
+
+```text
+18°C
+```
+
+el metabolismo disminuye.
+
+---
+
+AcuaNexus reduce automáticamente:
+
+```text
+Ración recomendada
+```
+
+---
+
+# Feed Conversion Ratio
+
+Variable:
+
+```js
+FCR
+```
+
+---
+
+Fórmula:
+
+```text
+Alimento consumido
+÷
+Peso ganado
+```
+
+---
+
+Ejemplo
+
+```text
+100 kg alimento
+÷
+80 kg crecimiento
+=
+1.25 FCR
+```
+
+---
+
+Interpretación
+
+```text
+1.0 Excelente
+1.2 Muy bueno
+1.5 Bueno
+2.0 Malo
+3.0 Crítico
+```
+
+---
+
+# FCR Dinámico
+
+No será fijo.
+
+Dependerá de:
+
+```js
+waterQuality
+genetics
+health
+temperature
+stress
+```
+
+---
+
+# Waste Detector
+
+Detecta:
+
+```text
+Sobrealimentación
+```
+
+---
+
+Ejemplo
+
+```js
+feedGiven >
+feedRequired
+```
+
+---
+
+Genera:
+
+```text
+⚠️ Exceso de alimento
+```
+
+---
+
+Consecuencias estimadas
+
+```text
+Aumento NH3
+Mayor costo
+Menor rentabilidad
+```
+
+---
+
+# Predicción de Crecimiento
+
+El motor proyecta:
+
+```text
+7 días
+30 días
+60 días
+90 días
+```
+
+---
+
+Ejemplo
+
+```text
+Peso actual:
+350 g
+
+Peso esperado:
+425 g
+```
+
+---
+
+# Alimentadores Automáticos (Futuro)
+
+Cuando existan equipos reales:
+
+```text
+Tolvas
+Dosificadores
+Motores
+Servos
+```
+
+---
+
+AcuaNexus enviará:
+
+```js
+FEED_NOW
+```
+
+---
+
+o
+
+```js
+STOP_FEEDING
+```
+
+---
+
+# Dashboard
+
+Nueva sección:
+
+```text
+🍽️ Alimentación
+```
+
+---
+
+Indicadores
+
+```text
+Ración diaria
+Alimento consumido
+FCR
+Costo diario
+Costo mensual
+```
+
+---
+
+# Alertas
+
+```text
+Oxígeno insuficiente para alimentar
+FCR deteriorado
+Consumo anormal
+Sobrealimentación
+```
+
+---
+
+# Integración con Economics Engine
+
+Permite calcular:
+
+```text
+Costo por kg producido
+Costo de alimentación
+Rentabilidad
+```
+
+---
+
+Ejemplo
+
+```text
+Costo alimento:
+$500
+
+Biomasa producida:
+400 kg
+
+Costo/kg:
+$1.25
+```
+
+---
+
+# Integración con AI Advisor
+
+La IA podrá indicar:
+
+```text
+Prioridad Alta
+
+Reducir alimentación 15%.
+
+Motivo:
+Oxígeno bajo y FCR en deterioro.
+```
+
+---
+
+# Simulación Actual
+
+Aunque hoy no tengas:
+
+```text
+alimentadores
+sensores
+PLC
+```
+
+puedes simular:
+
+```text
+consumo
+crecimiento
+FCR
+costos
+ganancias
+```
+
+en tu PC Ryzen.
+
+---
+
+# Nivel de Prioridad
+
+Para el AcuaNexus que estás construyendo ahora mismo:
+
+```text
+PRIORIDAD: MUY ALTA
+```
+
+Porque este módulo afecta directamente:
+
+```text
+Producción
+Ganancias
+Sostenibilidad
+```
+
+y puede funcionar perfectamente en modo simulación.
+
+---
+
+## Próximo módulo recomendado
+
+### MÓDULO 26 — COMPUTER VISION ENGINE
+
+Sistema de visión artificial para:
+
+* conteo automático de peces
+* estimación de biomasa
+* detección de comportamiento anormal
+* monitoreo sanitario visual
+* análisis de alimentación
+* cámaras acuáticas y superficiales
+
+Este será el primer paso hacia una IA que "vea" lo que ocurre en la granja.
+# MÓDULO 26 — COMPUTER VISION ENGINE
+
+**Sistema de Visión Artificial para Acuicultura Inteligente**
+
+Este módulo será los "ojos" de AcuaNexus.
+
+Hasta ahora el sistema sabe lo que ocurre mediante simulaciones, sensores y cálculos.
+
+Con este módulo podrá observar directamente lo que ocurre dentro de los estanques.
+
+---
+
+# Objetivo
+
+Permitir que AcuaNexus:
+
+* Vea los peces
+* Cuente peces
+* Estime biomasa
+* Detecte enfermedades visuales
+* Analice alimentación
+* Observe comportamiento
+
+---
+
+# Estructura
+
+```text
+src/
+└── vision/
+    ├── visionEngine.js
+    ├── fishCounter.js
+    ├── biomassEstimator.js
+    ├── behaviorAnalyzer.js
+    ├── diseaseDetector.js
+    ├── feedingAnalyzer.js
+    └── cameraManager.js
+```
+
+---
+
+# Principio Básico
+
+Entrada:
+
+```text
+Video
+Imagen
+Cámara IP
+Webcam
+Celular
+Drone
+```
+
+↓
+
+Procesamiento
+
+↓
+
+Resultados
+
+```text
+Cantidad de peces
+Peso estimado
+Actividad
+Anomalías
+Alertas
+```
+
+---
+
+# Nivel 1 — Conteo de Peces
+
+Primer objetivo.
+
+Determinar:
+
+```js
+fishCount
+```
+
+---
+
+Ejemplo
+
+```text
+Peces detectados:
+4.892
+```
+
+---
+
+Métodos
+
+```text
+YOLO
+OpenCV
+Segmentación
+Detección por movimiento
+```
+
+---
+
+# Fish Counter
+
+Archivo:
+
+```text
+fishCounter.js
+```
+
+---
+
+Funciones
+
+```js
+countFish(frame)
+```
+
+Resultado
+
+```js
+{
+  count: 4892,
+  confidence: 0.93
+}
+```
+
+---
+
+# Nivel 2 — Estimación de Biomasa
+
+Problema:
+
+No podemos pesar miles de peces diariamente.
+
+---
+
+Solución:
+
+La cámara estima:
+
+```text
+Longitud
+Área corporal
+Volumen aproximado
+```
+
+---
+
+Resultado:
+
+```js
+{
+  avgWeight: 325,
+  biomass: 1589
+}
+```
+
+---
+
+Unidad
+
+```text
+gramos
+kilogramos
+```
+
+---
+
+# Biomass Estimator
+
+Archivo:
+
+```text
+biomassEstimator.js
+```
+
+---
+
+Relación
+
+```text
+Longitud
+↓
+Peso estimado
+```
+
+---
+
+Usando modelos específicos para:
+
+```text
+Tilapia
+Camarón
+Trucha
+```
+
+---
+
+# Nivel 3 — Comportamiento
+
+Archivo:
+
+```text
+behaviorAnalyzer.js
+```
+
+---
+
+Observa:
+
+```text
+Velocidad
+Agrupación
+Actividad
+Distribución
+```
+
+---
+
+Detecta:
+
+```text
+Estrés
+Falta de oxígeno
+Enfermedad
+Mala alimentación
+```
+
+---
+
+Ejemplo
+
+Normal
+
+```text
+Movimiento homogéneo
+```
+
+---
+
+Problema
+
+```text
+Todos los peces en superficie
+```
+
+---
+
+Alerta
+
+```text
+⚠ Posible déficit de oxígeno
+```
+
+---
+
+# Nivel 4 — Alimentación
+
+Archivo:
+
+```text
+feedingAnalyzer.js
+```
+
+---
+
+Detecta:
+
+```text
+Consumo rápido
+Consumo lento
+Alimento sobrante
+```
+
+---
+
+Resultado
+
+```js
+{
+  feedAcceptance: 0.91
+}
+```
+
+---
+
+Interpretación
+
+```text
+91% del alimento fue consumido
+```
+
+---
+
+# Nivel 5 — Salud Visual
+
+Archivo:
+
+```text
+diseaseDetector.js
+```
+
+---
+
+Detecta:
+
+```text
+Lesiones
+Coloración anormal
+Nado errático
+Deformaciones
+```
+
+---
+
+Ejemplo
+
+```text
+Probabilidad de enfermedad:
+78%
+```
+
+---
+
+Genera:
+
+```text
+Alerta sanitaria
+```
+
+---
+
+# Nivel 6 — Mortalidad
+
+Detectar automáticamente:
+
+```text
+Peces inmóviles
+Peces flotando
+Peces muertos
+```
+
+---
+
+Resultado
+
+```js
+{
+  mortalityDetected: true,
+  count: 12
+}
+```
+
+---
+
+# Integración con AI Advisor
+
+La IA recibirá:
+
+```js
+visionData
+```
+
+---
+
+Ejemplo
+
+```js
+{
+  activity: "low",
+  oxygenRisk: 0.84
+}
+```
+
+---
+
+La IA responde:
+
+```text
+Aumentar aireación inmediatamente
+```
+
+---
+
+# Integración con Feeding Engine
+
+La visión artificial valida:
+
+```text
+¿Los peces realmente están comiendo?
+```
+
+---
+
+Si detecta baja actividad:
+
+```text
+Reducir ración
+```
+
+---
+
+# Integración con Disease Engine
+
+Permite detectar brotes antes de que aparezcan mortalidades masivas.
+
+---
+
+# Integración con Dashboard
+
+Nueva sección:
+
+```text
+📷 Visión Artificial
+```
+
+---
+
+Indicadores
+
+```text
+Conteo estimado
+Biomasa
+Actividad
+Mortalidad detectada
+Estado sanitario
+```
+
+---
+
+# Modo Inicial (Tu PC Actual)
+
+No necesitas cámaras submarinas.
+
+Puedes comenzar con:
+
+```text
+Webcam USB
+Cámara de celular
+Videos grabados
+```
+
+---
+
+Incluso:
+
+```text
+Videos de YouTube
+Videos de prueba
+Datos simulados
+```
+
+---
+
+# Hardware Futuro
+
+Nivel 1
+
+```text
+Webcam HD
+```
+
+---
+
+Nivel 2
+
+```text
+Cámara IP
+```
+
+---
+
+Nivel 3
+
+```text
+Cámaras acuáticas
+```
+
+---
+
+Nivel 4
+
+```text
+Red multicámara
+```
+
+---
+
+Nivel 5
+
+```text
+Drones autónomos
+```
+
+---
+
+# Tecnologías Futuras
+
+```text
+OpenCV
+YOLO
+TensorFlow
+PyTorch
+ONNX
+NVIDIA CUDA
+```
+
+---
+
+# Prioridad para AcuaNexus
+
+Actualmente:
+
+```text
+PRIORIDAD: MEDIA
+```
+
+Porque todavía no tienes cámaras ni estanques operativos.
+
+---
+
+Pero cuando aparezca el primer estanque real:
+
+```text
+PRIORIDAD: MUY ALTA
+```
+
+porque permitirá verificar que los modelos matemáticos realmente coinciden con lo que ocurre en el agua.
+
+---
+
+# Resultado Final
+
+Con este módulo, AcuaNexus deja de depender únicamente de sensores y simulaciones.
+
+Ahora puede observar directamente:
+
+```text
+Peces
+↓
+Comportamiento
+↓
+Salud
+↓
+Producción
+```
+
+igual que un técnico experimentado, pero funcionando las 24 horas.
+
+---
+
+## Próximo módulo recomendado
+
+### MÓDULO 27 — BIOSAFETY ENGINE
+
+Sistema integral de bioseguridad:
+
+* control sanitario
+* cuarentenas
+* trazabilidad epidemiológica
+* gestión de enfermedades
+* protocolos automáticos
+* análisis de riesgo biológico
+
+Este módulo será la "inmunidad organizacional" de AcuaNexus.
+# MÓDULO 28 — TraceabilityEngine
+
+**Sistema de Trazabilidad Total AcuaNexus**
+
+---
+
+## Objetivo
+
+Registrar absolutamente todo lo que ocurre dentro del ecosistema AcuaNexus desde el día 0 hasta la cosecha.
+
+La meta es poder responder preguntas como:
+
+* ¿Qué lote produjo estos peces?
+* ¿Qué alimento consumieron?
+* ¿Cuántos gramos crecieron?
+* ¿Qué parámetros tenía el agua?
+* ¿Qué tratamientos recibieron?
+* ¿Quién realizó la acción?
+* ¿Cuánto costó producirlos?
+
+---
+
+# Filosofía
+
+En una granja tradicional:
+
+> "Creo que esos peces eran del lote anterior."
+
+En AcuaNexus:
+
+> "El pez proviene del lote TLP-2026-03, sembrado el 15 de marzo, alimentado con dieta F3, FCR 1.42, mortalidad 2.1%, cosechado el día 183."
+
+---
+
+# Estructura
+
+```text
+TraceabilityEngine
+│
+├── Batch Tracking
+├── Feed Tracking
+├── Water Tracking
+├── Event Tracking
+├── Operator Tracking
+├── Harvest Tracking
+├── Financial Tracking
+└── Audit System
+```
+
+---
+
+# Batch Tracking
+
+Cada lote recibe un identificador único.
+
+Ejemplo:
+
+```text
+TLP-2026-001
+```
+
+Significa:
+
+```text
+Tilapia
+Año 2026
+Lote 001
+```
+
+---
+
+## Información registrada
+
+```js
+{
+ id:"TLP-2026-001",
+
+ species:"Tilapia",
+
+ startDate:"2026-03-15",
+
+ initialPopulation:5000,
+
+ source:"Laboratorio Central",
+
+ genetics:"Línea G4",
+
+ status:"active"
+}
+```
+
+---
+
+# Feed Tracking
+
+Todo alimento queda registrado.
+
+```js
+{
+ batch:"TLP-2026-001",
+
+ date:"2026-06-01",
+
+ feedType:"Fase 2",
+
+ amountKg:120
+}
+```
+
+---
+
+## Acumulado
+
+```js
+{
+ totalFeed:15420,
+
+ averageFeedDay:83,
+
+ fcr:1.45
+}
+```
+
+---
+
+# Water Tracking
+
+Cada lectura se guarda.
+
+```js
+{
+ date:"2026-06-01 14:30",
+
+ temperature:27.4,
+
+ ph:7.2,
+
+ oxygen:6.8,
+
+ ammonia:0.02
+}
+```
+
+---
+
+# Historial completo
+
+Puede reconstruirse cualquier día.
+
+```text
+Día 74
+```
+
+y visualizar:
+
+```text
+Agua
+Biomasa
+Alimento
+Alertas
+Mortalidad
+```
+
+---
+
+# Event Tracking
+
+Registro de eventos.
+
+---
+
+## Ejemplo
+
+```js
+{
+ type:"ALARM",
+
+ severity:"HIGH",
+
+ message:"Oxígeno bajo"
+}
+```
+
+---
+
+```js
+{
+ type:"MAINTENANCE",
+
+ message:"Limpieza de filtro"
+}
+```
+
+---
+
+```js
+{
+ type:"TREATMENT",
+
+ product:"Probiótico",
+
+ dose:"2 g/m³"
+}
+```
+
+---
+
+# Operator Tracking
+
+Registrar quién hizo qué.
+
+```js
+{
+ user:"Carlos",
+
+ action:"Cambió aireador",
+
+ date:"2026-06-01 08:00"
+}
+```
+
+---
+
+## Beneficio
+
+Evita errores humanos.
+
+Permite auditorías.
+
+---
+
+# Harvest Tracking
+
+Al cosechar:
+
+```js
+{
+ batch:"TLP-2026-001",
+
+ harvestDate:"2026-09-21",
+
+ population:4875,
+
+ averageWeight:820,
+
+ biomass:3997,
+
+ survival:97.5
+}
+```
+
+---
+
+# Financial Tracking
+
+Conectar con EconomicsEngine.
+
+---
+
+## Costos
+
+```js
+{
+ feed:4200,
+
+ energy:380,
+
+ labor:600,
+
+ medicine:100
+}
+```
+
+---
+
+## Resultado
+
+```js
+{
+ revenue:9000,
+
+ cost:5280,
+
+ profit:3720
+}
+```
+
+---
+
+# Audit System
+
+Permite reconstruir la historia completa.
+
+---
+
+## Ejemplo
+
+Consulta:
+
+```text
+Mostrar lote TLP-2026-001
+```
+
+Resultado:
+
+```text
+Origen
+Siembra
+Crecimiento
+Alimentación
+Alertas
+Tratamientos
+Cosecha
+Ganancia
+```
+
+---
+
+# Integración
+
+```text
+FishEngine
+     ↓
+TraceabilityEngine
+
+WaterEngine
+     ↓
+TraceabilityEngine
+
+EconomicsEngine
+     ↓
+TraceabilityEngine
+
+AutomationEngine
+     ↓
+TraceabilityEngine
+```
+
+---
+
+# Datos almacenados
+
+```text
+src/data/traceability/
+
+├── batches/
+├── feed/
+├── water/
+├── events/
+├── operators/
+├── harvest/
+└── financial/
+```
+
+---
+
+# Nivel de prioridad
+
+```text
+Prioridad: ALTA
+
+Complejidad: Media
+
+Dependencias:
+- FishEngine
+- WaterEngine
+- EconomicsEngine
+```
+
+---
+
+# Beneficio para AcuaNexus
+
+Este módulo convierte a AcuaNexus en una plataforma profesional.
+
+Cuando existan múltiples estanques, múltiples lotes y producción comercial, la trazabilidad será tan importante como los sensores, porque permitirá demostrar:
+
+* calidad de producción
+* origen del producto
+* costos reales
+* rendimiento histórico
+* cumplimiento sanitario
+
+**Siguiente módulo recomendado: Módulo 29 — BiosecurityEngine (Bioseguridad Inteligente).**
+MÓDULO 29 — BIOSECURITY ENGINE
+
+Sistema Inteligente de Bioseguridad y Gestión Sanitaria
+
+Objetivo
+
+Convertir AcuaNexus en un sistema capaz de prevenir enfermedades antes de que ocurran.
+
+La filosofía es simple:
+
+Detectar temprano
+↓
+Actuar rápido
+↓
+Evitar pérdidas
+Problema que Resuelve
+
+En muchas granjas:
+
+Enfermedad detectada
+↓
+Mortalidad masiva
+↓
+Diagnóstico
+↓
+Tratamiento
+
+Ya es demasiado tarde.
+
+Con AcuaNexus:
+
+Anomalía detectada
+↓
+Riesgo calculado
+↓
+Alerta preventiva
+↓
+Acción correctiva
+Estructura
+src/
+└── biosecurity/
+    ├── biosecurityEngine.js
+    ├── diseaseRiskEngine.js
+    ├── quarantineManager.js
+    ├── treatmentManager.js
+    ├── outbreakTracker.js
+    ├── biosafetyProtocol.js
+    └── pathogenDatabase.js
+Componentes Principales
+Disease Risk Engine
+
+Calcula:
+
+diseaseRisk
+
+Escala:
+
+0 - 100
+
+Variables utilizadas:
+
+temperature
+oxygen
+ammonia
+nitrite
+density
+stress
+mortality
+feedingRate
+
+Resultado:
+
+{
+ risk: 72,
+ level: "HIGH"
+}
+Clasificación de Riesgo
+0-20     Bajo
+21-40    Moderado
+41-60    Elevado
+61-80    Alto
+81-100   Crítico
+Patógenos Registrados
+
+Base inicial:
+
+Streptococcus
+Aeromonas
+Francisella
+Columnaris
+Saprolegnia
+Ich
+Trichodina
+Vibrio
+
+Cada uno tendrá:
+
+{
+ name:"",
+ symptoms:[],
+ riskFactors:[],
+ prevention:[]
+}
+Sistema de Síntomas
+
+AcuaNexus combinará información de:
+
+WaterEngine
+VisionEngine
+FishEngine
+
+Ejemplo
+
+Oxígeno bajo
+↓
+Actividad reducida
+↓
+Disminución de alimentación
+↓
+Incremento mortalidad
+
+Resultado:
+
+Posible brote bacteriano
+Outbreak Tracker
+
+Permite rastrear brotes.
+
+Registro:
+
+{
+ outbreakId:"OUT_001",
+
+ disease:"Aeromonas",
+
+ startDate:"2026-07-15",
+
+ affectedPopulation:320,
+
+ mortality:18
+}
+Evolución del Brote
+Inicio
+↓
+Expansión
+↓
+Pico
+↓
+Control
+↓
+Cierre
+Quarantine Manager
+
+Control de cuarentenas.
+
+Ejemplo:
+
+{
+ area:"Tank_04",
+
+ status:"QUARANTINE",
+
+ reason:"Disease suspicion"
+}
+
+Consecuencias:
+
+No mezclar peces
+No transferir lotes
+Monitoreo reforzado
+Protocolos de Bioseguridad
+
+AcuaNexus almacenará protocolos.
+
+Ejemplo
+
+PROTOCOLO_BIO_01
+
+Acciones:
+
+Desinfección
+Cambio de agua
+Aislamiento
+Inspección
+Treatment Manager
+
+Gestión de tratamientos.
+
+Registro:
+
+{
+ product:"Probiótico",
+
+ dose:"2 g/m³",
+
+ durationDays:7
+}
+
+Seguimiento:
+
+Inicio
+Progreso
+Resultado
+Índice Sanitario
+
+Variable:
+
+healthIndex
+
+Escala:
+
+0 - 100
+
+Interpretación
+
+90-100 Excelente
+80-89 Muy bueno
+70-79 Bueno
+60-69 Riesgo
+<60 Crítico
+Integración con Vision Engine
+
+La cámara puede detectar:
+
+Nado errático
+Color anormal
+Lesiones
+Aislamiento social
+
+Estos datos aumentan:
+
+diseaseRisk
+Integración con Water Engine
+
+Parámetros críticos:
+
+NH3
+NO2
+Oxígeno
+Temperatura
+
+Cuando empeoran:
+
+stressLevel++
+diseaseRisk++
+Integración con Genetics Engine
+
+Peces más resistentes:
+
+diseaseResistance
+
+reducen:
+
+infectionProbability
+Integración con AI Advisor
+
+La IA podrá recomendar:
+
+Prioridad Alta
+
+Reducir densidad.
+
+Motivo:
+Riesgo sanitario elevado.
+Dashboard
+
+Nueva sección:
+
+🛡️ Bioseguridad
+
+Indicadores
+
+Health Index
+Disease Risk
+Brotes activos
+Áreas en cuarentena
+Tratamientos activos
+Alertas
+⚠ Riesgo sanitario elevado
+
+⚠ Mortalidad anormal
+
+⚠ Posible brote infeccioso
+
+⚠ Protocolo recomendado
+Simulación Inicial
+
+Incluso sin peces reales:
+
+AcuaNexus puede generar:
+
+Escenarios sanitarios
+Brotes simulados
+Evaluación de protocolos
+Impacto económico
+Futuro
+
+Cuando existan sensores y laboratorio:
+
+PCR
+Microscopía
+Diagnóstico molecular
+Análisis microbiológico
+Secuenciación genética
+Beneficios
+
+Reduce:
+
+Mortalidad
+Pérdidas económicas
+Uso innecesario de tratamientos
+
+Aumenta:
+
+Supervivencia
+Producción
+Rentabilidad
+Bioseguridad
+Prioridad
+Prioridad: MUY ALTA
+
+Porque una enfermedad puede destruir meses de trabajo en pocos días.
+
+Resultado Final
+
+Con este módulo, AcuaNexus deja de reaccionar ante enfermedades.
+
+Empieza a anticiparlas.
+
+Siguiente módulo recomendado
+MÓDULO 30 — AUTOMATION ENGINE
+
+El verdadero cerebro operativo de AcuaNexus:
+
+Automatización de bombas
+Aireadores
+Válvulas
+Alimentadores
+Iluminación
+Reglas inteligentes
